@@ -272,31 +272,27 @@ int main(int argc, char* argv[])
 			case 't':
 				switch (tolower(optarg[0])) {
 					case 's':
-						type = SASI_HD;
+						type = SAHD;
 						break;
 
 					case 'h':
-						type = SCSI_HD;
+						type = SCHD;
 						break;
 
 					case 'm':
-						type = MO;
+						type = SCMO;
 						break;
 
 					case 'c':
-						type = CD;
+						type = SCCD;
 						break;
 
 					case 'b':
-						type = BR;
+						type = SCBR;
 						break;
 
-					// case 'n':
-					// 	type = NUVOLINK;
-					// 	break;
-
 					case 'd':
-						type = DAYNAPORT;
+						type = SCDP;
 						break;
 				}
 				break;

@@ -121,20 +121,26 @@ string ListDevices(const PbDevices& devices)
 
 PbDeviceType MapIdToType(const string& id, bool is_sasi)
 {
-	if (id == "SCHD") {
-		return is_sasi ? SASI_HD : SCSI_HD;
+	if (id == "SAHD") {
+		return SAHD;
+	}
+	else if (id == "SCHD") {
+		return SCHD;
+	}
+	else if (id == "SCRM") {
+		return SCRM;
 	}
 	else if (id == "SCMO") {
-		return MO;
+		return SCMO;
 	}
 	else if (id == "SCCD") {
-		return CD;
+		return SCCD;
 	}
 	else if (id == "SCBR") {
-		return BR;
+		return SCBR;
 	}
 	else if (id == "SCDP") {
-		return DAYNAPORT;
+		return SCDP;
 	}
 	else {
 		return UNDEFINED;
@@ -144,20 +150,25 @@ PbDeviceType MapIdToType(const string& id, bool is_sasi)
 string MapTypeToId(const PbDeviceType type)
 {
 	switch (type) {
-		case SASI_HD:
-		case SCSI_HD:
+		case SAHD:
+			return "SAHD";
+
+		case SCHD:
 			return "SCHD";
 
-		case MO:
+		case SCRM:
+			return "SCRM";
+
+		case SCMO:
 			return "SCMO";
 
-		case CD:
+		case SCCD:
 			return "SCCD";
 
-		case BR:
+		case SCBR:
 			return "SCBR";
 
-		case DAYNAPORT:
+		case SCDP:
 			return "SCDP";
 
 		default:

@@ -5,12 +5,13 @@ package rascsi_interface;
 // The supported device types
 enum PbDeviceType {
     UNDEFINED = 0;
-    SASI_HD = 1;
-    SCSI_HD = 2;
-    MO = 3;
-    CD = 4;
-    BR = 5;
-    DAYNAPORT = 6;
+    SAHD = 1;
+    SCHD = 2;
+    SCRM = 3;
+    SCMO = 4;
+    SCCD = 5;
+    SCBR = 6;
+    SCDP = 7;
 }
 
 // rascsi remote operations
