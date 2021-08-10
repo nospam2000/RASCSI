@@ -834,11 +834,6 @@ bool Disk::IsDaynaPort() const
 	return disk.id == "SCDP";
 }
 
-bool Disk::IsNuvolink() const
-{
-	return disk.id == "SCNL";
-}
-
 //---------------------------------------------------------------------------
 //
 //	Open

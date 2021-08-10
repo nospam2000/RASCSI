@@ -10,8 +10,7 @@ enum PbDeviceType {
     MO = 3;
     CD = 4;
     BR = 5;
-    NUVOLINK = 6;
-    DAYNAPORT = 7;
+    DAYNAPORT = 6;
 }
 
 // rascsi remote operations

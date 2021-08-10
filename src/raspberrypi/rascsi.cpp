@@ -610,6 +610,7 @@ bool ProcessCmd(int fd, const PbCommand &command)
 			case SASI_HD:		// HDF
 				pUnit = new SASIHD();
 				break;
+
 			case SCSI_HD:		// HDS/HDN/HDI/NHD/HDA
 				if (ext == "hdn" || ext == "hdi" || ext == "nhd") {
 					pUnit = new SCSIHD_NEC();
@@ -619,21 +620,23 @@ bool ProcessCmd(int fd, const PbCommand &command)
 					pUnit = new SCSIHD();
 				}
 				break;
+
 			case MO:
 				pUnit = new SCSIMO();
 				break;
+
 			case CD:
 				pUnit = new SCSICD();
 				break;
+
 			case BR:
 				pUnit = new SCSIBR();
 				break;
-			// case NUVOLINK:
-			// 	pUnit = new SCSINuvolink();
-			// 	break;
+
 			case DAYNAPORT:
 				pUnit = new SCSIDaynaPort();
 				break;
+
 			default:
 				error << "Received a command for an invalid drive type: " << PbDeviceType_Name(type);
 				return ReturnStatus(fd, false, error);
