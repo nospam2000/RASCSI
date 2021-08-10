@@ -4026,10 +4026,10 @@ F 6 "0805B334K500NT" H 750 10000 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L Device:C C3
 U 1 1 62197548
 P 1150 10000
-F 0 "C10" H 1265 10046 50  0000 L CNN
+F 0 "C3" H 1265 10046 50  0000 L CNN
 F 1 "10u" H 1265 9955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1188 9850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 1150 10000 50  0001 C CNN
@@ -4040,24 +4040,24 @@ F 6 "CL21A106KAYNNNE" H 1150 10000 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L Device:C C6
 U 1 1 6219855C
-P -200 10000
-F 0 "C11" H -85 10046 50  0000 L CNN
-F 1 "10u" H -85 9955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H -162 9850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H -200 10000 50  0001 C CNN
-F 4 "C15850" H -200 10000 50  0001 C CNN "LCSC"
-F 5 "Samsung Electro-Mechanics" H -200 10000 50  0001 C CNN "Manufacturer_Name"
-F 6 "CL21A106KAYNNNE" H -200 10000 50  0001 C CNN "Manufacturer_Part_Number"
-	1    -200 10000
+P -300 10000
+F 0 "C6" H -185 10046 50  0000 L CNN
+F 1 "10u" H -185 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -262 9850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H -300 10000 50  0001 C CNN
+F 4 "C15850" H -300 10000 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H -300 10000 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A106KAYNNNE" H -300 10000 50  0001 C CNN "Manufacturer_Part_Number"
+	1    -300 10000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 62199FF5
 P 300 10150
-F 0 "#PWR?" H 300 9900 50  0001 C CNN
+F 0 "#PWR0105" H 300 9900 50  0001 C CNN
 F 1 "GND" H 150 10100 50  0000 C CNN
 F 2 "" H 300 10150 50  0001 C CNN
 F 3 "" H 300 10150 50  0001 C CNN
@@ -4065,21 +4065,21 @@ F 3 "" H 300 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 621E9490
-P -200 10150
-F 0 "#PWR?" H -200 9900 50  0001 C CNN
-F 1 "GND" H -350 10100 50  0000 C CNN
-F 2 "" H -200 10150 50  0001 C CNN
-F 3 "" H -200 10150 50  0001 C CNN
-	1    -200 10150
+P -1100 10150
+F 0 "#PWR0106" H -1100 9900 50  0001 C CNN
+F 1 "GND" H -1250 10100 50  0000 C CNN
+F 2 "" H -1100 10150 50  0001 C CNN
+F 3 "" H -1100 10150 50  0001 C CNN
+	1    -1100 10150
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0107
 U 1 1 622100B8
 P 300 9850
-F 0 "#PWR?" H 300 9700 50  0001 C CNN
+F 0 "#PWR0107" H 300 9700 50  0001 C CNN
 F 1 "+3V3" H 315 10023 50  0000 C CNN
 F 2 "" H 300 9850 50  0001 C CNN
 F 3 "" H 300 9850 50  0001 C CNN
@@ -4087,14 +4087,14 @@ F 3 "" H 300 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0108
 U 1 1 62210F2C
-P -200 9850
-F 0 "#PWR?" H -200 9700 50  0001 C CNN
-F 1 "+5V" V -185 9978 50  0000 L CNN
-F 2 "" H -200 9850 50  0001 C CNN
-F 3 "" H -200 9850 50  0001 C CNN
-	1    -200 9850
+P -1100 9850
+F 0 "#PWR0108" H -1100 9700 50  0001 C CNN
+F 1 "+5V" V -1085 9978 50  0000 L CNN
+F 2 "" H -1100 9850 50  0001 C CNN
+F 3 "" H -1100 9850 50  0001 C CNN
+	1    -1100 9850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -4109,4 +4109,44 @@ Connection ~ 300  10150
 Wire Wire Line
 	750  10150 1150 10150
 Connection ~ 750  10150
+$Comp
+L Device:C C4
+U 1 1 62625777
+P -1100 10000
+F 0 "C4" H -985 10046 50  0000 L CNN
+F 1 "330n" H -985 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -1062 9850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" H -1100 10000 50  0001 C CNN
+F 4 "C1740" H -1100 10000 50  0001 C CNN "LCSC"
+F 5 "Guangdong Fenghua Advanced Tech" H -1100 10000 50  0001 C CNN "Manufacturer_Name"
+F 6 "0805B334K500NT" H -1100 10000 50  0001 C CNN "Manufacturer_Part_Number"
+	1    -1100 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 62625CE2
+P -700 10000
+F 0 "C5" H -585 10046 50  0000 L CNN
+F 1 "330n" H -585 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -662 9850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" H -700 10000 50  0001 C CNN
+F 4 "C1740" H -700 10000 50  0001 C CNN "LCSC"
+F 5 "Guangdong Fenghua Advanced Tech" H -700 10000 50  0001 C CNN "Manufacturer_Name"
+F 6 "0805B334K500NT" H -700 10000 50  0001 C CNN "Manufacturer_Part_Number"
+	1    -700 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-700 9850 -1100 9850
+Connection ~ -1100 9850
+Wire Wire Line
+	-700 9850 -300 9850
+Connection ~ -700 9850
+Wire Wire Line
+	-700 10150 -1100 10150
+Connection ~ -1100 10150
+Wire Wire Line
+	-700 10150 -300 10150
+Connection ~ -700 10150
 $EndSCHEMATC

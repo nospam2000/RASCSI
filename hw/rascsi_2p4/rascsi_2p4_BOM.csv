@@ -1,6 +1,6 @@
 Comment,Designator,Footprint,LCSC
-"330n","C1,C2","Capacitor_SMD:C_0805_2012Metric","C1740"
-"10u","C10,C11","Capacitor_SMD:C_0805_2012Metric","C15850"
+"330n","C1,C2,C4,C5","Capacitor_SMD:C_0805_2012Metric","C1740"
+"10u","C3,C6","Capacitor_SMD:C_0805_2012Metric","C15850"
 "Green","D1,D2,D3,D4","LED_SMD:LED_0805_2012Metric","C2297"
 "SM4007PL","D5","Diode_SMD:D_SOD-123F","C64898"
 "1A","FUSE1","Fuse:Fuse_1206_3216Metric","C182974"
