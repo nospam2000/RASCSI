@@ -1,0 +1,123 @@
+
+(rules PCB rascsi_2p4
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 173)
+    (layer_rule Top
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule Bottom
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 127.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 31.8 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle Top 800.0 0.0 0.0)
+    )
+    (shape
+      (circle Bottom 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_1000:600_um"
+    (shape
+      (circle Top 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle Bottom 1000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_1000:600_um" "Via[0-1]_1000:600_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_1000:600_um-kicad_default" "Via[0-1]_1000:600_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" Power
+  )
+  (via 
+    "Via[0-1]_1000:600_um-Power" "Via[0-1]_1000:600_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_1000:600_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+  (class "kicad_default"
+    "C-REQ" "C-MSG" "C-BSY" "C-SEL" "C-RST" "C-ACK" "C-ATN" "C-DP"
+    "C-D0" "C-D1" "C-D2" "C-D3" "C-D4" "C-D5" "C-D6" "C-D7"
+    "C-I_O" "C-C_D" TERMPOW "PI-D7" "PI-D6" "PI-D5" "PI-D4" "PI-D3"
+    "PI-D2" "PI-D1" "PI-D0" "PI-DP" "PI-BSY" "PI-MSG" "PI-C_D" "PI-REQ"
+    "PI-I_O" "PI-ATN" "PI-ACK" "PI-RST" "PI-SEL" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)"
+    "DBG_LED" "PI_SCL" "PI_SDA" "PI-ACT" "PI-IND" "PI-TAD" "PI-DTD" "Net-(D5-Pad1)"
+    "PI_GPIO1" "PI_GPIO0" "PI_GPIO9" "EXT-ACT-LED" "USB_Pin_4" "USB_Pin_3" "USB_Pin_2" "PB_LED_Pin"
+    "PB_SCSIID_4" "PB_SCSIID_2" "PB_SCSIID_1" "Net-(J3-Pad34)" "Net-(J3-Pad25)" "Net-(J9-Pad27)" "Net-(J9-Pad10)" "Net-(J9-Pad9)"
+    "Net-(J9-Pad4)" "Net-(J9-Pad3)" "Net-(J9-Pad2)" "Net-(J9-Pad1)" "Net-(J20-Pad4)" PULLDOWN1 PULLDOWN2 PULLDOWN3
+    PULLDOWN4 PULLDOWN5 PULLDOWN6 PULLDOWN7 PULLDOWN8 PULLDOWN9 PULLDOWN10 PULLDOWN11
+    PULLDOWN12 PULLDOWN13 PULLDOWN14 PULLDOWN15 PULLDOWN16 PULLDOWN17 PULLDOWN18 PULLDOWN19
+    PULLDOWN20 PULLDOWN21 PULLDOWN22 PULLDOWN23 PULLDOWN24 PULLDOWN25 PULLDOWN26 PULLDOWN27
+    PULLDOWN28
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+  (class Power
+    GND +3V3 +5V "/TERM_GND" "/TERM_5v"
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 600.0)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+)

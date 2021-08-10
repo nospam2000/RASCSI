@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74ALVC164245DGG
+D Dual supply translating transceiver, 3-state, 16-bit, TSSOP-48 (SOT362-1)
+K Level-Shifter CMOS-TTL-Translation
+$ENDCMP
+#
+$CMP 74ALVC164245DGG-mirrored
+D Dual supply translating transceiver, 3-state, 16-bit, TSSOP-48 (SOT362-1)
+K Level-Shifter CMOS-TTL-Translation
+$ENDCMP
+#
+$CMP SN74LXC8T245-Q
+D Dual supply translating transceiver, 3-state, 8-bit, TSSOP-24_4.4x7.8mm_P0.65
+K Level-Shifter CMOS-TTL-Translation
+$ENDCMP
+#
+#End Doc Library
