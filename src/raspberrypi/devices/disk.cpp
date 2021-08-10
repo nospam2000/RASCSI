@@ -834,6 +834,11 @@ bool Disk::IsDaynaPort() const
 	return disk.id == "SCDP";
 }
 
+bool Disk::IsScsiDevice() const
+{
+	return disk.id == "SCHD" || disk.id == "SCRM";
+}
+
 //---------------------------------------------------------------------------
 //
 //	Open
@@ -1072,7 +1077,7 @@ int Disk::SelectCheck(const DWORD *cdb)
 	ASSERT(cdb);
 
 	// Error if save parameters are set instead of SCSIHD
-	if (!IsSCSI()) {
+	if (!IsScsiDevice()) {
 		// Error if save parameters are set
 		if (cdb[1] & 0x01) {
 			disk.code = DISK_INVALIDCDB;
@@ -1097,7 +1102,7 @@ int Disk::SelectCheck10(const DWORD *cdb)
 	ASSERT(cdb);
 
 	// Error if save parameters are set instead of SCSIHD
-	if (!IsSCSI()) {
+	if (!IsScsiDevice()) {
 		if (cdb[1] & 0x01) {
 			disk.code = DISK_INVALIDCDB;
 			return 0;

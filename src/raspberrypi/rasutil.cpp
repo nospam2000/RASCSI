@@ -119,7 +119,7 @@ string ListDevices(const PbDevices& devices)
 //
 //---------------------------------------------------------------------------
 
-PbDeviceType MapIdToType(const string& id, bool is_sasi)
+PbDeviceType MapIdToType(const string& id)
 {
 	if (id == "SAHD") {
 		return SAHD;

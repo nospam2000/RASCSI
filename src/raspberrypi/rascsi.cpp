@@ -284,7 +284,7 @@ const PbDevices GetDevices() {
 		device->set_un(i % UnitNum);
 
 		// ID,UNIT,Type,Device Status
-		device->set_type(MapIdToType(pUnit->GetID(), pUnit->IsSASI()));
+		device->set_type(MapIdToType(pUnit->GetID()));
 
 		// mount status output
 		if (pUnit->IsBridge()) {

@@ -200,6 +200,7 @@ public:
 	bool IsMo() const;
 	bool IsBridge() const;
 	bool IsDaynaPort() const;
+	bool IsScsiDevice() const;
 
 	// Media Operations
 	virtual void Open(const Filepath& path, BOOL attn = TRUE);	// Open
