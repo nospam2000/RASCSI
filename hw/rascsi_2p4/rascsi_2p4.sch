@@ -15,7 +15,7 @@ Comment4 ""
 $EndDescr
 Text Notes 5300 6300 0    59   Italic 0
 Note the original RaSCSI design calls the DIR pin "ATOB"\nEnable Input ("G") is active low, so always grounded.
-Text GLabel 10000 1900 2    50   BiDi ~ 0
+Text GLabel 8050 1200 2    50   BiDi ~ 0
 C-I_O
 $Comp
 L power:+5V #PWR021
@@ -1229,39 +1229,39 @@ Wire Wire Line
 	6150 2250 6300 2250
 Wire Wire Line
 	5800 2150 5800 2250
-Text GLabel 10000 1400 2    50   BiDi ~ 0
+Text GLabel 8050 1600 2    50   BiDi ~ 0
 C-SEL
-Text GLabel 10000 1300 2    50   BiDi ~ 0
+Text GLabel 8050 1500 2    50   BiDi ~ 0
 C-RST
-Text GLabel 10000 1200 2    50   BiDi ~ 0
+Text GLabel 8050 1400 2    50   BiDi ~ 0
 C-ACK
-Text GLabel 10000 1100 2    50   BiDi ~ 0
+Text GLabel 8050 1300 2    50   BiDi ~ 0
 C-ATN
-Text GLabel 10000 1800 2    50   BiDi ~ 0
+Text GLabel 8050 1100 2    50   BiDi ~ 0
 C-REQ
-Text GLabel 10000 1700 2    50   BiDi ~ 0
+Text GLabel 8050 1900 2    50   BiDi ~ 0
 C-C_D
-Text GLabel 10000 1600 2    50   BiDi ~ 0
+Text GLabel 8050 1800 2    50   BiDi ~ 0
 C-MSG
-Text GLabel 10000 1500 2    50   BiDi ~ 0
+Text GLabel 8050 1700 2    50   BiDi ~ 0
 C-BSY
-Text GLabel 8250 1900 2    50   BiDi ~ 0
+Text GLabel 10000 1600 2    50   BiDi ~ 0
 C-DP
-Text GLabel 8250 1800 2    50   BiDi ~ 0
+Text GLabel 10000 1100 2    50   BiDi ~ 0
 C-D7
-Text GLabel 8250 1700 2    50   BiDi ~ 0
+Text GLabel 10000 1900 2    50   BiDi ~ 0
 C-D6
-Text GLabel 8250 1600 2    50   BiDi ~ 0
+Text GLabel 10000 1800 2    50   BiDi ~ 0
 C-D5
-Text GLabel 8250 1500 2    50   BiDi ~ 0
+Text GLabel 10000 1700 2    50   BiDi ~ 0
 C-D4
-Text GLabel 8250 1400 2    50   BiDi ~ 0
+Text GLabel 10000 1200 2    50   BiDi ~ 0
 C-D3
-Text GLabel 8250 1300 2    50   BiDi ~ 0
+Text GLabel 10000 1300 2    50   BiDi ~ 0
 C-D2
-Text GLabel 8250 1200 2    50   BiDi ~ 0
+Text GLabel 10000 1400 2    50   BiDi ~ 0
 C-D1
-Text GLabel 8250 1100 2    50   BiDi ~ 0
+Text GLabel 10000 1500 2    50   BiDi ~ 0
 C-D0
 Wire Wire Line
 	10000 1900 9850 1900
@@ -1424,7 +1424,7 @@ Wire Notes Line
 Wire Notes Line
 	5450 2450 5450 550 
 Wire Notes Line
-	7000 2450 7000 550 
+	6800 2450 6800 550 
 Wire Notes Line
 	2900 2450 5300 2450
 Wire Notes Line
@@ -2760,51 +2760,57 @@ Wire Wire Line
 	1150 7050 1550 7050
 Connection ~ 1150 7050
 $Comp
-L amiga:UCC5606PWPTR U3
+L amiga:UCC5606PWPTR U4
 U 1 1 628EED4A
-P 7700 1750
-F 0 "U3" H 8250 2700 50  0000 R CNN
-F 1 "UCC5606PWPTR" H 8450 2600 50  0000 R CNN
-F 2 "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm" H 7700 400 50  0001 C CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a" H 8000 950 50  0001 C CNN
-	1    7700 1750
+P 7500 1750
+F 0 "U4" H 8050 2700 50  0000 R CNN
+F 1 "UCC5606PWPTR" H 8250 2600 50  0000 R CNN
+F 2 "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm" H 7500 400 50  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a" H 7800 950 50  0001 C CNN
+	1    7500 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C8
 U 1 1 628F5101
-P 8300 2400
-F 0 "C8" H 8415 2446 50  0000 L CNN
-F 1 "4u7" H 8415 2355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8338 2250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf" H 8300 2400 50  0001 C CNN
-F 4 "C1779" H 8300 2400 50  0001 C CNN "LCSC"
-F 5 "Samsung Electro-Mechanics" H 8300 2400 50  0001 C CNN "Manufacturer_Name"
-F 6 "CL21A475KAQNNNE" H 8300 2400 50  0001 C CNN "Manufacturer_Part_Number"
-	1    8300 2400
+P 8100 2400
+F 0 "C8" H 8215 2446 50  0000 L CNN
+F 1 "4u7" H 8215 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8138 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf" H 8100 2400 50  0001 C CNN
+F 4 "C1779" H 8100 2400 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 8100 2400 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A475KAQNNNE" H 8100 2400 50  0001 C CNN "Manufacturer_Part_Number"
+	1    8100 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 2150 8250 2250
+	8050 2150 8050 2250
 Wire Wire Line
-	8250 2250 8300 2250
-Connection ~ 8250 2250
+	8050 2250 8100 2250
+Connection ~ 8050 2250
 $Comp
 L power:GND #PWR0109
 U 1 1 629679DA
-P 8300 2650
-F 0 "#PWR0109" H 8300 2400 50  0001 C CNN
-F 1 "GND" V 8305 2522 50  0000 R CNN
-F 2 "" H 8300 2650 50  0001 C CNN
-F 3 "" H 8300 2650 50  0001 C CNN
-	1    8300 2650
+P 8100 2650
+F 0 "#PWR0109" H 8100 2400 50  0001 C CNN
+F 1 "GND" V 8105 2522 50  0000 R CNN
+F 2 "" H 8100 2650 50  0001 C CNN
+F 3 "" H 8100 2650 50  0001 C CNN
+	1    8100 2650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
+	7100 2650 7200 2650
+Connection ~ 7200 2650
+Wire Wire Line
+	7200 2650 7300 2650
+Wire Wire Line
 	7300 2650 7400 2650
-Connection ~ 7400 2650
+Connection ~ 7300 2650
 Wire Wire Line
 	7400 2650 7500 2650
+Connection ~ 7400 2650
 Wire Wire Line
 	7500 2650 7600 2650
 Connection ~ 7500 2650
@@ -2818,42 +2824,36 @@ Wire Wire Line
 	7800 2650 7900 2650
 Connection ~ 7800 2650
 Wire Wire Line
-	7900 2650 8000 2650
+	7900 2650 8100 2650
+Wire Wire Line
+	8100 2650 8100 2550
 Connection ~ 7900 2650
 Wire Wire Line
-	8000 2650 8100 2650
-Connection ~ 8000 2650
-Wire Wire Line
-	8100 2650 8300 2650
-Wire Wire Line
-	8300 2650 8300 2550
-Connection ~ 8100 2650
-Wire Wire Line
-	7650 900  7750 900 
-Connection ~ 7650 900 
+	7450 900  7550 900 
+Connection ~ 7450 900 
 $Comp
 L Device:C C7
 U 1 1 62AF0127
-P 7500 900
-F 0 "C7" H 7300 950 50  0000 L CNN
-F 1 "4u7" H 7250 850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7538 750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf" H 7500 900 50  0001 C CNN
-F 4 "C1779" H 7500 900 50  0001 C CNN "LCSC"
-F 5 "Samsung Electro-Mechanics" H 7500 900 50  0001 C CNN "Manufacturer_Name"
-F 6 "CL21A475KAQNNNE" H 7500 900 50  0001 C CNN "Manufacturer_Part_Number"
-	1    7500 900 
+P 7300 900
+F 0 "C7" H 7100 950 50  0000 L CNN
+F 1 "4u7" H 7050 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf" H 7300 900 50  0001 C CNN
+F 4 "C1779" H 7300 900 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 7300 900 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A475KAQNNNE" H 7300 900 50  0001 C CNN "Manufacturer_Part_Number"
+	1    7300 900 
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0110
 U 1 1 62AF169D
-P 7350 900
-F 0 "#PWR0110" H 7350 650 50  0001 C CNN
-F 1 "GND" V 7355 772 50  0000 R CNN
-F 2 "" H 7350 900 50  0001 C CNN
-F 3 "" H 7350 900 50  0001 C CNN
-	1    7350 900 
+P 7150 900
+F 0 "#PWR0110" H 7150 650 50  0001 C CNN
+F 1 "GND" V 7155 772 50  0000 R CNN
+F 2 "" H 7150 900 50  0001 C CNN
+F 3 "" H 7150 900 50  0001 C CNN
+	1    7150 900 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2861,13 +2861,13 @@ Wire Wire Line
 Connection ~ 1200 1400
 Wire Wire Line
 	1200 1400 1200 1450
-Text GLabel 7150 1450 3    50   BiDi ~ 0
+Text GLabel 6950 1450 3    50   BiDi ~ 0
 ~TERM_ENABLE
 $Comp
-L amiga:UCC5606PWPTR U4
+L amiga:UCC5606PWPTR U3
 U 1 1 62E764ED
 P 9300 1750
-F 0 "U4" H 9850 2700 50  0000 R CNN
+F 0 "U3" H 9850 2700 50  0000 R CNN
 F 1 "UCC5606PWPTR" H 10050 2600 50  0000 R CNN
 F 2 "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm" H 9300 400 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a" H 9600 950 50  0001 C CNN
@@ -2936,14 +2936,14 @@ Wire Wire Line
 	9250 900  9350 900 
 Text GLabel 8750 1450 3    50   BiDi ~ 0
 ~TERM_ENABLE
-Text Notes 9100 650  2    50   ~ 0
+Text Notes 8900 650  2    50   ~ 0
 Active SCSI Termination
-Connection ~ 8300 2650
+Connection ~ 8100 2650
 Connection ~ 9900 2650
-Text GLabel 7650 800  2    50   BiDi ~ 0
+Text GLabel 7450 800  2    50   BiDi ~ 0
 TERMPOW
 Wire Wire Line
-	7650 800  7650 900 
+	7450 800  7450 900 
 Text GLabel 9250 800  2    50   BiDi ~ 0
 TERMPOW
 Wire Wire Line
@@ -3064,13 +3064,13 @@ TERMPOW_UNFUSED
 Wire Wire Line
 	3750 1600 3750 1500
 Connection ~ 3750 1500
-Text GLabel 8600 2250 1    50   BiDi ~ 0
+Text GLabel 8550 2250 1    50   BiDi ~ 0
 POWER_REG_U3
 Text GLabel 10400 2250 1    50   BiDi ~ 0
 POWER_REG_U4
 Wire Wire Line
-	8600 2250 8300 2250
-Connection ~ 8300 2250
+	8550 2250 8100 2250
+Connection ~ 8100 2250
 Wire Wire Line
 	10400 2250 9900 2250
 Connection ~ 9900 2250

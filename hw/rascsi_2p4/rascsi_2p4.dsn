@@ -55,8 +55,8 @@
       (place X7 213751 -71390 front 0 (PN Pi))
     )
     (component "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm"
-      (place U4 189570 -71136 front 0 (PN UCC5606PWPTR))
-      (place U3 213954 -71136 front 0 (PN UCC5606PWPTR))
+      (place U3 189570 -71136 front 0 (PN UCC5606PWPTR))
+      (place U4 213954 -71136 front 0 (PN UCC5606PWPTR))
     )
     (component Resistor_SMD:R_0402_1005Metric
       (place R24 231861 -71644 front 90 (PN 10k))
@@ -70,8 +70,8 @@
       (place D1 236904 -50419 front 180 (PN Green))
     )
     (component Capacitor_SMD:C_0805_2012Metric
-      (place C9 193507 -65040 front 0 (PN 4u7))
-      (place C8 222018 -69866 front 270 (PN 4u7))
+      (place C9 195742 -69840.6 front 270 (PN 4u7))
+      (place C8 220177 -69840.6 front 270 (PN 4u7))
       (place C7 210906 -76622.4 front 0 (PN 4u7))
       (place C6 222018 -75644.5 front 270 (PN 10u))
       (place C3 206842 -58055 front 0 (PN 10u))
@@ -1243,8 +1243,8 @@
   )
   (network
     (net GND
-      (pins U4-20 U4-19 U4-18 U4-10 U4-9 U4-8 U4-7 U4-6 U4-5 U3-20 U3-19 U3-18 U3-10
-        U3-9 U3-8 U3-7 U3-6 U3-5 C9-2 C8-2 C7-2 C5-2 C4-2 C6-2 C3-2 C2-2 C1-2 R86-1
+      (pins U3-20 U3-19 U3-18 U3-10 U3-9 U3-8 U3-7 U3-6 U3-5 U4-20 U4-19 U4-18 U4-10
+        U4-9 U4-8 U4-7 U4-6 U4-5 C9-2 C8-2 C7-2 C5-2 C4-2 C6-2 C3-2 C2-2 C1-2 R86-1
         R85-1 R84-1 R83-1 R82-1 R81-1 R80-1 R79-1 R78-1 R77-1 R76-1 R75-1 R74-1 R73-1
         R72-1 R71-1 R70-1 R69-1 R68-1 R67-1 R66-1 R65-1 R64-1 R63-1 R62-1 R61-1 R60-1
         R59-1 J1-39 J1-34 J1-30 J1-25 J1-20 J1-14 J1-9 J1-6 U1-48 U1-45 U1-39 U1-34
@@ -1271,61 +1271,61 @@
         J9-49 J9-12 J9-11 R3-1 J8-1 D5-2 J7-1 J4-1)
     )
     (net "C-REQ"
-      (pins U4-2 U2-11 J6-1 J9-46 J3-48)
+      (pins U4-12 U2-11 J6-1 J9-46 J3-48)
     )
     (net "C-MSG"
-      (pins U4-24 U2-8 J6-2 J9-40 J3-42)
+      (pins U4-2 U2-8 J6-2 J9-40 J3-42)
     )
     (net "C-BSY"
-      (pins U4-23 U2-6 J6-6 J9-36 J3-36)
+      (pins U4-1 U2-6 J6-6 J9-36 J3-36)
     )
     (net "C-SEL"
-      (pins U4-15 U2-17 J6-19 J9-42 J3-44)
+      (pins U4-24 U2-17 J6-19 J9-42 J3-44)
     )
     (net "C-RST"
-      (pins U4-14 U2-16 J6-4 J9-39 J3-40)
+      (pins U4-23 U2-16 J6-4 J9-39 J3-40)
     )
     (net "C-ACK"
-      (pins U4-13 U2-14 J6-5 J9-38 J3-38)
+      (pins U4-15 U2-14 J6-5 J9-38 J3-38)
     )
     (net "C-ATN"
-      (pins U4-12 U2-13 J6-17 J9-35 J3-32)
+      (pins U4-14 U2-13 J6-17 J9-35 J3-32)
     )
     (net "C-DP"
-      (pins U3-3 U1-13 J6-20 J9-32 J3-18)
+      (pins U3-24 U1-13 J6-20 J9-32 J3-18)
     )
     (net "C-D0"
-      (pins U3-12 U1-12 J6-8 J9-16 J3-2)
+      (pins U3-23 U1-12 J6-8 J9-16 J3-2)
     )
     (net "C-D1"
-      (pins U3-13 U1-11 J6-21 J9-18 J3-4)
+      (pins U3-15 U1-11 J6-21 J9-18 J3-4)
     )
     (net "C-D2"
       (pins U3-14 U1-9 J6-22 J9-20 J3-6)
     )
     (net "C-D3"
-      (pins U3-15 U1-8 J6-10 J9-22 J3-8)
+      (pins U3-13 U1-8 J6-10 J9-22 J3-8)
     )
     (net "C-D4"
-      (pins U3-23 U1-6 J6-23 J9-24 J3-10)
+      (pins U3-1 U1-6 J6-23 J9-24 J3-10)
     )
     (net "C-D5"
-      (pins U3-24 U1-5 J6-11 J9-26 J3-12)
+      (pins U3-2 U1-5 J6-11 J9-26 J3-12)
     )
     (net "C-D6"
-      (pins U3-1 U1-3 J6-12 J9-28 J3-14)
+      (pins U3-3 U1-3 J6-12 J9-28 J3-14)
     )
     (net "C-D7"
-      (pins U3-2 U1-2 J6-13 J9-30 J3-16)
+      (pins U3-12 U1-2 J6-13 J9-30 J3-16)
     )
     (net "C-I_O"
-      (pins U4-3 U2-12 J6-3 J9-43 J3-50)
+      (pins U4-13 U2-12 J6-3 J9-43 J3-50)
     )
     (net "C-C_D"
-      (pins U4-1 U2-9 J6-15 J9-44 J3-46)
+      (pins U4-3 U2-9 J6-15 J9-44 J3-46)
     )
     (net TERMPOW
-      (pins U4-17 U4-16 U3-17 U3-16 C7-1 J6-25 J9-34 J3-26 FUSE1-2)
+      (pins U3-17 U3-16 U4-17 U4-16 C7-1 J6-25 J9-34 J3-26 FUSE1-2)
     )
     (net "PI-D7"
       (pins J1-11 U1-47 R14-2)
@@ -1532,28 +1532,25 @@
       (pins R23-2 D6-2)
     )
     (net ~TERM_ENABLE
-      (pins U4-11 U3-11 R24-1 D6-1 S1-4)
+      (pins U3-11 U4-11 R24-1 D6-1 S1-4)
     )
     (net TERMPOW_UNFUSED
       (pins D5-1 FUSE1-1)
     )
     (net POWER_REG_U3
-      (pins U3-22 U3-21 C8-1)
+      (pins U4-22 U4-21 C8-1)
     )
     (net POWER_REG_U4
-      (pins U4-22 U4-21 C9-1)
+      (pins U3-22 U3-21 C9-1)
     )
     (class kicad_default "" "C-ACK" "C-ATN" "C-BSY" "C-C_D" "C-D0" "C-D1"
       "C-D2" "C-D3" "C-D4" "C-D5" "C-D6" "C-D7" "C-DP" "C-I_O" "C-MSG" "C-REQ"
-      "C-RST" "C-SEL" DBG_LED "EXT-ACT-LED" "Net-(C8-Pad1)" "Net-(C9-Pad1)"
-      "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D6-Pad2)" "Net-(J20-Pad4)"
-      "Net-(J3-Pad25)" "Net-(J3-Pad34)" "Net-(J9-Pad1)" "Net-(J9-Pad10)" "Net-(J9-Pad2)"
-      "Net-(J9-Pad27)" "Net-(J9-Pad3)" "Net-(J9-Pad4)" "Net-(J9-Pad9)" "Net-(S1-Pad2)"
-      "Net-(S1-Pad3)" "Net-(U3-Pad4)" "Net-(U4-Pad4)" PB_LED_Pin PB_SCSIID_1
-      PB_SCSIID_2 PB_SCSIID_4 "PI-ACK" "PI-ACT" "PI-ATN" "PI-BSY" "PI-C_D"
-      "PI-D0" "PI-D1" "PI-D2" "PI-D3" "PI-D4" "PI-D5" "PI-D6" "PI-D7" "PI-DP"
-      "PI-DTD" "PI-IND" "PI-I_O" "PI-MSG" "PI-REQ" "PI-RST" "PI-SEL" "PI-TAD"
-      PI_GPIO0 PI_GPIO1 PI_GPIO9 PI_SCL PI_SDA PULLDOWN1 PULLDOWN10 PULLDOWN11
+      "C-RST" "C-SEL" DBG_LED "EXT-ACT-LED" "Net-(D2-Pad2)" "Net-(D3-Pad2)"
+      "Net-(D4-Pad2)" "Net-(D6-Pad2)" PB_LED_Pin PB_SCSIID_1 PB_SCSIID_2 PB_SCSIID_4
+      "PI-ACK" "PI-ACT" "PI-ATN" "PI-BSY" "PI-C_D" "PI-D0" "PI-D1" "PI-D2"
+      "PI-D3" "PI-D4" "PI-D5" "PI-D6" "PI-D7" "PI-DP" "PI-DTD" "PI-IND" "PI-I_O"
+      "PI-MSG" "PI-REQ" "PI-RST" "PI-SEL" "PI-TAD" PI_GPIO0 PI_GPIO1 PI_GPIO9
+      PI_SCL PI_SDA POWER_REG_U3 POWER_REG_U4 PULLDOWN1 PULLDOWN10 PULLDOWN11
       PULLDOWN12 PULLDOWN13 PULLDOWN14 PULLDOWN15 PULLDOWN16 PULLDOWN17 PULLDOWN18
       PULLDOWN19 PULLDOWN2 PULLDOWN20 PULLDOWN21 PULLDOWN22 PULLDOWN23 PULLDOWN24
       PULLDOWN25 PULLDOWN26 PULLDOWN27 PULLDOWN28 PULLDOWN3 PULLDOWN4 PULLDOWN5
@@ -1567,7 +1564,7 @@
         (clearance 127.1)
       )
     )
-    (class Power +3V3 +5V GND POWER_REG_U3 POWER_REG_U4 TERMPOW TERMPOW_UNFUSED
+    (class Power +3V3 +5V GND TERMPOW TERMPOW_UNFUSED
       (circuit
         (use_via Via[0-1]_1000:600_um)
       )
