@@ -21,7 +21,8 @@ enc = 'utf-8'
 # additional actions could be defined, e.g. for the position
 transformations = [
         # remove all parts which are used for the SCSI termination
-	{'conditions': [{'field': 'Ref', 'pattern': re.compile("^(S1|FUSE1|D5|R2[3-9]|R[34][0-9]||R5[0-8])$")}], 'delete': True},
+	#{'conditions': [{'field': 'Ref', 'pattern': re.compile("^(S1|FUSE1|D5|R2[3-9]|R[34][0-9]||R5[0-8])$")}], 'delete': True},
+	{'conditions': [{'field': 'Ref', 'pattern': re.compile("^(U3|U4|C7|C8|C9|S1|FUSE1|D5|D6|R23|R24)$")}], 'delete': True},
 
 	{'conditions': [{'field': 'Ref', 'pattern': re.compile("^U\d+$")}], 'rotOffset': -90},
 	{'conditions': [{'field': 'Ref', 'pattern': re.compile("^S\d+$")}], 'rotOffset': -90},
