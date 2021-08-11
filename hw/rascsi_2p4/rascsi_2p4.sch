@@ -3266,13 +3266,13 @@ L Device:R_Small R59
 U 1 1 6195DFCA
 P 9400 9350
 F 0 "R59" V 9350 9450 50  0000 L CNN
-F 1 "10k" V 9350 9100 50  0000 L CNN
+F 1 "100k" V 9350 9100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 9350 50  0001 C CNN
-F 4 "C25744" V 9400 9350 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 9350 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9350 50  0001 C CNN
+F 4 "C25741" V 9400 9350 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9350 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9350 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 9350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 9350 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 9350
 	0    -1   -1   0   
 $EndComp
@@ -3411,13 +3411,13 @@ L Device:R_Small R60
 U 1 1 61B028F0
 P 9400 9450
 F 0 "R60" V 9350 9550 50  0000 L CNN
-F 1 "10k" V 9350 9200 50  0000 L CNN
+F 1 "100k" V 9350 9200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 9450 50  0001 C CNN
-F 4 "C25744" V 9400 9450 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 9450 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9450 50  0001 C CNN
+F 4 "C25741" V 9400 9450 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9450 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9450 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 9450 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 9450 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 9450
 	0    -1   -1   0   
 $EndComp
@@ -3430,13 +3430,13 @@ L Device:R_Small R61
 U 1 1 61B1A339
 P 9400 9550
 F 0 "R61" V 9350 9650 50  0000 L CNN
-F 1 "10k" V 9350 9300 50  0000 L CNN
+F 1 "100k" V 9350 9300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 9550 50  0001 C CNN
-F 4 "C25744" V 9400 9550 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 9550 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9550 50  0001 C CNN
+F 4 "C25741" V 9400 9550 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9550 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9550 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 9550 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 9550 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 9550
 	0    -1   -1   0   
 $EndComp
@@ -3449,13 +3449,13 @@ L Device:R_Small R62
 U 1 1 61B321AB
 P 9400 9650
 F 0 "R62" V 9350 9750 50  0000 L CNN
-F 1 "10k" V 9350 9400 50  0000 L CNN
+F 1 "100k" V 9350 9400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 9650 50  0001 C CNN
-F 4 "C25744" V 9400 9650 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 9650 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9650 50  0001 C CNN
+F 4 "C25741" V 9400 9650 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9650 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9650 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 9650 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 9650 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 9650
 	0    -1   -1   0   
 $EndComp
@@ -3468,13 +3468,13 @@ L Device:R_Small R63
 U 1 1 61B4A4B9
 P 9400 9750
 F 0 "R63" V 9350 9850 50  0000 L CNN
-F 1 "10k" V 9350 9500 50  0000 L CNN
+F 1 "100k" V 9350 9500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 9750 50  0001 C CNN
-F 4 "C25744" V 9400 9750 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 9750 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9750 50  0001 C CNN
+F 4 "C25741" V 9400 9750 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9750 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9750 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 9750 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 9750 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 9750
 	0    -1   -1   0   
 $EndComp
@@ -3487,13 +3487,13 @@ L Device:R_Small R64
 U 1 1 61B62B78
 P 9400 9850
 F 0 "R64" V 9350 9950 50  0000 L CNN
-F 1 "10k" V 9350 9600 50  0000 L CNN
+F 1 "100k" V 9350 9600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 9850 50  0001 C CNN
-F 4 "C25744" V 9400 9850 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 9850 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9850 50  0001 C CNN
+F 4 "C25741" V 9400 9850 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9850 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9850 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 9850 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 9850 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 9850
 	0    -1   -1   0   
 $EndComp
@@ -3506,13 +3506,13 @@ L Device:R_Small R65
 U 1 1 61B7B89A
 P 9400 9950
 F 0 "R65" V 9350 10050 50  0000 L CNN
-F 1 "10k" V 9350 9700 50  0000 L CNN
+F 1 "100k" V 9350 9700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 9950 50  0001 C CNN
-F 4 "C25744" V 9400 9950 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 9950 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9950 50  0001 C CNN
+F 4 "C25741" V 9400 9950 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9950 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9950 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 9950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 9950 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 9950
 	0    -1   -1   0   
 $EndComp
@@ -3525,13 +3525,13 @@ L Device:R_Small R66
 U 1 1 61B948AA
 P 9400 10050
 F 0 "R66" V 9350 10150 50  0000 L CNN
-F 1 "10k" V 9350 9800 50  0000 L CNN
+F 1 "100k" V 9350 9800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 10050 50  0001 C CNN
-F 4 "C25744" V 9400 10050 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 10050 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10050 50  0001 C CNN
+F 4 "C25741" V 9400 10050 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10050 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10050 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 10050 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 10050 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 10050
 	0    -1   -1   0   
 $EndComp
@@ -3544,13 +3544,13 @@ L Device:R_Small R67
 U 1 1 61BADF9F
 P 9400 10150
 F 0 "R67" V 9350 10250 50  0000 L CNN
-F 1 "10k" V 9350 9900 50  0000 L CNN
+F 1 "100k" V 9350 9900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 10150 50  0001 C CNN
-F 4 "C25744" V 9400 10150 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 10150 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10150 50  0001 C CNN
+F 4 "C25741" V 9400 10150 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10150 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10150 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 10150 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 10150 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 10150
 	0    -1   -1   0   
 $EndComp
@@ -3563,13 +3563,13 @@ L Device:R_Small R68
 U 1 1 61BC79A0
 P 9400 10250
 F 0 "R68" V 9350 10350 50  0000 L CNN
-F 1 "10k" V 9350 10000 50  0000 L CNN
+F 1 "100k" V 9350 10000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 10250 50  0001 C CNN
-F 4 "C25744" V 9400 10250 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 10250 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10250 50  0001 C CNN
+F 4 "C25741" V 9400 10250 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10250 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10250 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 10250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 10250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 10250
 	0    -1   -1   0   
 $EndComp
@@ -3582,13 +3582,13 @@ L Device:R_Small R69
 U 1 1 61BE1BB7
 P 9400 10350
 F 0 "R69" V 9350 10450 50  0000 L CNN
-F 1 "10k" V 9350 10100 50  0000 L CNN
+F 1 "100k" V 9350 10100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 10350 50  0001 C CNN
-F 4 "C25744" V 9400 10350 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 10350 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10350 50  0001 C CNN
+F 4 "C25741" V 9400 10350 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10350 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10350 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 10350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 10350 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 10350
 	0    -1   -1   0   
 $EndComp
@@ -3601,13 +3601,13 @@ L Device:R_Small R70
 U 1 1 61BFBFE5
 P 9400 10450
 F 0 "R70" V 9350 10550 50  0000 L CNN
-F 1 "10k" V 9350 10200 50  0000 L CNN
+F 1 "100k" V 9350 10200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 10450 50  0001 C CNN
-F 4 "C25744" V 9400 10450 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 10450 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10450 50  0001 C CNN
+F 4 "C25741" V 9400 10450 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10450 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10450 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 10450 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 10450 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 10450
 	0    -1   -1   0   
 $EndComp
@@ -3620,13 +3620,13 @@ L Device:R_Small R71
 U 1 1 61C168AA
 P 9400 10550
 F 0 "R71" V 9350 10650 50  0000 L CNN
-F 1 "10k" V 9350 10300 50  0000 L CNN
+F 1 "100k" V 9350 10300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 10550 50  0001 C CNN
-F 4 "C25744" V 9400 10550 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 10550 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10550 50  0001 C CNN
+F 4 "C25741" V 9400 10550 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10550 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10550 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 10550 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 10550 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 10550
 	0    -1   -1   0   
 $EndComp
@@ -3639,13 +3639,13 @@ L Device:R_Small R72
 U 1 1 61C316F6
 P 9400 10650
 F 0 "R72" V 9350 10750 50  0000 L CNN
-F 1 "10k" V 9350 10400 50  0000 L CNN
+F 1 "100k" V 9350 10400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 10650 50  0001 C CNN
-F 4 "C25744" V 9400 10650 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 10650 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10650 50  0001 C CNN
+F 4 "C25741" V 9400 10650 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10650 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10650 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 10650 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 10650 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 10650
 	0    -1   -1   0   
 $EndComp
@@ -3658,13 +3658,13 @@ L Device:R_Small R73
 U 1 1 61C4CA42
 P 9400 10750
 F 0 "R73" V 9350 10850 50  0000 L CNN
-F 1 "10k" V 9350 10500 50  0000 L CNN
+F 1 "100k" V 9350 10500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 10750 50  0001 C CNN
-F 4 "C25744" V 9400 10750 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 10750 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10750 50  0001 C CNN
+F 4 "C25741" V 9400 10750 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10750 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10750 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 10750 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 10750 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 10750
 	0    -1   -1   0   
 $EndComp
@@ -3677,13 +3677,13 @@ L Device:R_Small R74
 U 1 1 61C681D5
 P 9400 10850
 F 0 "R74" V 9350 10950 50  0000 L CNN
-F 1 "10k" V 9350 10600 50  0000 L CNN
+F 1 "100k" V 9350 10600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 10850 50  0001 C CNN
-F 4 "C25744" V 9400 10850 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 10850 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10850 50  0001 C CNN
+F 4 "C25741" V 9400 10850 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10850 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10850 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 10850 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 10850 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 10850
 	0    -1   -1   0   
 $EndComp
@@ -3696,13 +3696,13 @@ L Device:R_Small R75
 U 1 1 61C83E54
 P 9400 10950
 F 0 "R75" V 9350 11050 50  0000 L CNN
-F 1 "10k" V 9350 10700 50  0000 L CNN
+F 1 "100k" V 9350 10700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 10950 50  0001 C CNN
-F 4 "C25744" V 9400 10950 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 10950 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10950 50  0001 C CNN
+F 4 "C25741" V 9400 10950 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10950 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10950 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 10950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 10950 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 10950
 	0    -1   -1   0   
 $EndComp
@@ -3715,13 +3715,13 @@ L Device:R_Small R76
 U 1 1 61CA00AF
 P 9400 11050
 F 0 "R76" V 9350 11150 50  0000 L CNN
-F 1 "10k" V 9350 10800 50  0000 L CNN
+F 1 "100k" V 9350 10800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 11050 50  0001 C CNN
-F 4 "C25744" V 9400 11050 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 11050 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11050 50  0001 C CNN
+F 4 "C25741" V 9400 11050 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11050 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11050 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 11050 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 11050 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 11050
 	0    -1   -1   0   
 $EndComp
@@ -3734,13 +3734,13 @@ L Device:R_Small R77
 U 1 1 61CBC6B3
 P 9400 11150
 F 0 "R77" V 9350 11250 50  0000 L CNN
-F 1 "10k" V 9350 10900 50  0000 L CNN
+F 1 "100k" V 9350 10900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 11150 50  0001 C CNN
-F 4 "C25744" V 9400 11150 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 11150 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11150 50  0001 C CNN
+F 4 "C25741" V 9400 11150 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11150 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11150 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 11150 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 11150 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 11150
 	0    -1   -1   0   
 $EndComp
@@ -3753,13 +3753,13 @@ L Device:R_Small R78
 U 1 1 61CD921B
 P 9400 11250
 F 0 "R78" V 9350 11350 50  0000 L CNN
-F 1 "10k" V 9350 11000 50  0000 L CNN
+F 1 "100k" V 9350 11000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 11250 50  0001 C CNN
-F 4 "C25744" V 9400 11250 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 11250 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11250 50  0001 C CNN
+F 4 "C25741" V 9400 11250 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11250 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11250 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 11250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 11250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 11250
 	0    -1   -1   0   
 $EndComp
@@ -3772,13 +3772,13 @@ L Device:R_Small R79
 U 1 1 61CF62F6
 P 9400 11350
 F 0 "R79" V 9350 11450 50  0000 L CNN
-F 1 "10k" V 9350 11100 50  0000 L CNN
+F 1 "100k" V 9350 11100 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 11350 50  0001 C CNN
-F 4 "C25744" V 9400 11350 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 11350 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11350 50  0001 C CNN
+F 4 "C25741" V 9400 11350 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11350 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11350 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 11350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 11350 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 11350
 	0    -1   -1   0   
 $EndComp
@@ -3791,13 +3791,13 @@ L Device:R_Small R80
 U 1 1 61D13953
 P 9400 11450
 F 0 "R80" V 9350 11550 50  0000 L CNN
-F 1 "10k" V 9350 11200 50  0000 L CNN
+F 1 "100k" V 9350 11200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 11450 50  0001 C CNN
-F 4 "C25744" V 9400 11450 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 11450 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11450 50  0001 C CNN
+F 4 "C25741" V 9400 11450 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11450 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11450 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 11450 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 11450 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 11450
 	0    -1   -1   0   
 $EndComp
@@ -3810,13 +3810,13 @@ L Device:R_Small R81
 U 1 1 61D5040D
 P 9400 11550
 F 0 "R81" V 9350 11650 50  0000 L CNN
-F 1 "10k" V 9350 11300 50  0000 L CNN
+F 1 "100k" V 9350 11300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 11550 50  0001 C CNN
-F 4 "C25744" V 9400 11550 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 11550 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11550 50  0001 C CNN
+F 4 "C25741" V 9400 11550 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11550 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11550 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 11550 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 11550 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 11550
 	0    -1   -1   0   
 $EndComp
@@ -3829,13 +3829,13 @@ L Device:R_Small R82
 U 1 1 61D6E59B
 P 9400 11650
 F 0 "R82" V 9350 11750 50  0000 L CNN
-F 1 "10k" V 9350 11400 50  0000 L CNN
+F 1 "100k" V 9350 11400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 11650 50  0001 C CNN
-F 4 "C25744" V 9400 11650 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 11650 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11650 50  0001 C CNN
+F 4 "C25741" V 9400 11650 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11650 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11650 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 11650 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 11650 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 11650
 	0    -1   -1   0   
 $EndComp
@@ -3848,13 +3848,13 @@ L Device:R_Small R83
 U 1 1 61D8CCD8
 P 9400 11750
 F 0 "R83" V 9350 11850 50  0000 L CNN
-F 1 "10k" V 9350 11500 50  0000 L CNN
+F 1 "100k" V 9350 11500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 11750 50  0001 C CNN
-F 4 "C25744" V 9400 11750 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 11750 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11750 50  0001 C CNN
+F 4 "C25741" V 9400 11750 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11750 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11750 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 11750 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 11750 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 11750
 	0    -1   -1   0   
 $EndComp
@@ -3867,13 +3867,13 @@ L Device:R_Small R84
 U 1 1 61DAB9D3
 P 9400 11850
 F 0 "R84" V 9350 11950 50  0000 L CNN
-F 1 "10k" V 9350 11600 50  0000 L CNN
+F 1 "100k" V 9350 11600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 11850 50  0001 C CNN
-F 4 "C25744" V 9400 11850 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 11850 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11850 50  0001 C CNN
+F 4 "C25741" V 9400 11850 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11850 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11850 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 11850 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 11850 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 11850
 	0    -1   -1   0   
 $EndComp
@@ -3886,13 +3886,13 @@ L Device:R_Small R85
 U 1 1 61DCAC9B
 P 9400 11950
 F 0 "R85" V 9350 12050 50  0000 L CNN
-F 1 "10k" V 9350 11700 50  0000 L CNN
+F 1 "100k" V 9350 11700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 11950 50  0001 C CNN
-F 4 "C25744" V 9400 11950 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 11950 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11950 50  0001 C CNN
+F 4 "C25741" V 9400 11950 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11950 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11950 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 11950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 11950 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 11950
 	0    -1   -1   0   
 $EndComp
@@ -3905,13 +3905,13 @@ L Device:R_Small R86
 U 1 1 61DEA53F
 P 9400 12050
 F 0 "R86" V 9350 12150 50  0000 L CNN
-F 1 "10k" V 9350 11800 50  0000 L CNN
+F 1 "100k" V 9350 11800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 12050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9400 12050 50  0001 C CNN
-F 4 "C25744" V 9400 12050 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 10KOhms ±1% 1/16W 0402 RoHS" H 9400 12050 50  0001 C CNN "Description"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 12050 50  0001 C CNN
+F 4 "C25741" V 9400 12050 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 12050 50  0001 C CNN "Description"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 12050 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 9400 12050 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "0402WGF1003TCE" H 9400 12050 50  0001 C CNN "Manufacturer_Part_Number"
 	1    9400 12050
 	0    -1   -1   0   
 $EndComp
