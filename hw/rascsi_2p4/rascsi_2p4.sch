@@ -1597,258 +1597,6 @@ U 5FEBA38A
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
-Text GLabel 5050 4450 2    50   BiDi ~ 0
-PI-D0
-Text GLabel 5050 4350 2    50   BiDi ~ 0
-PI-D1
-Text GLabel 5050 4250 2    50   BiDi ~ 0
-PI-D2
-Text GLabel 5050 4150 2    50   BiDi ~ 0
-PI-D3
-Text GLabel 5050 3950 2    50   BiDi ~ 0
-PI-D5
-Text GLabel 5050 3850 2    50   BiDi ~ 0
-PI-D6
-Text GLabel 5050 3750 2    50   BiDi ~ 0
-PI-D7
-Text GLabel 5050 4050 2    50   BiDi ~ 0
-PI-D4
-Text GLabel 4050 3600 0    50   BiDi ~ 0
-PI-DTD
-Text GLabel 4050 4450 0    50   BiDi ~ 0
-C-D0
-Text GLabel 4050 4350 0    50   BiDi ~ 0
-C-D1
-Text GLabel 4050 4250 0    50   BiDi ~ 0
-C-D2
-Text GLabel 4050 4150 0    50   BiDi ~ 0
-C-D3
-Text GLabel 4050 3850 0    50   BiDi ~ 0
-C-D6
-Text GLabel 4050 3750 0    50   BiDi ~ 0
-C-D7
-Text GLabel 4050 4050 0    50   BiDi ~ 0
-C-D4
-$Comp
-L power:GND #PWR057
-U 1 1 61521E69
-P 5050 3600
-F 0 "#PWR057" H 5050 3350 50  0001 C CNN
-F 1 "GND" V 5055 3472 50  0000 R CNN
-F 2 "" H 5050 3600 50  0001 C CNN
-F 3 "" H 5050 3600 50  0001 C CNN
-	1    5050 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR054
-U 1 1 61522E6F
-P 4000 3200
-F 0 "#PWR054" H 4000 3050 50  0001 C CNN
-F 1 "+5V" V 4015 3328 50  0000 L CNN
-F 2 "" H 4000 3200 50  0001 C CNN
-F 3 "" H 4000 3200 50  0001 C CNN
-	1    4000 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 3200 4850 3200
-Wire Wire Line
-	4850 3200 5000 3200
-Connection ~ 4850 3200
-$Comp
-L power:GND #PWR055
-U 1 1 6154927E
-P 4200 5750
-F 0 "#PWR055" H 4200 5500 50  0001 C CNN
-F 1 "GND" V 4205 5622 50  0000 R CNN
-F 2 "" H 4200 5750 50  0001 C CNN
-F 3 "" H 4200 5750 50  0001 C CNN
-	1    4200 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 5750 4300 5750
-Connection ~ 4200 5750
-Wire Wire Line
-	4300 5750 4400 5750
-Connection ~ 4300 5750
-Wire Wire Line
-	4700 5750 4800 5750
-Wire Wire Line
-	4800 5750 4900 5750
-Connection ~ 4800 5750
-Text GLabel 4050 4550 0    50   BiDi ~ 0
-C-DP
-Text GLabel 4050 5400 0    50   BiDi ~ 0
-PI-DTD
-$Comp
-L power:+3V3 #PWR056
-U 1 1 615D5935
-P 5000 3200
-F 0 "#PWR056" H 5000 3050 50  0001 C CNN
-F 1 "+3V3" H 5000 3350 50  0000 C CNN
-F 2 "" H 5000 3200 50  0001 C CNN
-F 3 "" H 5000 3200 50  0001 C CNN
-	1    5000 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 3200 4250 3200
-Wire Wire Line
-	4250 3200 4350 3200
-Connection ~ 4250 3200
-$Comp
-L amiga:74ALVC164245DGG U2
-U 1 1 616278A2
-P 6950 3650
-F 0 "U2" H 6950 4281 50  0000 C CNN
-F 1 "74ALVC164245DGG" H 6950 4190 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 6950 1100 50  0001 C CNN
-F 3 "" H 7300 1900 50  0001 C CNN
-	1    6950 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR059
-U 1 1 616278BF
-P 6400 3200
-F 0 "#PWR059" H 6400 3050 50  0001 C CNN
-F 1 "+5V" V 6415 3328 50  0000 L CNN
-F 2 "" H 6400 3200 50  0001 C CNN
-F 3 "" H 6400 3200 50  0001 C CNN
-	1    6400 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 3200 7250 3200
-Wire Wire Line
-	7250 3200 7400 3200
-Connection ~ 7250 3200
-$Comp
-L power:GND #PWR060
-U 1 1 616278C8
-P 6600 5750
-F 0 "#PWR060" H 6600 5500 50  0001 C CNN
-F 1 "GND" V 6605 5622 50  0000 R CNN
-F 2 "" H 6600 5750 50  0001 C CNN
-F 3 "" H 6600 5750 50  0001 C CNN
-	1    6600 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 5750 6700 5750
-Connection ~ 6600 5750
-Wire Wire Line
-	6700 5750 6800 5750
-Connection ~ 6700 5750
-Wire Wire Line
-	6800 5750 6900 5750
-Connection ~ 6800 5750
-Wire Wire Line
-	7100 5750 7200 5750
-Wire Wire Line
-	7200 5750 7300 5750
-Connection ~ 7200 5750
-$Comp
-L power:+3V3 #PWR061
-U 1 1 616278DF
-P 7400 3200
-F 0 "#PWR061" H 7400 3050 50  0001 C CNN
-F 1 "+3V3" H 7400 3350 50  0000 C CNN
-F 2 "" H 7400 3200 50  0001 C CNN
-F 3 "" H 7400 3200 50  0001 C CNN
-	1    7400 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 3200 6650 3200
-Wire Wire Line
-	6650 3200 6750 3200
-Connection ~ 6650 3200
-$Comp
-L power:GND #PWR062
-U 1 1 616278B9
-P 7450 3600
-F 0 "#PWR062" H 7450 3350 50  0001 C CNN
-F 1 "GND" V 7455 3472 50  0000 R CNN
-F 2 "" H 7450 3600 50  0001 C CNN
-F 3 "" H 7450 3600 50  0001 C CNN
-	1    7450 3600
-	0    -1   -1   0   
-$EndComp
-Text GLabel 6450 3600 0    50   BiDi ~ 0
-PI-TAD
-Text GLabel 6450 4050 0    50   BiDi ~ 0
-C-BSY
-Text GLabel 6450 4150 0    50   BiDi ~ 0
-C-MSG
-Text GLabel 6450 4250 0    50   BiDi ~ 0
-C-C_D
-Text GLabel 6450 4450 0    50   BiDi ~ 0
-C-I_O
-Text GLabel 6450 4350 0    50   BiDi ~ 0
-C-REQ
-Text GLabel 7450 4550 2    50   BiDi ~ 0
-PI-ATN
-Text GLabel 7450 4750 2    50   BiDi ~ 0
-PI-RST
-Text GLabel 7450 4850 2    50   BiDi ~ 0
-PI-SEL
-Text GLabel 7450 4650 2    50   BiDi ~ 0
-PI-ACK
-Text GLabel 6450 5400 0    50   BiDi ~ 0
-PI-IND
-Text GLabel 7450 4350 2    50   BiDi ~ 0
-PI-REQ
-Text GLabel 7450 4250 2    50   BiDi ~ 0
-PI-C_D
-Text GLabel 7450 4150 2    50   BiDi ~ 0
-PI-MSG
-Text GLabel 6450 4550 0    50   BiDi ~ 0
-C-ATN
-Text GLabel 6450 4650 0    50   BiDi ~ 0
-C-ACK
-Text GLabel 6450 4750 0    50   BiDi ~ 0
-C-RST
-Text GLabel 6450 4850 0    50   BiDi ~ 0
-C-SEL
-$Comp
-L amiga:74ALVC164245DGG U1
-U 1 1 614E1493
-P 4550 3650
-F 0 "U1" H 4550 4281 50  0000 C CNN
-F 1 "74ALVC164245DGG" H 4550 4190 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 4550 1100 50  0001 C CNN
-F 3 "" H 4900 1900 50  0001 C CNN
-	1    4550 3650
-	1    0    0    -1  
-$EndComp
-Text GLabel 4050 3950 0    50   BiDi ~ 0
-C-D5
-Text GLabel 7450 4050 2    50   BiDi ~ 0
-PI-BSY
-Text GLabel 7450 4450 2    50   BiDi ~ 0
-PI-I_O
-Wire Wire Line
-	12000 550  11850 550 
-$Comp
-L Device:R_Small R59
-U 1 1 6195DFCA
-P 11750 550
-F 0 "R59" V 11700 650 50  0000 L CNN
-F 1 "100k" V 11700 300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 550 50  0001 C CNN
-F 4 "C25741" V 11750 550 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 550 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 550 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 550 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 550 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 550  11650 550 
 $Comp
 L power:GND #PWR064
 U 1 1 6199AA9A
@@ -1860,779 +1608,74 @@ F 3 "" H 11450 550 50  0001 C CNN
 	1    11450 550 
 	0    1    1    0   
 $EndComp
-Connection ~ 11450 550 
-Wire Wire Line
-	11450 550  11450 650 
-Text GLabel 4050 4650 0    50   BiDi ~ 0
+Text GLabel 11450 550  2    50   BiDi ~ 0
 PULLDOWN1
-Text GLabel 4050 4750 0    50   BiDi ~ 0
+Text GLabel 11450 650  2    50   BiDi ~ 0
 PULLDOWN2
-Text GLabel 4050 4850 0    50   BiDi ~ 0
+Text GLabel 11450 750  2    50   BiDi ~ 0
 PULLDOWN3
-Text GLabel 4050 4950 0    50   BiDi ~ 0
+Text GLabel 11450 850  2    50   BiDi ~ 0
 PULLDOWN4
-Text GLabel 4050 5050 0    50   BiDi ~ 0
+Text GLabel 11450 950  2    50   BiDi ~ 0
 PULLDOWN5
-Text GLabel 4050 5150 0    50   BiDi ~ 0
+Text GLabel 11450 1050 2    50   BiDi ~ 0
 PULLDOWN6
-Text GLabel 4050 5250 0    50   BiDi ~ 0
+Text GLabel 11450 1150 2    50   BiDi ~ 0
 PULLDOWN7
-Text GLabel 5050 4650 2    50   BiDi ~ 0
+Text GLabel 11450 1250 2    50   BiDi ~ 0
 PULLDOWN8
-Text GLabel 5050 4750 2    50   BiDi ~ 0
+Text GLabel 11450 1350 2    50   BiDi ~ 0
 PULLDOWN9
-Text GLabel 5050 4850 2    50   BiDi ~ 0
+Text GLabel 11450 1450 2    50   BiDi ~ 0
 PULLDOWN10
-Text GLabel 5050 5050 2    50   BiDi ~ 0
+Text GLabel 11450 1650 2    50   BiDi ~ 0
 PULLDOWN12
-Text GLabel 5050 4950 2    50   BiDi ~ 0
+Text GLabel 11450 1550 2    50   BiDi ~ 0
 PULLDOWN11
-Text GLabel 5050 5250 2    50   BiDi ~ 0
+Text GLabel 11450 1850 2    50   BiDi ~ 0
 PULLDOWN14
-Text GLabel 5050 5150 2    50   BiDi ~ 0
+Text GLabel 11450 1750 2    50   BiDi ~ 0
 PULLDOWN13
-Text GLabel 12000 550  2    50   BiDi ~ 0
-PULLDOWN1
-Text GLabel 12000 650  2    50   BiDi ~ 0
-PULLDOWN2
-Text GLabel 12000 750  2    50   BiDi ~ 0
-PULLDOWN3
-Text GLabel 12000 850  2    50   BiDi ~ 0
-PULLDOWN4
-Text GLabel 12000 950  2    50   BiDi ~ 0
-PULLDOWN5
-Text GLabel 12000 1050 2    50   BiDi ~ 0
-PULLDOWN6
-Text GLabel 12000 1150 2    50   BiDi ~ 0
-PULLDOWN7
-Text GLabel 12000 1250 2    50   BiDi ~ 0
-PULLDOWN8
-Text GLabel 12000 1350 2    50   BiDi ~ 0
-PULLDOWN9
-Text GLabel 12000 1450 2    50   BiDi ~ 0
-PULLDOWN10
-Text GLabel 12000 1650 2    50   BiDi ~ 0
-PULLDOWN12
-Text GLabel 12000 1550 2    50   BiDi ~ 0
-PULLDOWN11
-Text GLabel 12000 1850 2    50   BiDi ~ 0
-PULLDOWN14
-Text GLabel 12000 1750 2    50   BiDi ~ 0
-PULLDOWN13
-Text GLabel 6450 3750 0    50   BiDi ~ 0
+Text GLabel 11450 1950 2    50   BiDi ~ 0
 PULLDOWN15
-Text GLabel 6450 3850 0    50   BiDi ~ 0
+Text GLabel 11450 2050 2    50   BiDi ~ 0
 PULLDOWN16
-Text GLabel 6450 3950 0    50   BiDi ~ 0
+Text GLabel 11450 2150 2    50   BiDi ~ 0
 PULLDOWN17
-Text GLabel 6450 4950 0    50   BiDi ~ 0
+Text GLabel 11450 2250 2    50   BiDi ~ 0
 PULLDOWN18
-Text GLabel 6450 5050 0    50   BiDi ~ 0
+Text GLabel 11450 2350 2    50   BiDi ~ 0
 PULLDOWN19
-Text GLabel 6450 5150 0    50   BiDi ~ 0
+Text GLabel 11450 2450 2    50   BiDi ~ 0
 PULLDOWN20
-Text GLabel 6450 5250 0    50   BiDi ~ 0
+Text GLabel 11450 2550 2    50   BiDi ~ 0
 PULLDOWN21
-Text GLabel 7450 3750 2    50   BiDi ~ 0
+Text GLabel 11450 2650 2    50   BiDi ~ 0
 PULLDOWN22
-Text GLabel 7450 3850 2    50   BiDi ~ 0
+Text GLabel 11450 2750 2    50   BiDi ~ 0
 PULLDOWN23
-Text GLabel 7450 3950 2    50   BiDi ~ 0
+Text GLabel 11450 2850 2    50   BiDi ~ 0
 PULLDOWN24
-Text GLabel 7450 4950 2    50   BiDi ~ 0
-PULLDOWN25
-Text GLabel 7450 5050 2    50   BiDi ~ 0
-PULLDOWN26
-Text GLabel 7450 5150 2    50   BiDi ~ 0
-PULLDOWN27
-Text GLabel 7450 5250 2    50   BiDi ~ 0
+Text GLabel 11450 3250 2    50   BiDi ~ 0
 PULLDOWN28
-Text GLabel 12000 1950 2    50   BiDi ~ 0
-PULLDOWN15
-Text GLabel 12000 2050 2    50   BiDi ~ 0
-PULLDOWN16
-Text GLabel 12000 2150 2    50   BiDi ~ 0
-PULLDOWN17
-Text GLabel 12000 2250 2    50   BiDi ~ 0
-PULLDOWN18
-Text GLabel 12000 2350 2    50   BiDi ~ 0
-PULLDOWN19
-Text GLabel 12000 2450 2    50   BiDi ~ 0
-PULLDOWN20
-Text GLabel 12000 2550 2    50   BiDi ~ 0
-PULLDOWN21
-Text GLabel 12000 2650 2    50   BiDi ~ 0
-PULLDOWN22
-Text GLabel 12000 2750 2    50   BiDi ~ 0
-PULLDOWN23
-Text GLabel 12000 2850 2    50   BiDi ~ 0
-PULLDOWN24
-Text GLabel 12000 3250 2    50   BiDi ~ 0
-PULLDOWN28
-Text GLabel 12000 3150 2    50   BiDi ~ 0
+Text GLabel 11450 3150 2    50   BiDi ~ 0
 PULLDOWN27
-Text GLabel 12000 3050 2    50   BiDi ~ 0
+Text GLabel 11450 3050 2    50   BiDi ~ 0
 PULLDOWN26
-Text GLabel 12000 2950 2    50   BiDi ~ 0
+Text GLabel 11450 2950 2    50   BiDi ~ 0
 PULLDOWN25
-Wire Wire Line
-	12000 650  11850 650 
 $Comp
-L Device:R_Small R60
-U 1 1 61B028F0
-P 11750 650
-F 0 "R60" V 11700 750 50  0000 L CNN
-F 1 "100k" V 11700 400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 650 50  0001 C CNN
-F 4 "C25741" V 11750 650 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 650 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 650 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 650 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 650 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 650  11650 650 
-Wire Wire Line
-	12000 750  11850 750 
-$Comp
-L Device:R_Small R61
-U 1 1 61B1A339
-P 11750 750
-F 0 "R61" V 11700 850 50  0000 L CNN
-F 1 "100k" V 11700 500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 750 50  0001 C CNN
-F 4 "C25741" V 11750 750 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 750 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 750 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 750 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 750 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 750  11650 750 
-Wire Wire Line
-	12000 850  11850 850 
-$Comp
-L Device:R_Small R62
-U 1 1 61B321AB
-P 11750 850
-F 0 "R62" V 11700 950 50  0000 L CNN
-F 1 "100k" V 11700 600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 850 50  0001 C CNN
-F 4 "C25741" V 11750 850 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 850 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 850 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 850 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 850 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 850  11650 850 
-Wire Wire Line
-	12000 950  11850 950 
-$Comp
-L Device:R_Small R63
-U 1 1 61B4A4B9
-P 11750 950
-F 0 "R63" V 11700 1050 50  0000 L CNN
-F 1 "100k" V 11700 700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 950 50  0001 C CNN
-F 4 "C25741" V 11750 950 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 950 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 950 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 950 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 950 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 950  11650 950 
-Wire Wire Line
-	12000 1050 11850 1050
-$Comp
-L Device:R_Small R64
-U 1 1 61B62B78
-P 11750 1050
-F 0 "R64" V 11700 1150 50  0000 L CNN
-F 1 "100k" V 11700 800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1050 50  0001 C CNN
-F 4 "C25741" V 11750 1050 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1050 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1050 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 1050 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 1050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 1050 11650 1050
-Wire Wire Line
-	12000 1150 11850 1150
-$Comp
-L Device:R_Small R65
-U 1 1 61B7B89A
-P 11750 1150
-F 0 "R65" V 11700 1250 50  0000 L CNN
-F 1 "100k" V 11700 900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1150 50  0001 C CNN
-F 4 "C25741" V 11750 1150 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1150 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1150 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 1150 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 1150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 1150 11650 1150
-Wire Wire Line
-	12000 1250 11850 1250
-$Comp
-L Device:R_Small R66
-U 1 1 61B948AA
-P 11750 1250
-F 0 "R66" V 11700 1350 50  0000 L CNN
-F 1 "100k" V 11700 1000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1250 50  0001 C CNN
-F 4 "C25741" V 11750 1250 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1250 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1250 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 1250 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 1250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 1250 11650 1250
-Wire Wire Line
-	12000 1350 11850 1350
-$Comp
-L Device:R_Small R67
-U 1 1 61BADF9F
-P 11750 1350
-F 0 "R67" V 11700 1450 50  0000 L CNN
-F 1 "100k" V 11700 1100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1350 50  0001 C CNN
-F 4 "C25741" V 11750 1350 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1350 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1350 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 1350 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 1350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 1350 11650 1350
-Wire Wire Line
-	12000 1450 11850 1450
-$Comp
-L Device:R_Small R68
-U 1 1 61BC79A0
-P 11750 1450
-F 0 "R68" V 11700 1550 50  0000 L CNN
-F 1 "100k" V 11700 1200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1450 50  0001 C CNN
-F 4 "C25741" V 11750 1450 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1450 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1450 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 1450 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 1450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 1450 11650 1450
-Wire Wire Line
-	12000 1550 11850 1550
-$Comp
-L Device:R_Small R69
-U 1 1 61BE1BB7
-P 11750 1550
-F 0 "R69" V 11700 1650 50  0000 L CNN
-F 1 "100k" V 11700 1300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1550 50  0001 C CNN
-F 4 "C25741" V 11750 1550 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1550 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1550 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 1550 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 1550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 1550 11650 1550
-Wire Wire Line
-	12000 1650 11850 1650
-$Comp
-L Device:R_Small R70
-U 1 1 61BFBFE5
-P 11750 1650
-F 0 "R70" V 11700 1750 50  0000 L CNN
-F 1 "100k" V 11700 1400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1650 50  0001 C CNN
-F 4 "C25741" V 11750 1650 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1650 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1650 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 1650 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 1650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 1650 11650 1650
-Wire Wire Line
-	12000 1750 11850 1750
-$Comp
-L Device:R_Small R71
-U 1 1 61C168AA
-P 11750 1750
-F 0 "R71" V 11700 1850 50  0000 L CNN
-F 1 "100k" V 11700 1500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1750 50  0001 C CNN
-F 4 "C25741" V 11750 1750 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1750 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1750 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 1750 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 1750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 1750 11650 1750
-Wire Wire Line
-	12000 1850 11850 1850
-$Comp
-L Device:R_Small R72
-U 1 1 61C316F6
-P 11750 1850
-F 0 "R72" V 11700 1950 50  0000 L CNN
-F 1 "100k" V 11700 1600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1850 50  0001 C CNN
-F 4 "C25741" V 11750 1850 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1850 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1850 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 1850 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 1850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 1850 11650 1850
-Wire Wire Line
-	12000 1950 11850 1950
-$Comp
-L Device:R_Small R73
-U 1 1 61C4CA42
-P 11750 1950
-F 0 "R73" V 11700 2050 50  0000 L CNN
-F 1 "100k" V 11700 1700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1950 50  0001 C CNN
-F 4 "C25741" V 11750 1950 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1950 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1950 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 1950 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 1950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 1950 11650 1950
-Wire Wire Line
-	12000 2050 11850 2050
-$Comp
-L Device:R_Small R74
-U 1 1 61C681D5
-P 11750 2050
-F 0 "R74" V 11700 2150 50  0000 L CNN
-F 1 "100k" V 11700 1800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2050 50  0001 C CNN
-F 4 "C25741" V 11750 2050 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2050 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2050 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 2050 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 2050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 2050 11650 2050
-Wire Wire Line
-	12000 2150 11850 2150
-$Comp
-L Device:R_Small R75
-U 1 1 61C83E54
-P 11750 2150
-F 0 "R75" V 11700 2250 50  0000 L CNN
-F 1 "100k" V 11700 1900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2150 50  0001 C CNN
-F 4 "C25741" V 11750 2150 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2150 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2150 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 2150 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 2150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 2150 11650 2150
-Wire Wire Line
-	12000 2250 11850 2250
-$Comp
-L Device:R_Small R76
-U 1 1 61CA00AF
-P 11750 2250
-F 0 "R76" V 11700 2350 50  0000 L CNN
-F 1 "100k" V 11700 2000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2250 50  0001 C CNN
-F 4 "C25741" V 11750 2250 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2250 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2250 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 2250 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 2250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 2250 11650 2250
-Wire Wire Line
-	12000 2350 11850 2350
-$Comp
-L Device:R_Small R77
-U 1 1 61CBC6B3
-P 11750 2350
-F 0 "R77" V 11700 2450 50  0000 L CNN
-F 1 "100k" V 11700 2100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2350 50  0001 C CNN
-F 4 "C25741" V 11750 2350 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2350 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2350 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 2350 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 2350 11650 2350
-Wire Wire Line
-	12000 2450 11850 2450
-$Comp
-L Device:R_Small R78
-U 1 1 61CD921B
-P 11750 2450
-F 0 "R78" V 11700 2550 50  0000 L CNN
-F 1 "100k" V 11700 2200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2450 50  0001 C CNN
-F 4 "C25741" V 11750 2450 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2450 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2450 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 2450 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 2450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 2450 11650 2450
-Wire Wire Line
-	12000 2550 11850 2550
-$Comp
-L Device:R_Small R79
-U 1 1 61CF62F6
-P 11750 2550
-F 0 "R79" V 11700 2650 50  0000 L CNN
-F 1 "100k" V 11700 2300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2550 50  0001 C CNN
-F 4 "C25741" V 11750 2550 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2550 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2550 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 2550 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 2550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 2550 11650 2550
-Wire Wire Line
-	12000 2650 11850 2650
-$Comp
-L Device:R_Small R80
-U 1 1 61D13953
-P 11750 2650
-F 0 "R80" V 11700 2750 50  0000 L CNN
-F 1 "100k" V 11700 2400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2650 50  0001 C CNN
-F 4 "C25741" V 11750 2650 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2650 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2650 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 2650 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 2650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 2650 11650 2650
-Wire Wire Line
-	12000 2750 11850 2750
-$Comp
-L Device:R_Small R81
-U 1 1 61D5040D
-P 11750 2750
-F 0 "R81" V 11700 2850 50  0000 L CNN
-F 1 "100k" V 11700 2500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2750 50  0001 C CNN
-F 4 "C25741" V 11750 2750 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2750 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2750 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 2750 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 2750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 2750 11650 2750
-Wire Wire Line
-	12000 2850 11850 2850
-$Comp
-L Device:R_Small R82
-U 1 1 61D6E59B
-P 11750 2850
-F 0 "R82" V 11700 2950 50  0000 L CNN
-F 1 "100k" V 11700 2600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2850 50  0001 C CNN
-F 4 "C25741" V 11750 2850 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2850 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2850 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 2850 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 2850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 2850 11650 2850
-Wire Wire Line
-	12000 2950 11850 2950
-$Comp
-L Device:R_Small R83
-U 1 1 61D8CCD8
-P 11750 2950
-F 0 "R83" V 11700 3050 50  0000 L CNN
-F 1 "100k" V 11700 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2950 50  0001 C CNN
-F 4 "C25741" V 11750 2950 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2950 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2950 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 2950 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 2950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 2950 11650 2950
-Wire Wire Line
-	12000 3050 11850 3050
-$Comp
-L Device:R_Small R84
-U 1 1 61DAB9D3
-P 11750 3050
-F 0 "R84" V 11700 3150 50  0000 L CNN
-F 1 "100k" V 11700 2800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 3050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 3050 50  0001 C CNN
-F 4 "C25741" V 11750 3050 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 3050 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 3050 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 3050 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 3050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 3050 11650 3050
-Wire Wire Line
-	12000 3150 11850 3150
-$Comp
-L Device:R_Small R85
-U 1 1 61DCAC9B
-P 11750 3150
-F 0 "R85" V 11700 3250 50  0000 L CNN
-F 1 "100k" V 11700 2900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 3150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 3150 50  0001 C CNN
-F 4 "C25741" V 11750 3150 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 3150 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 3150 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 3150 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 3150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 3150 11650 3150
-Wire Wire Line
-	12000 3250 11850 3250
-$Comp
-L Device:R_Small R86
-U 1 1 61DEA53F
-P 11750 3250
-F 0 "R86" V 11700 3350 50  0000 L CNN
-F 1 "100k" V 11700 3000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 3250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 3250 50  0001 C CNN
-F 4 "C25741" V 11750 3250 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 3250 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 3250 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 11750 3250 50  0001 C CNN "Manufacturer_Part_Number"
-	1    11750 3250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11450 3250 11650 3250
-Connection ~ 11450 650 
-Wire Wire Line
-	11450 650  11450 750 
-Connection ~ 11450 750 
-Wire Wire Line
-	11450 750  11450 850 
-Connection ~ 11450 850 
-Wire Wire Line
-	11450 850  11450 950 
-Connection ~ 11450 950 
-Wire Wire Line
-	11450 950  11450 1050
-Connection ~ 11450 1050
-Wire Wire Line
-	11450 1050 11450 1150
-Connection ~ 11450 1150
-Wire Wire Line
-	11450 1150 11450 1250
-Connection ~ 11450 1250
-Wire Wire Line
-	11450 1250 11450 1350
-Connection ~ 11450 1350
-Wire Wire Line
-	11450 1350 11450 1450
-Connection ~ 11450 1450
-Wire Wire Line
-	11450 1450 11450 1550
-Connection ~ 11450 1550
-Wire Wire Line
-	11450 1550 11450 1650
-Connection ~ 11450 1650
-Wire Wire Line
-	11450 1650 11450 1750
-Connection ~ 11450 1750
-Wire Wire Line
-	11450 1750 11450 1850
-Connection ~ 11450 1850
-Wire Wire Line
-	11450 1850 11450 1950
-Connection ~ 11450 1950
-Wire Wire Line
-	11450 1950 11450 2050
-Connection ~ 11450 2050
-Wire Wire Line
-	11450 2050 11450 2150
-Connection ~ 11450 2150
-Wire Wire Line
-	11450 2150 11450 2250
-Connection ~ 11450 2250
-Wire Wire Line
-	11450 2250 11450 2350
-Connection ~ 11450 2350
-Wire Wire Line
-	11450 2350 11450 2450
-Connection ~ 11450 2450
-Wire Wire Line
-	11450 2450 11450 2550
-Connection ~ 11450 2550
-Wire Wire Line
-	11450 2550 11450 2650
-Connection ~ 11450 2650
-Wire Wire Line
-	11450 2650 11450 2750
-Connection ~ 11450 2750
-Wire Wire Line
-	11450 2750 11450 2850
-Connection ~ 11450 2850
-Wire Wire Line
-	11450 2850 11450 2950
-Connection ~ 11450 2950
-Wire Wire Line
-	11450 2950 11450 3050
-Connection ~ 11450 3050
-Wire Wire Line
-	11450 3050 11450 3150
-Connection ~ 11450 3150
-Wire Wire Line
-	11450 3150 11450 3250
-Text GLabel 5050 4550 2    50   BiDi ~ 0
-PI-DP
-$Comp
-L Device:C C1
-U 1 1 62192EEC
-P 2150 6900
-F 0 "C1" H 2265 6946 50  0000 L CNN
-F 1 "330n" H 2265 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2188 6750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" H 2150 6900 50  0001 C CNN
-F 4 "C1740" H 2150 6900 50  0001 C CNN "LCSC"
-F 5 "Guangdong Fenghua Advanced Tech" H 2150 6900 50  0001 C CNN "Manufacturer_Name"
-F 6 "0805B334K500NT" H 2150 6900 50  0001 C CNN "Manufacturer_Part_Number"
-	1    2150 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 621967EF
-P 2600 6900
-F 0 "C2" H 2715 6946 50  0000 L CNN
-F 1 "330n" H 2715 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 6750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" H 2600 6900 50  0001 C CNN
-F 4 "C1740" H 2600 6900 50  0001 C CNN "LCSC"
-F 5 "Guangdong Fenghua Advanced Tech" H 2600 6900 50  0001 C CNN "Manufacturer_Name"
-F 6 "0805B334K500NT" H 2600 6900 50  0001 C CNN "Manufacturer_Part_Number"
-	1    2600 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 62197548
-P 3000 6900
-F 0 "C3" H 3115 6946 50  0000 L CNN
-F 1 "10u" H 3115 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 6750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 3000 6900 50  0001 C CNN
-F 4 "C15850" H 3000 6900 50  0001 C CNN "LCSC"
-F 5 "Samsung Electro-Mechanics" H 3000 6900 50  0001 C CNN "Manufacturer_Name"
-F 6 "CL21A106KAYNNNE" H 3000 6900 50  0001 C CNN "Manufacturer_Part_Number"
-	1    3000 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
+L Device:C C8
 U 1 1 6219855C
-P 1550 6900
-F 0 "C6" H 1665 6946 50  0000 L CNN
-F 1 "10u" H 1665 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 6750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 1550 6900 50  0001 C CNN
-F 4 "C15850" H 1550 6900 50  0001 C CNN "LCSC"
-F 5 "Samsung Electro-Mechanics" H 1550 6900 50  0001 C CNN "Manufacturer_Name"
-F 6 "CL21A106KAYNNNE" H 1550 6900 50  0001 C CNN "Manufacturer_Part_Number"
-	1    1550 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 62199FF5
-P 2150 7050
-F 0 "#PWR0105" H 2150 6800 50  0001 C CNN
-F 1 "GND" H 2000 7000 50  0000 C CNN
-F 2 "" H 2150 7050 50  0001 C CNN
-F 3 "" H 2150 7050 50  0001 C CNN
-	1    2150 7050
+P 2350 6900
+F 0 "C8" H 2465 6946 50  0000 L CNN
+F 1 "10u" H 2465 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2388 6750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 2350 6900 50  0001 C CNN
+F 4 "C15850" H 2350 6900 50  0001 C CNN "LCSC"
+F 5 "Samsung Electro-Mechanics" H 2350 6900 50  0001 C CNN "Manufacturer_Name"
+F 6 "CL21A106KAYNNNE" H 2350 6900 50  0001 C CNN "Manufacturer_Part_Number"
+	1    2350 6900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2647,17 +1690,6 @@ F 3 "" H 750 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0107
-U 1 1 622100B8
-P 2150 6750
-F 0 "#PWR0107" H 2150 6600 50  0001 C CNN
-F 1 "+3V3" H 2165 6923 50  0000 C CNN
-F 2 "" H 2150 6750 50  0001 C CNN
-F 3 "" H 2150 6750 50  0001 C CNN
-	1    2150 6750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0108
 U 1 1 62210F2C
 P 750 6750
@@ -2668,63 +1700,39 @@ F 3 "" H 750 6750 50  0001 C CNN
 	1    750  6750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2150 6750 2600 6750
-Connection ~ 2150 6750
-Wire Wire Line
-	2600 6750 3000 6750
-Connection ~ 2600 6750
-Wire Wire Line
-	2150 7050 2600 7050
-Connection ~ 2150 7050
-Wire Wire Line
-	2600 7050 3000 7050
-Connection ~ 2600 7050
+$Comp
+L Device:C C3
+U 1 1 62625777
+P 1550 6900
+F 0 "C3" H 1665 6946 50  0000 L CNN
+F 1 "330n" H 1665 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 6750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" H 1550 6900 50  0001 C CNN
+F 4 "C1740" H 1550 6900 50  0001 C CNN "LCSC"
+F 5 "Guangdong Fenghua Advanced Tech" H 1550 6900 50  0001 C CNN "Manufacturer_Name"
+F 6 "0805B334K500NT" H 1550 6900 50  0001 C CNN "Manufacturer_Part_Number"
+	1    1550 6900
+	1    0    0    -1  
+$EndComp
 $Comp
 L Device:C C4
-U 1 1 62625777
-P 750 6900
-F 0 "C4" H 865 6946 50  0000 L CNN
-F 1 "330n" H 865 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 788 6750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" H 750 6900 50  0001 C CNN
-F 4 "C1740" H 750 6900 50  0001 C CNN "LCSC"
-F 5 "Guangdong Fenghua Advanced Tech" H 750 6900 50  0001 C CNN "Manufacturer_Name"
-F 6 "0805B334K500NT" H 750 6900 50  0001 C CNN "Manufacturer_Part_Number"
-	1    750  6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
 U 1 1 62625CE2
-P 1150 6900
-F 0 "C5" H 1265 6946 50  0000 L CNN
-F 1 "330n" H 1265 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1188 6750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" H 1150 6900 50  0001 C CNN
-F 4 "C1740" H 1150 6900 50  0001 C CNN "LCSC"
-F 5 "Guangdong Fenghua Advanced Tech" H 1150 6900 50  0001 C CNN "Manufacturer_Name"
-F 6 "0805B334K500NT" H 1150 6900 50  0001 C CNN "Manufacturer_Part_Number"
-	1    1150 6900
+P 1950 6900
+F 0 "C4" H 2065 6946 50  0000 L CNN
+F 1 "330n" H 2065 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1988 6750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" H 1950 6900 50  0001 C CNN
+F 4 "C1740" H 1950 6900 50  0001 C CNN "LCSC"
+F 5 "Guangdong Fenghua Advanced Tech" H 1950 6900 50  0001 C CNN "Manufacturer_Name"
+F 6 "0805B334K500NT" H 1950 6900 50  0001 C CNN "Manufacturer_Part_Number"
+	1    1950 6900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1150 6750 750  6750
-Connection ~ 750  6750
-Wire Wire Line
-	1150 6750 1550 6750
-Connection ~ 1150 6750
-Wire Wire Line
-	1150 7050 750  7050
-Connection ~ 750  7050
-Wire Wire Line
-	1150 7050 1550 7050
-Connection ~ 1150 7050
 $Comp
-L amiga:UCC5606PWPTR U4
+L amiga:UCC5606PWPTR U5
 U 1 1 628EED4A
 P 7500 1750
-F 0 "U4" H 8050 2700 50  0000 R CNN
+F 0 "U5" H 8050 2700 50  0000 R CNN
 F 1 "UCC5606PWPTR" H 8250 2600 50  0000 R CNN
 F 2 "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm" H 7500 400 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a" H 7800 950 50  0001 C CNN
@@ -2732,10 +1740,10 @@ F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L Device:C C5
 U 1 1 628F5101
 P 8100 2400
-F 0 "C8" H 8215 2446 50  0000 L CNN
+F 0 "C5" H 8215 2446 50  0000 L CNN
 F 1 "4u7" H 8215 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8138 2250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf" H 8100 2400 50  0001 C CNN
@@ -2793,10 +1801,10 @@ Wire Wire Line
 	7450 900  7550 900 
 Connection ~ 7450 900 
 $Comp
-L Device:C C7
+L Device:C C9
 U 1 1 62AF0127
 P 7300 900
-F 0 "C7" H 7100 950 50  0000 L CNN
+F 0 "C9" H 7100 950 50  0000 L CNN
 F 1 "4u7" H 7050 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 750 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf" H 7300 900 50  0001 C CNN
@@ -2825,10 +1833,10 @@ Wire Wire Line
 Text GLabel 6950 1450 3    50   BiDi ~ 0
 ~TERM_ENABLE
 $Comp
-L amiga:UCC5606PWPTR U3
+L amiga:UCC5606PWPTR U6
 U 1 1 62E764ED
 P 9300 1750
-F 0 "U3" H 9850 2700 50  0000 R CNN
+F 0 "U6" H 9850 2700 50  0000 R CNN
 F 1 "UCC5606PWPTR" H 10050 2600 50  0000 R CNN
 F 2 "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm" H 9300 400 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a" H 9600 950 50  0001 C CNN
@@ -2836,10 +1844,10 @@ F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L Device:C C6
 U 1 1 62E764F6
 P 9900 2400
-F 0 "C9" H 10015 2446 50  0000 L CNN
+F 0 "C6" H 10015 2446 50  0000 L CNN
 F 1 "4u7" H 10015 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9938 2250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf" H 9900 2400 50  0001 C CNN
@@ -3036,94 +2044,393 @@ Wire Wire Line
 	10400 2250 9900 2250
 Connection ~ 9900 2250
 $Comp
-L amiga:NarrowPowerAdapter U5
-U 1 1 637D31F7
-P 12000 4450
-F 0 "U5" H 12000 4675 50  0000 C CNN
-F 1 "NarrowPowerAdapter" H 12000 4584 50  0000 C CNN
-F 2 "amiga:NarrowPowerAdapter_0.60_to_0.25" H 11950 4650 50  0001 C CNN
-F 3 "" H 12000 4450 50  0001 C CNN
-	1    12000 4450
+L SamacSys_Parts:SN74LS245DW U1
+U 1 1 611B1F3C
+P 4100 3350
+F 0 "U1" H 4600 3615 50  0000 C CNN
+F 1 "SN74LS641-1DW" H 4600 3524 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4950 3450 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls641" H 4950 3350 50  0001 L CNN
+F 4 "Octal bus transceivers OC" H 4950 3250 50  0001 L CNN "Description"
+F 5 "2.65" H 4950 3150 50  0001 L CNN "Height"
+F 6 "595-SN74LS641-1DW" H 4950 3050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.de/ProductDetail/595-SN74LS641-1DW" H 4950 2950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 4950 2850 50  0001 L CNN "Manufacturer_Name"
+F 9 "SN74LS245DW" H 4950 2750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4100 3350
 	1    0    0    -1  
 $EndComp
+Text GLabel 4100 3350 0    50   BiDi ~ 0
+PI-DTD
 $Comp
-L power:GND #PWR0114
-U 1 1 637D429F
-P 11550 4450
-F 0 "#PWR0114" H 11550 4200 50  0001 C CNN
-F 1 "GND" V 11555 4322 50  0000 R CNN
-F 2 "" H 11550 4450 50  0001 C CNN
-F 3 "" H 11550 4450 50  0001 C CNN
-	1    11550 4450
-	0    1    1    0   
-$EndComp
-Text GLabel 12450 4450 2    50   BiDi ~ 0
-GND_U1_A
-$Comp
-L amiga:NarrowPowerAdapter U6
-U 1 1 637D6520
-P 12000 4800
-F 0 "U6" H 12000 5025 50  0000 C CNN
-F 1 "NarrowPowerAdapter" H 12000 4934 50  0000 C CNN
-F 2 "amiga:NarrowPowerAdapter_0.60_to_0.25" H 11950 5000 50  0001 C CNN
-F 3 "" H 12000 4800 50  0001 C CNN
-	1    12000 4800
+L power:+5V #PWR0116
+U 1 1 611B4279
+P 5100 3350
+F 0 "#PWR0116" H 5100 3200 50  0001 C CNN
+F 1 "+5V" V 5115 3478 50  0000 L CNN
+F 2 "" H 5100 3350 50  0001 C CNN
+F 3 "" H 5100 3350 50  0001 C CNN
+	1    5100 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0115
-U 1 1 637D6526
-P 11550 4800
-F 0 "#PWR0115" H 11550 4550 50  0001 C CNN
-F 1 "GND" V 11555 4672 50  0000 R CNN
-F 2 "" H 11550 4800 50  0001 C CNN
-F 3 "" H 11550 4800 50  0001 C CNN
-	1    11550 4800
-	0    1    1    0   
-$EndComp
-Text GLabel 12450 4800 2    50   BiDi ~ 0
-GND_U2_A
-Text GLabel 5050 5400 2    50   BiDi ~ 0
-GND_U1_A
-$Comp
-L power:GND #PWR0116
-U 1 1 6383CAF9
-P 7300 5750
-F 0 "#PWR0116" H 7300 5500 50  0001 C CNN
-F 1 "GND" V 7305 5622 50  0000 R CNN
-F 2 "" H 7300 5750 50  0001 C CNN
-F 3 "" H 7300 5750 50  0001 C CNN
-	1    7300 5750
-	1    0    0    -1  
-$EndComp
-Connection ~ 7300 5750
-Wire Wire Line
-	7000 5750 7000 6050
-Wire Wire Line
-	7000 6050 7450 6050
-Wire Wire Line
-	7450 6050 7450 5400
 $Comp
 L power:GND #PWR0117
-U 1 1 6389F26E
-P 4900 5750
-F 0 "#PWR0117" H 4900 5500 50  0001 C CNN
-F 1 "GND" V 4905 5622 50  0000 R CNN
-F 2 "" H 4900 5750 50  0001 C CNN
-F 3 "" H 4900 5750 50  0001 C CNN
-	1    4900 5750
+U 1 1 611B5245
+P 5100 3450
+F 0 "#PWR0117" H 5100 3200 50  0001 C CNN
+F 1 "GND" V 5105 3322 50  0000 R CNN
+F 2 "" H 5100 3450 50  0001 C CNN
+F 3 "" H 5100 3450 50  0001 C CNN
+	1    5100 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 611B5C65
+P 4100 4250
+F 0 "#PWR0118" H 4100 4000 50  0001 C CNN
+F 1 "GND" V 4105 4122 50  0000 R CNN
+F 2 "" H 4100 4250 50  0001 C CNN
+F 3 "" H 4100 4250 50  0001 C CNN
+	1    4100 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:SN74LS245DW U2
+U 1 1 611BAC00
+P 4100 4700
+F 0 "U2" H 4600 4965 50  0000 C CNN
+F 1 "SN74LS641-1DW" H 4600 4874 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4950 4800 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls641" H 4950 4700 50  0001 L CNN
+F 4 "Octal bus transceivers OC" H 4950 4600 50  0001 L CNN "Description"
+F 5 "2.65" H 4950 4500 50  0001 L CNN "Height"
+F 6 "595-SN74LS641-1DW" H 4950 4400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.de/ProductDetail/595-SN74LS641-1DW" H 4950 4300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 4950 4200 50  0001 L CNN "Manufacturer_Name"
+F 9 "SN74LS245DW" H 4950 4100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4100 4700
 	1    0    0    -1  
 $EndComp
-Connection ~ 4900 5750
-Text GLabel 7450 5400 2    50   BiDi ~ 0
-GND_U2_A
+Text GLabel 4100 4700 0    50   BiDi ~ 0
+PI-DTD
+$Comp
+L power:+5V #PWR0119
+U 1 1 611BAC07
+P 5100 4700
+F 0 "#PWR0119" H 5100 4550 50  0001 C CNN
+F 1 "+5V" V 5115 4828 50  0000 L CNN
+F 2 "" H 5100 4700 50  0001 C CNN
+F 3 "" H 5100 4700 50  0001 C CNN
+	1    5100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 611BAC0D
+P 5100 4800
+F 0 "#PWR0120" H 5100 4550 50  0001 C CNN
+F 1 "GND" V 5105 4672 50  0000 R CNN
+F 2 "" H 5100 4800 50  0001 C CNN
+F 3 "" H 5100 4800 50  0001 C CNN
+	1    5100 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 611BAC13
+P 4100 5600
+F 0 "#PWR0121" H 4100 5350 50  0001 C CNN
+F 1 "GND" V 4105 5472 50  0000 R CNN
+F 2 "" H 4100 5600 50  0001 C CNN
+F 3 "" H 4100 5600 50  0001 C CNN
+	1    4100 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:SN74LS245DW U3
+U 1 1 611ED579
+P 6300 3350
+F 0 "U3" H 6800 3615 50  0000 C CNN
+F 1 "SN74LS641-1DW" H 6800 3524 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 7150 3450 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls641" H 7150 3350 50  0001 L CNN
+F 4 "Octal bus transceivers OC" H 7150 3250 50  0001 L CNN "Description"
+F 5 "2.65" H 7150 3150 50  0001 L CNN "Height"
+F 6 "595-SN74LS641-1DW" H 7150 3050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.de/ProductDetail/595-SN74LS641-1DW" H 7150 2950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 7150 2850 50  0001 L CNN "Manufacturer_Name"
+F 9 "SN74LS245DW" H 7150 2750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0122
+U 1 1 611ED580
+P 7300 3350
+F 0 "#PWR0122" H 7300 3200 50  0001 C CNN
+F 1 "+5V" V 7315 3478 50  0000 L CNN
+F 2 "" H 7300 3350 50  0001 C CNN
+F 3 "" H 7300 3350 50  0001 C CNN
+	1    7300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 611ED586
+P 7300 3450
+F 0 "#PWR0123" H 7300 3200 50  0001 C CNN
+F 1 "GND" V 7305 3322 50  0000 R CNN
+F 2 "" H 7300 3450 50  0001 C CNN
+F 3 "" H 7300 3450 50  0001 C CNN
+	1    7300 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 611ED58C
+P 6300 4250
+F 0 "#PWR0124" H 6300 4000 50  0001 C CNN
+F 1 "GND" V 6305 4122 50  0000 R CNN
+F 2 "" H 6300 4250 50  0001 C CNN
+F 3 "" H 6300 4250 50  0001 C CNN
+	1    6300 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:SN74LS245DW U4
+U 1 1 611ED598
+P 6300 4700
+F 0 "U4" H 6800 4965 50  0000 C CNN
+F 1 "SN74LS641-1DW" H 6800 4874 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 7150 4800 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls641" H 7150 4700 50  0001 L CNN
+F 4 "Octal bus transceivers OC" H 7150 4600 50  0001 L CNN "Description"
+F 5 "2.65" H 7150 4500 50  0001 L CNN "Height"
+F 6 "595-SN74LS641-1DW" H 7150 4400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.de/ProductDetail/595-SN74LS641-1DW" H 7150 4300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 7150 4200 50  0001 L CNN "Manufacturer_Name"
+F 9 "SN74LS245DW" H 7150 4100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0125
+U 1 1 611ED59F
+P 7300 4700
+F 0 "#PWR0125" H 7300 4550 50  0001 C CNN
+F 1 "+5V" V 7315 4828 50  0000 L CNN
+F 2 "" H 7300 4700 50  0001 C CNN
+F 3 "" H 7300 4700 50  0001 C CNN
+	1    7300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 611ED5A5
+P 7300 4800
+F 0 "#PWR0126" H 7300 4550 50  0001 C CNN
+F 1 "GND" V 7305 4672 50  0000 R CNN
+F 2 "" H 7300 4800 50  0001 C CNN
+F 3 "" H 7300 4800 50  0001 C CNN
+	1    7300 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 611ED5AB
+P 6300 5600
+F 0 "#PWR0127" H 6300 5350 50  0001 C CNN
+F 1 "GND" V 6305 5472 50  0000 R CNN
+F 2 "" H 6300 5600 50  0001 C CNN
+F 3 "" H 6300 5600 50  0001 C CNN
+	1    6300 5600
+	0    1    1    0   
+$EndComp
+Text GLabel 6300 3350 0    50   BiDi ~ 0
+PI-TAD
+Text GLabel 6300 4700 0    50   BiDi ~ 0
+PI-IND
+Text GLabel 4100 4150 0    50   BiDi ~ 0
+C-D0
+Text GLabel 4100 4050 0    50   BiDi ~ 0
+C-D1
+Text GLabel 4100 3950 0    50   BiDi ~ 0
+C-D2
+Text GLabel 4100 3850 0    50   BiDi ~ 0
+C-D3
+Text GLabel 4100 3550 0    50   BiDi ~ 0
+C-D6
+Text GLabel 4100 3450 0    50   BiDi ~ 0
+C-D7
+Text GLabel 4100 3750 0    50   BiDi ~ 0
+C-D4
+Text GLabel 4100 4800 0    50   BiDi ~ 0
+C-DP
+Text GLabel 4100 3650 0    50   BiDi ~ 0
+C-D5
+Text GLabel 5100 4250 2    50   BiDi ~ 0
+PI-D0
+Text GLabel 5100 4150 2    50   BiDi ~ 0
+PI-D1
+Text GLabel 5100 4050 2    50   BiDi ~ 0
+PI-D2
+Text GLabel 5100 3950 2    50   BiDi ~ 0
+PI-D3
+Text GLabel 5100 3750 2    50   BiDi ~ 0
+PI-D5
+Text GLabel 5100 3650 2    50   BiDi ~ 0
+PI-D6
+Text GLabel 5100 3550 2    50   BiDi ~ 0
+PI-D7
+Text GLabel 5100 3850 2    50   BiDi ~ 0
+PI-D4
+Text GLabel 5100 4900 2    50   BiDi ~ 0
+PI-DP
+Text GLabel 4100 4900 0    50   BiDi ~ 0
+PULLDOWN1
+Text GLabel 4100 5000 0    50   BiDi ~ 0
+PULLDOWN2
+Text GLabel 4100 5100 0    50   BiDi ~ 0
+PULLDOWN3
+Text GLabel 4100 5200 0    50   BiDi ~ 0
+PULLDOWN4
+Text GLabel 4100 5300 0    50   BiDi ~ 0
+PULLDOWN5
+Text GLabel 4100 5400 0    50   BiDi ~ 0
+PULLDOWN6
+Text GLabel 4100 5500 0    50   BiDi ~ 0
+PULLDOWN7
+Text GLabel 5100 5000 2    50   BiDi ~ 0
+PULLDOWN8
+Text GLabel 5100 5100 2    50   BiDi ~ 0
+PULLDOWN9
+Text GLabel 5100 5200 2    50   BiDi ~ 0
+PULLDOWN10
+Text GLabel 5100 5400 2    50   BiDi ~ 0
+PULLDOWN12
+Text GLabel 5100 5300 2    50   BiDi ~ 0
+PULLDOWN11
+Text GLabel 5100 5600 2    50   BiDi ~ 0
+PULLDOWN14
+Text GLabel 5100 5500 2    50   BiDi ~ 0
+PULLDOWN13
+Text GLabel 6300 3750 0    50   BiDi ~ 0
+C-BSY
+Text GLabel 6300 3850 0    50   BiDi ~ 0
+C-MSG
+Text GLabel 6300 3950 0    50   BiDi ~ 0
+C-C_D
+Text GLabel 6300 4150 0    50   BiDi ~ 0
+C-I_O
+Text GLabel 6300 4050 0    50   BiDi ~ 0
+C-REQ
+Text GLabel 6300 4800 0    50   BiDi ~ 0
+C-ATN
+Text GLabel 6300 4900 0    50   BiDi ~ 0
+C-ACK
+Text GLabel 6300 5000 0    50   BiDi ~ 0
+C-RST
+Text GLabel 6300 5100 0    50   BiDi ~ 0
+C-SEL
+Text GLabel 6300 3450 0    50   BiDi ~ 0
+PULLDOWN15
+Text GLabel 6300 3550 0    50   BiDi ~ 0
+PULLDOWN16
+Text GLabel 6300 3650 0    50   BiDi ~ 0
+PULLDOWN17
+Text GLabel 6300 5200 0    50   BiDi ~ 0
+PULLDOWN18
+Text GLabel 6300 5300 0    50   BiDi ~ 0
+PULLDOWN19
+Text GLabel 6300 5400 0    50   BiDi ~ 0
+PULLDOWN20
+Text GLabel 6300 5500 0    50   BiDi ~ 0
+PULLDOWN21
+Text GLabel 7300 4900 2    50   BiDi ~ 0
+PI-ATN
+Text GLabel 7300 5100 2    50   BiDi ~ 0
+PI-RST
+Text GLabel 7300 5200 2    50   BiDi ~ 0
+PI-SEL
+Text GLabel 7300 5000 2    50   BiDi ~ 0
+PI-ACK
+Text GLabel 7300 4150 2    50   BiDi ~ 0
+PI-REQ
+Text GLabel 7300 4050 2    50   BiDi ~ 0
+PI-C_D
+Text GLabel 7300 3950 2    50   BiDi ~ 0
+PI-MSG
+Text GLabel 7300 3850 2    50   BiDi ~ 0
+PI-BSY
+Text GLabel 7300 4250 2    50   BiDi ~ 0
+PI-I_O
+Text GLabel 7300 3550 2    50   BiDi ~ 0
+PULLDOWN22
+Text GLabel 7300 3650 2    50   BiDi ~ 0
+PULLDOWN23
+Text GLabel 7300 3750 2    50   BiDi ~ 0
+PULLDOWN24
+Text GLabel 7300 5300 2    50   BiDi ~ 0
+PULLDOWN25
+Text GLabel 7300 5400 2    50   BiDi ~ 0
+PULLDOWN26
+Text GLabel 7300 5500 2    50   BiDi ~ 0
+PULLDOWN27
+Text GLabel 7300 5600 2    50   BiDi ~ 0
+PULLDOWN28
 Wire Wire Line
-	4600 5750 4600 6050
+	750  6750 1150 6750
 Wire Wire Line
-	4600 6050 5050 6050
+	750  7050 1150 7050
+$Comp
+L Device:C C1
+U 1 1 613DA9E3
+P 750 6900
+F 0 "C1" H 865 6946 50  0000 L CNN
+F 1 "330n" H 865 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 788 6750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" H 750 6900 50  0001 C CNN
+F 4 "C1740" H 750 6900 50  0001 C CNN "LCSC"
+F 5 "Guangdong Fenghua Advanced Tech" H 750 6900 50  0001 C CNN "Manufacturer_Name"
+F 6 "0805B334K500NT" H 750 6900 50  0001 C CNN "Manufacturer_Part_Number"
+	1    750  6900
+	1    0    0    -1  
+$EndComp
+Connection ~ 750  6750
+Connection ~ 750  7050
+$Comp
+L Device:C C2
+U 1 1 613DAD12
+P 1150 6900
+F 0 "C2" H 1265 6946 50  0000 L CNN
+F 1 "330n" H 1265 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1188 6750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0805B334K500NT_C1740.pdf" H 1150 6900 50  0001 C CNN
+F 4 "C1740" H 1150 6900 50  0001 C CNN "LCSC"
+F 5 "Guangdong Fenghua Advanced Tech" H 1150 6900 50  0001 C CNN "Manufacturer_Name"
+F 6 "0805B334K500NT" H 1150 6900 50  0001 C CNN "Manufacturer_Part_Number"
+	1    1150 6900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1150 6750
 Wire Wire Line
-	5050 6050 5050 5400
+	1150 6750 1550 6750
+Connection ~ 1150 7050
 Wire Wire Line
-	4500 5750 4600 5750
-Connection ~ 4600 5750
+	1150 7050 1550 7050
+Wire Wire Line
+	1550 6750 1950 6750
+Connection ~ 1550 6750
+Wire Wire Line
+	1950 6750 2350 6750
+Connection ~ 1950 6750
+Wire Wire Line
+	1550 7050 1950 7050
+Connection ~ 1550 7050
+Wire Wire Line
+	1950 7050 2350 7050
+Connection ~ 1950 7050
+Wire Wire Line
+	11450 550  11450 3250
 $EndSCHEMATC
