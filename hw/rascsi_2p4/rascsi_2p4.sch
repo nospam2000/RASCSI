@@ -1247,13 +1247,13 @@ Text GLabel 8050 1700 2    50   BiDi ~ 0
 C-BSY
 Text GLabel 10000 1600 2    50   BiDi ~ 0
 C-DP
-Text GLabel 10000 1100 2    50   BiDi ~ 0
-C-D7
-Text GLabel 10000 1900 2    50   BiDi ~ 0
-C-D6
-Text GLabel 10000 1800 2    50   BiDi ~ 0
-C-D5
 Text GLabel 10000 1700 2    50   BiDi ~ 0
+C-D7
+Text GLabel 10000 1800 2    50   BiDi ~ 0
+C-D6
+Text GLabel 10000 1900 2    50   BiDi ~ 0
+C-D5
+Text GLabel 10000 1100 2    50   BiDi ~ 0
 C-D4
 Text GLabel 10000 1200 2    50   BiDi ~ 0
 C-D3
@@ -1674,17 +1674,7 @@ Wire Wire Line
 	4300 5750 4400 5750
 Connection ~ 4300 5750
 Wire Wire Line
-	4400 5750 4500 5750
-Connection ~ 4400 5750
-Wire Wire Line
-	4500 5750 4600 5750
-Connection ~ 4500 5750
-Wire Wire Line
-	4600 5750 4700 5750
-Connection ~ 4600 5750
-Wire Wire Line
 	4700 5750 4800 5750
-Connection ~ 4700 5750
 Wire Wire Line
 	4800 5750 4900 5750
 Connection ~ 4800 5750
@@ -1708,17 +1698,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 3200 4350 3200
 Connection ~ 4250 3200
-$Comp
-L power:GND #PWR058
-U 1 1 61601475
-P 5050 5400
-F 0 "#PWR058" H 5050 5150 50  0001 C CNN
-F 1 "GND" V 5055 5272 50  0000 R CNN
-F 2 "" H 5050 5400 50  0001 C CNN
-F 3 "" H 5050 5400 50  0001 C CNN
-	1    5050 5400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L amiga:74ALVC164245DGG U2
 U 1 1 616278A2
@@ -1767,14 +1746,7 @@ Wire Wire Line
 	6800 5750 6900 5750
 Connection ~ 6800 5750
 Wire Wire Line
-	6900 5750 7000 5750
-Connection ~ 6900 5750
-Wire Wire Line
-	7000 5750 7100 5750
-Connection ~ 7000 5750
-Wire Wire Line
 	7100 5750 7200 5750
-Connection ~ 7100 5750
 Wire Wire Line
 	7200 5750 7300 5750
 Connection ~ 7200 5750
@@ -1794,17 +1766,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 3200 6750 3200
 Connection ~ 6650 3200
-$Comp
-L power:GND #PWR063
-U 1 1 616278E8
-P 7450 5400
-F 0 "#PWR063" H 7450 5150 50  0001 C CNN
-F 1 "GND" V 7455 5272 50  0000 R CNN
-F 2 "" H 7450 5400 50  0001 C CNN
-F 3 "" H 7450 5400 50  0001 C CNN
-	1    7450 5400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR062
 U 1 1 616278B9
@@ -1870,38 +1831,38 @@ PI-BSY
 Text GLabel 7450 4450 2    50   BiDi ~ 0
 PI-I_O
 Wire Wire Line
-	9650 9350 9500 9350
+	12000 550  11850 550 
 $Comp
 L Device:R_Small R59
 U 1 1 6195DFCA
-P 9400 9350
-F 0 "R59" V 9350 9450 50  0000 L CNN
-F 1 "100k" V 9350 9100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9350 50  0001 C CNN
-F 4 "C25741" V 9400 9350 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9350 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9350 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 9350 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 9350
+P 11750 550
+F 0 "R59" V 11700 650 50  0000 L CNN
+F 1 "100k" V 11700 300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 550 50  0001 C CNN
+F 4 "C25741" V 11750 550 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 550 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 550 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 550 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 550 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 9350 9300 9350
+	11450 550  11650 550 
 $Comp
 L power:GND #PWR064
 U 1 1 6199AA9A
-P 9100 9350
-F 0 "#PWR064" H 9100 9100 50  0001 C CNN
-F 1 "GND" V 9105 9222 50  0000 R CNN
-F 2 "" H 9100 9350 50  0001 C CNN
-F 3 "" H 9100 9350 50  0001 C CNN
-	1    9100 9350
+P 11450 550
+F 0 "#PWR064" H 11450 300 50  0001 C CNN
+F 1 "GND" V 11455 422 50  0000 R CNN
+F 2 "" H 11450 550 50  0001 C CNN
+F 3 "" H 11450 550 50  0001 C CNN
+	1    11450 550 
 	0    1    1    0   
 $EndComp
-Connection ~ 9100 9350
+Connection ~ 11450 550 
 Wire Wire Line
-	9100 9350 9100 9450
+	11450 550  11450 650 
 Text GLabel 4050 4650 0    50   BiDi ~ 0
 PULLDOWN1
 Text GLabel 4050 4750 0    50   BiDi ~ 0
@@ -1930,33 +1891,33 @@ Text GLabel 5050 5250 2    50   BiDi ~ 0
 PULLDOWN14
 Text GLabel 5050 5150 2    50   BiDi ~ 0
 PULLDOWN13
-Text GLabel 9650 9350 2    50   BiDi ~ 0
+Text GLabel 12000 550  2    50   BiDi ~ 0
 PULLDOWN1
-Text GLabel 9650 9450 2    50   BiDi ~ 0
+Text GLabel 12000 650  2    50   BiDi ~ 0
 PULLDOWN2
-Text GLabel 9650 9550 2    50   BiDi ~ 0
+Text GLabel 12000 750  2    50   BiDi ~ 0
 PULLDOWN3
-Text GLabel 9650 9650 2    50   BiDi ~ 0
+Text GLabel 12000 850  2    50   BiDi ~ 0
 PULLDOWN4
-Text GLabel 9650 9750 2    50   BiDi ~ 0
+Text GLabel 12000 950  2    50   BiDi ~ 0
 PULLDOWN5
-Text GLabel 9650 9850 2    50   BiDi ~ 0
+Text GLabel 12000 1050 2    50   BiDi ~ 0
 PULLDOWN6
-Text GLabel 9650 9950 2    50   BiDi ~ 0
+Text GLabel 12000 1150 2    50   BiDi ~ 0
 PULLDOWN7
-Text GLabel 9650 10050 2    50   BiDi ~ 0
+Text GLabel 12000 1250 2    50   BiDi ~ 0
 PULLDOWN8
-Text GLabel 9650 10150 2    50   BiDi ~ 0
+Text GLabel 12000 1350 2    50   BiDi ~ 0
 PULLDOWN9
-Text GLabel 9650 10250 2    50   BiDi ~ 0
+Text GLabel 12000 1450 2    50   BiDi ~ 0
 PULLDOWN10
-Text GLabel 9650 10450 2    50   BiDi ~ 0
+Text GLabel 12000 1650 2    50   BiDi ~ 0
 PULLDOWN12
-Text GLabel 9650 10350 2    50   BiDi ~ 0
+Text GLabel 12000 1550 2    50   BiDi ~ 0
 PULLDOWN11
-Text GLabel 9650 10650 2    50   BiDi ~ 0
+Text GLabel 12000 1850 2    50   BiDi ~ 0
 PULLDOWN14
-Text GLabel 9650 10550 2    50   BiDi ~ 0
+Text GLabel 12000 1750 2    50   BiDi ~ 0
 PULLDOWN13
 Text GLabel 6450 3750 0    50   BiDi ~ 0
 PULLDOWN15
@@ -1986,625 +1947,625 @@ Text GLabel 7450 5150 2    50   BiDi ~ 0
 PULLDOWN27
 Text GLabel 7450 5250 2    50   BiDi ~ 0
 PULLDOWN28
-Text GLabel 9650 10750 2    50   BiDi ~ 0
+Text GLabel 12000 1950 2    50   BiDi ~ 0
 PULLDOWN15
-Text GLabel 9650 10850 2    50   BiDi ~ 0
+Text GLabel 12000 2050 2    50   BiDi ~ 0
 PULLDOWN16
-Text GLabel 9650 10950 2    50   BiDi ~ 0
+Text GLabel 12000 2150 2    50   BiDi ~ 0
 PULLDOWN17
-Text GLabel 9650 11050 2    50   BiDi ~ 0
+Text GLabel 12000 2250 2    50   BiDi ~ 0
 PULLDOWN18
-Text GLabel 9650 11150 2    50   BiDi ~ 0
+Text GLabel 12000 2350 2    50   BiDi ~ 0
 PULLDOWN19
-Text GLabel 9650 11250 2    50   BiDi ~ 0
+Text GLabel 12000 2450 2    50   BiDi ~ 0
 PULLDOWN20
-Text GLabel 9650 11350 2    50   BiDi ~ 0
+Text GLabel 12000 2550 2    50   BiDi ~ 0
 PULLDOWN21
-Text GLabel 9650 11450 2    50   BiDi ~ 0
+Text GLabel 12000 2650 2    50   BiDi ~ 0
 PULLDOWN22
-Text GLabel 9650 11550 2    50   BiDi ~ 0
+Text GLabel 12000 2750 2    50   BiDi ~ 0
 PULLDOWN23
-Text GLabel 9650 11650 2    50   BiDi ~ 0
+Text GLabel 12000 2850 2    50   BiDi ~ 0
 PULLDOWN24
-Text GLabel 9650 12050 2    50   BiDi ~ 0
+Text GLabel 12000 3250 2    50   BiDi ~ 0
 PULLDOWN28
-Text GLabel 9650 11950 2    50   BiDi ~ 0
+Text GLabel 12000 3150 2    50   BiDi ~ 0
 PULLDOWN27
-Text GLabel 9650 11850 2    50   BiDi ~ 0
+Text GLabel 12000 3050 2    50   BiDi ~ 0
 PULLDOWN26
-Text GLabel 9650 11750 2    50   BiDi ~ 0
+Text GLabel 12000 2950 2    50   BiDi ~ 0
 PULLDOWN25
 Wire Wire Line
-	9650 9450 9500 9450
+	12000 650  11850 650 
 $Comp
 L Device:R_Small R60
 U 1 1 61B028F0
-P 9400 9450
-F 0 "R60" V 9350 9550 50  0000 L CNN
-F 1 "100k" V 9350 9200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9450 50  0001 C CNN
-F 4 "C25741" V 9400 9450 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9450 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9450 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 9450 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 9450
+P 11750 650
+F 0 "R60" V 11700 750 50  0000 L CNN
+F 1 "100k" V 11700 400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 650 50  0001 C CNN
+F 4 "C25741" V 11750 650 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 650 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 650 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 650 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 650 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 9450 9300 9450
+	11450 650  11650 650 
 Wire Wire Line
-	9650 9550 9500 9550
+	12000 750  11850 750 
 $Comp
 L Device:R_Small R61
 U 1 1 61B1A339
-P 9400 9550
-F 0 "R61" V 9350 9650 50  0000 L CNN
-F 1 "100k" V 9350 9300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9550 50  0001 C CNN
-F 4 "C25741" V 9400 9550 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9550 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9550 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 9550 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 9550
+P 11750 750
+F 0 "R61" V 11700 850 50  0000 L CNN
+F 1 "100k" V 11700 500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 750 50  0001 C CNN
+F 4 "C25741" V 11750 750 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 750 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 750 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 750 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 750 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 9550 9300 9550
+	11450 750  11650 750 
 Wire Wire Line
-	9650 9650 9500 9650
+	12000 850  11850 850 
 $Comp
 L Device:R_Small R62
 U 1 1 61B321AB
-P 9400 9650
-F 0 "R62" V 9350 9750 50  0000 L CNN
-F 1 "100k" V 9350 9400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9650 50  0001 C CNN
-F 4 "C25741" V 9400 9650 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9650 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9650 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 9650 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 9650
+P 11750 850
+F 0 "R62" V 11700 950 50  0000 L CNN
+F 1 "100k" V 11700 600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 850 50  0001 C CNN
+F 4 "C25741" V 11750 850 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 850 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 850 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 850 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 850 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 9650 9300 9650
+	11450 850  11650 850 
 Wire Wire Line
-	9650 9750 9500 9750
+	12000 950  11850 950 
 $Comp
 L Device:R_Small R63
 U 1 1 61B4A4B9
-P 9400 9750
-F 0 "R63" V 9350 9850 50  0000 L CNN
-F 1 "100k" V 9350 9500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9750 50  0001 C CNN
-F 4 "C25741" V 9400 9750 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9750 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9750 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 9750 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 9750
+P 11750 950
+F 0 "R63" V 11700 1050 50  0000 L CNN
+F 1 "100k" V 11700 700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 950 50  0001 C CNN
+F 4 "C25741" V 11750 950 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 950 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 950 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 950 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 950 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 9750 9300 9750
+	11450 950  11650 950 
 Wire Wire Line
-	9650 9850 9500 9850
+	12000 1050 11850 1050
 $Comp
 L Device:R_Small R64
 U 1 1 61B62B78
-P 9400 9850
-F 0 "R64" V 9350 9950 50  0000 L CNN
-F 1 "100k" V 9350 9600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9850 50  0001 C CNN
-F 4 "C25741" V 9400 9850 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9850 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9850 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 9850 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 9850
+P 11750 1050
+F 0 "R64" V 11700 1150 50  0000 L CNN
+F 1 "100k" V 11700 800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1050 50  0001 C CNN
+F 4 "C25741" V 11750 1050 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1050 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1050 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 1050 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 1050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 9850 9300 9850
+	11450 1050 11650 1050
 Wire Wire Line
-	9650 9950 9500 9950
+	12000 1150 11850 1150
 $Comp
 L Device:R_Small R65
 U 1 1 61B7B89A
-P 9400 9950
-F 0 "R65" V 9350 10050 50  0000 L CNN
-F 1 "100k" V 9350 9700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 9950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 9950 50  0001 C CNN
-F 4 "C25741" V 9400 9950 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 9950 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 9950 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 9950 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 9950
+P 11750 1150
+F 0 "R65" V 11700 1250 50  0000 L CNN
+F 1 "100k" V 11700 900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1150 50  0001 C CNN
+F 4 "C25741" V 11750 1150 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1150 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1150 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 1150 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 1150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 9950 9300 9950
+	11450 1150 11650 1150
 Wire Wire Line
-	9650 10050 9500 10050
+	12000 1250 11850 1250
 $Comp
 L Device:R_Small R66
 U 1 1 61B948AA
-P 9400 10050
-F 0 "R66" V 9350 10150 50  0000 L CNN
-F 1 "100k" V 9350 9800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10050 50  0001 C CNN
-F 4 "C25741" V 9400 10050 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10050 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10050 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 10050 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 10050
+P 11750 1250
+F 0 "R66" V 11700 1350 50  0000 L CNN
+F 1 "100k" V 11700 1000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1250 50  0001 C CNN
+F 4 "C25741" V 11750 1250 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1250 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1250 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 1250 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 1250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 10050 9300 10050
+	11450 1250 11650 1250
 Wire Wire Line
-	9650 10150 9500 10150
+	12000 1350 11850 1350
 $Comp
 L Device:R_Small R67
 U 1 1 61BADF9F
-P 9400 10150
-F 0 "R67" V 9350 10250 50  0000 L CNN
-F 1 "100k" V 9350 9900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10150 50  0001 C CNN
-F 4 "C25741" V 9400 10150 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10150 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10150 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 10150 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 10150
+P 11750 1350
+F 0 "R67" V 11700 1450 50  0000 L CNN
+F 1 "100k" V 11700 1100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1350 50  0001 C CNN
+F 4 "C25741" V 11750 1350 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1350 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1350 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 1350 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 1350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 10150 9300 10150
+	11450 1350 11650 1350
 Wire Wire Line
-	9650 10250 9500 10250
+	12000 1450 11850 1450
 $Comp
 L Device:R_Small R68
 U 1 1 61BC79A0
-P 9400 10250
-F 0 "R68" V 9350 10350 50  0000 L CNN
-F 1 "100k" V 9350 10000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10250 50  0001 C CNN
-F 4 "C25741" V 9400 10250 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10250 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10250 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 10250 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 10250
+P 11750 1450
+F 0 "R68" V 11700 1550 50  0000 L CNN
+F 1 "100k" V 11700 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1450 50  0001 C CNN
+F 4 "C25741" V 11750 1450 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1450 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1450 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 1450 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 1450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 10250 9300 10250
+	11450 1450 11650 1450
 Wire Wire Line
-	9650 10350 9500 10350
+	12000 1550 11850 1550
 $Comp
 L Device:R_Small R69
 U 1 1 61BE1BB7
-P 9400 10350
-F 0 "R69" V 9350 10450 50  0000 L CNN
-F 1 "100k" V 9350 10100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10350 50  0001 C CNN
-F 4 "C25741" V 9400 10350 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10350 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10350 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 10350 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 10350
+P 11750 1550
+F 0 "R69" V 11700 1650 50  0000 L CNN
+F 1 "100k" V 11700 1300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1550 50  0001 C CNN
+F 4 "C25741" V 11750 1550 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1550 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1550 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 1550 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 1550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 10350 9300 10350
+	11450 1550 11650 1550
 Wire Wire Line
-	9650 10450 9500 10450
+	12000 1650 11850 1650
 $Comp
 L Device:R_Small R70
 U 1 1 61BFBFE5
-P 9400 10450
-F 0 "R70" V 9350 10550 50  0000 L CNN
-F 1 "100k" V 9350 10200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10450 50  0001 C CNN
-F 4 "C25741" V 9400 10450 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10450 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10450 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 10450 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 10450
+P 11750 1650
+F 0 "R70" V 11700 1750 50  0000 L CNN
+F 1 "100k" V 11700 1400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1650 50  0001 C CNN
+F 4 "C25741" V 11750 1650 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1650 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1650 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 1650 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 1650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 10450 9300 10450
+	11450 1650 11650 1650
 Wire Wire Line
-	9650 10550 9500 10550
+	12000 1750 11850 1750
 $Comp
 L Device:R_Small R71
 U 1 1 61C168AA
-P 9400 10550
-F 0 "R71" V 9350 10650 50  0000 L CNN
-F 1 "100k" V 9350 10300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10550 50  0001 C CNN
-F 4 "C25741" V 9400 10550 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10550 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10550 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 10550 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 10550
+P 11750 1750
+F 0 "R71" V 11700 1850 50  0000 L CNN
+F 1 "100k" V 11700 1500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1750 50  0001 C CNN
+F 4 "C25741" V 11750 1750 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1750 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1750 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 1750 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 1750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 10550 9300 10550
+	11450 1750 11650 1750
 Wire Wire Line
-	9650 10650 9500 10650
+	12000 1850 11850 1850
 $Comp
 L Device:R_Small R72
 U 1 1 61C316F6
-P 9400 10650
-F 0 "R72" V 9350 10750 50  0000 L CNN
-F 1 "100k" V 9350 10400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10650 50  0001 C CNN
-F 4 "C25741" V 9400 10650 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10650 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10650 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 10650 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 10650
+P 11750 1850
+F 0 "R72" V 11700 1950 50  0000 L CNN
+F 1 "100k" V 11700 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1850 50  0001 C CNN
+F 4 "C25741" V 11750 1850 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1850 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1850 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 1850 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 1850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 10650 9300 10650
+	11450 1850 11650 1850
 Wire Wire Line
-	9650 10750 9500 10750
+	12000 1950 11850 1950
 $Comp
 L Device:R_Small R73
 U 1 1 61C4CA42
-P 9400 10750
-F 0 "R73" V 9350 10850 50  0000 L CNN
-F 1 "100k" V 9350 10500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10750 50  0001 C CNN
-F 4 "C25741" V 9400 10750 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10750 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10750 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 10750 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 10750
+P 11750 1950
+F 0 "R73" V 11700 2050 50  0000 L CNN
+F 1 "100k" V 11700 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 1950 50  0001 C CNN
+F 4 "C25741" V 11750 1950 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 1950 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 1950 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 1950 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 1950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 10750 9300 10750
+	11450 1950 11650 1950
 Wire Wire Line
-	9650 10850 9500 10850
+	12000 2050 11850 2050
 $Comp
 L Device:R_Small R74
 U 1 1 61C681D5
-P 9400 10850
-F 0 "R74" V 9350 10950 50  0000 L CNN
-F 1 "100k" V 9350 10600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10850 50  0001 C CNN
-F 4 "C25741" V 9400 10850 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10850 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10850 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 10850 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 10850
+P 11750 2050
+F 0 "R74" V 11700 2150 50  0000 L CNN
+F 1 "100k" V 11700 1800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2050 50  0001 C CNN
+F 4 "C25741" V 11750 2050 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2050 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2050 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 2050 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 2050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 10850 9300 10850
+	11450 2050 11650 2050
 Wire Wire Line
-	9650 10950 9500 10950
+	12000 2150 11850 2150
 $Comp
 L Device:R_Small R75
 U 1 1 61C83E54
-P 9400 10950
-F 0 "R75" V 9350 11050 50  0000 L CNN
-F 1 "100k" V 9350 10700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 10950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 10950 50  0001 C CNN
-F 4 "C25741" V 9400 10950 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 10950 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 10950 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 10950 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 10950
+P 11750 2150
+F 0 "R75" V 11700 2250 50  0000 L CNN
+F 1 "100k" V 11700 1900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2150 50  0001 C CNN
+F 4 "C25741" V 11750 2150 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2150 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2150 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 2150 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 2150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 10950 9300 10950
+	11450 2150 11650 2150
 Wire Wire Line
-	9650 11050 9500 11050
+	12000 2250 11850 2250
 $Comp
 L Device:R_Small R76
 U 1 1 61CA00AF
-P 9400 11050
-F 0 "R76" V 9350 11150 50  0000 L CNN
-F 1 "100k" V 9350 10800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11050 50  0001 C CNN
-F 4 "C25741" V 9400 11050 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11050 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11050 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 11050 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 11050
+P 11750 2250
+F 0 "R76" V 11700 2350 50  0000 L CNN
+F 1 "100k" V 11700 2000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2250 50  0001 C CNN
+F 4 "C25741" V 11750 2250 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2250 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2250 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 2250 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 2250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 11050 9300 11050
+	11450 2250 11650 2250
 Wire Wire Line
-	9650 11150 9500 11150
+	12000 2350 11850 2350
 $Comp
 L Device:R_Small R77
 U 1 1 61CBC6B3
-P 9400 11150
-F 0 "R77" V 9350 11250 50  0000 L CNN
-F 1 "100k" V 9350 10900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11150 50  0001 C CNN
-F 4 "C25741" V 9400 11150 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11150 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11150 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 11150 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 11150
+P 11750 2350
+F 0 "R77" V 11700 2450 50  0000 L CNN
+F 1 "100k" V 11700 2100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2350 50  0001 C CNN
+F 4 "C25741" V 11750 2350 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2350 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2350 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 2350 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 2350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 11150 9300 11150
+	11450 2350 11650 2350
 Wire Wire Line
-	9650 11250 9500 11250
+	12000 2450 11850 2450
 $Comp
 L Device:R_Small R78
 U 1 1 61CD921B
-P 9400 11250
-F 0 "R78" V 9350 11350 50  0000 L CNN
-F 1 "100k" V 9350 11000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11250 50  0001 C CNN
-F 4 "C25741" V 9400 11250 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11250 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11250 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 11250 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 11250
+P 11750 2450
+F 0 "R78" V 11700 2550 50  0000 L CNN
+F 1 "100k" V 11700 2200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2450 50  0001 C CNN
+F 4 "C25741" V 11750 2450 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2450 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2450 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 2450 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 2450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 11250 9300 11250
+	11450 2450 11650 2450
 Wire Wire Line
-	9650 11350 9500 11350
+	12000 2550 11850 2550
 $Comp
 L Device:R_Small R79
 U 1 1 61CF62F6
-P 9400 11350
-F 0 "R79" V 9350 11450 50  0000 L CNN
-F 1 "100k" V 9350 11100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11350 50  0001 C CNN
-F 4 "C25741" V 9400 11350 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11350 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11350 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 11350 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 11350
+P 11750 2550
+F 0 "R79" V 11700 2650 50  0000 L CNN
+F 1 "100k" V 11700 2300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2550 50  0001 C CNN
+F 4 "C25741" V 11750 2550 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2550 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2550 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 2550 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 2550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 11350 9300 11350
+	11450 2550 11650 2550
 Wire Wire Line
-	9650 11450 9500 11450
+	12000 2650 11850 2650
 $Comp
 L Device:R_Small R80
 U 1 1 61D13953
-P 9400 11450
-F 0 "R80" V 9350 11550 50  0000 L CNN
-F 1 "100k" V 9350 11200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11450 50  0001 C CNN
-F 4 "C25741" V 9400 11450 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11450 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11450 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 11450 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 11450
+P 11750 2650
+F 0 "R80" V 11700 2750 50  0000 L CNN
+F 1 "100k" V 11700 2400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2650 50  0001 C CNN
+F 4 "C25741" V 11750 2650 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2650 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2650 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 2650 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 2650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 11450 9300 11450
+	11450 2650 11650 2650
 Wire Wire Line
-	9650 11550 9500 11550
+	12000 2750 11850 2750
 $Comp
 L Device:R_Small R81
 U 1 1 61D5040D
-P 9400 11550
-F 0 "R81" V 9350 11650 50  0000 L CNN
-F 1 "100k" V 9350 11300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11550 50  0001 C CNN
-F 4 "C25741" V 9400 11550 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11550 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11550 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 11550 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 11550
+P 11750 2750
+F 0 "R81" V 11700 2850 50  0000 L CNN
+F 1 "100k" V 11700 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2750 50  0001 C CNN
+F 4 "C25741" V 11750 2750 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2750 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2750 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 2750 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 2750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 11550 9300 11550
+	11450 2750 11650 2750
 Wire Wire Line
-	9650 11650 9500 11650
+	12000 2850 11850 2850
 $Comp
 L Device:R_Small R82
 U 1 1 61D6E59B
-P 9400 11650
-F 0 "R82" V 9350 11750 50  0000 L CNN
-F 1 "100k" V 9350 11400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11650 50  0001 C CNN
-F 4 "C25741" V 9400 11650 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11650 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11650 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 11650 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 11650
+P 11750 2850
+F 0 "R82" V 11700 2950 50  0000 L CNN
+F 1 "100k" V 11700 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2850 50  0001 C CNN
+F 4 "C25741" V 11750 2850 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2850 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2850 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 2850 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 2850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 11650 9300 11650
+	11450 2850 11650 2850
 Wire Wire Line
-	9650 11750 9500 11750
+	12000 2950 11850 2950
 $Comp
 L Device:R_Small R83
 U 1 1 61D8CCD8
-P 9400 11750
-F 0 "R83" V 9350 11850 50  0000 L CNN
-F 1 "100k" V 9350 11500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11750 50  0001 C CNN
-F 4 "C25741" V 9400 11750 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11750 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11750 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 11750 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 11750
+P 11750 2950
+F 0 "R83" V 11700 3050 50  0000 L CNN
+F 1 "100k" V 11700 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 2950 50  0001 C CNN
+F 4 "C25741" V 11750 2950 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 2950 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 2950 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 2950 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 2950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 11750 9300 11750
+	11450 2950 11650 2950
 Wire Wire Line
-	9650 11850 9500 11850
+	12000 3050 11850 3050
 $Comp
 L Device:R_Small R84
 U 1 1 61DAB9D3
-P 9400 11850
-F 0 "R84" V 9350 11950 50  0000 L CNN
-F 1 "100k" V 9350 11600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11850 50  0001 C CNN
-F 4 "C25741" V 9400 11850 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11850 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11850 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 11850 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 11850
+P 11750 3050
+F 0 "R84" V 11700 3150 50  0000 L CNN
+F 1 "100k" V 11700 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 3050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 3050 50  0001 C CNN
+F 4 "C25741" V 11750 3050 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 3050 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 3050 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 3050 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 3050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 11850 9300 11850
+	11450 3050 11650 3050
 Wire Wire Line
-	9650 11950 9500 11950
+	12000 3150 11850 3150
 $Comp
 L Device:R_Small R85
 U 1 1 61DCAC9B
-P 9400 11950
-F 0 "R85" V 9350 12050 50  0000 L CNN
-F 1 "100k" V 9350 11700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 11950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 11950 50  0001 C CNN
-F 4 "C25741" V 9400 11950 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 11950 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 11950 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 11950 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 11950
+P 11750 3150
+F 0 "R85" V 11700 3250 50  0000 L CNN
+F 1 "100k" V 11700 2900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 3150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 3150 50  0001 C CNN
+F 4 "C25741" V 11750 3150 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 3150 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 3150 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 3150 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 3150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 11950 9300 11950
+	11450 3150 11650 3150
 Wire Wire Line
-	9650 12050 9500 12050
+	12000 3250 11850 3250
 $Comp
 L Device:R_Small R86
 U 1 1 61DEA53F
-P 9400 12050
-F 0 "R86" V 9350 12150 50  0000 L CNN
-F 1 "100k" V 9350 11800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9400 12050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 9400 12050 50  0001 C CNN
-F 4 "C25741" V 9400 12050 50  0001 C CNN "LCSC"
-F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 9400 12050 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 9400 12050 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1003TCE" H 9400 12050 50  0001 C CNN "Manufacturer_Part_Number"
-	1    9400 12050
+P 11750 3250
+F 0 "R86" V 11700 3350 50  0000 L CNN
+F 1 "100k" V 11700 3000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11750 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1003TCE_C25741.pdf" H 11750 3250 50  0001 C CNN
+F 4 "C25741" V 11750 3250 50  0001 C CNN "LCSC"
+F 5 "Chip Resistor - Surface Mount 100KOhms ±1% 1/16W 0402 RoHS" H 11750 3250 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 11750 3250 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1003TCE" H 11750 3250 50  0001 C CNN "Manufacturer_Part_Number"
+	1    11750 3250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9100 12050 9300 12050
-Connection ~ 9100 9450
+	11450 3250 11650 3250
+Connection ~ 11450 650 
 Wire Wire Line
-	9100 9450 9100 9550
-Connection ~ 9100 9550
+	11450 650  11450 750 
+Connection ~ 11450 750 
 Wire Wire Line
-	9100 9550 9100 9650
-Connection ~ 9100 9650
+	11450 750  11450 850 
+Connection ~ 11450 850 
 Wire Wire Line
-	9100 9650 9100 9750
-Connection ~ 9100 9750
+	11450 850  11450 950 
+Connection ~ 11450 950 
 Wire Wire Line
-	9100 9750 9100 9850
-Connection ~ 9100 9850
+	11450 950  11450 1050
+Connection ~ 11450 1050
 Wire Wire Line
-	9100 9850 9100 9950
-Connection ~ 9100 9950
+	11450 1050 11450 1150
+Connection ~ 11450 1150
 Wire Wire Line
-	9100 9950 9100 10050
-Connection ~ 9100 10050
+	11450 1150 11450 1250
+Connection ~ 11450 1250
 Wire Wire Line
-	9100 10050 9100 10150
-Connection ~ 9100 10150
+	11450 1250 11450 1350
+Connection ~ 11450 1350
 Wire Wire Line
-	9100 10150 9100 10250
-Connection ~ 9100 10250
+	11450 1350 11450 1450
+Connection ~ 11450 1450
 Wire Wire Line
-	9100 10250 9100 10350
-Connection ~ 9100 10350
+	11450 1450 11450 1550
+Connection ~ 11450 1550
 Wire Wire Line
-	9100 10350 9100 10450
-Connection ~ 9100 10450
+	11450 1550 11450 1650
+Connection ~ 11450 1650
 Wire Wire Line
-	9100 10450 9100 10550
-Connection ~ 9100 10550
+	11450 1650 11450 1750
+Connection ~ 11450 1750
 Wire Wire Line
-	9100 10550 9100 10650
-Connection ~ 9100 10650
+	11450 1750 11450 1850
+Connection ~ 11450 1850
 Wire Wire Line
-	9100 10650 9100 10750
-Connection ~ 9100 10750
+	11450 1850 11450 1950
+Connection ~ 11450 1950
 Wire Wire Line
-	9100 10750 9100 10850
-Connection ~ 9100 10850
+	11450 1950 11450 2050
+Connection ~ 11450 2050
 Wire Wire Line
-	9100 10850 9100 10950
-Connection ~ 9100 10950
+	11450 2050 11450 2150
+Connection ~ 11450 2150
 Wire Wire Line
-	9100 10950 9100 11050
-Connection ~ 9100 11050
+	11450 2150 11450 2250
+Connection ~ 11450 2250
 Wire Wire Line
-	9100 11050 9100 11150
-Connection ~ 9100 11150
+	11450 2250 11450 2350
+Connection ~ 11450 2350
 Wire Wire Line
-	9100 11150 9100 11250
-Connection ~ 9100 11250
+	11450 2350 11450 2450
+Connection ~ 11450 2450
 Wire Wire Line
-	9100 11250 9100 11350
-Connection ~ 9100 11350
+	11450 2450 11450 2550
+Connection ~ 11450 2550
 Wire Wire Line
-	9100 11350 9100 11450
-Connection ~ 9100 11450
+	11450 2550 11450 2650
+Connection ~ 11450 2650
 Wire Wire Line
-	9100 11450 9100 11550
-Connection ~ 9100 11550
+	11450 2650 11450 2750
+Connection ~ 11450 2750
 Wire Wire Line
-	9100 11550 9100 11650
-Connection ~ 9100 11650
+	11450 2750 11450 2850
+Connection ~ 11450 2850
 Wire Wire Line
-	9100 11650 9100 11750
-Connection ~ 9100 11750
+	11450 2850 11450 2950
+Connection ~ 11450 2950
 Wire Wire Line
-	9100 11750 9100 11850
-Connection ~ 9100 11850
+	11450 2950 11450 3050
+Connection ~ 11450 3050
 Wire Wire Line
-	9100 11850 9100 11950
-Connection ~ 9100 11950
+	11450 3050 11450 3150
+Connection ~ 11450 3150
 Wire Wire Line
-	9100 11950 9100 12050
+	11450 3150 11450 3250
 Text GLabel 5050 4550 2    50   BiDi ~ 0
 PI-DP
 $Comp
@@ -3074,4 +3035,95 @@ Connection ~ 8100 2250
 Wire Wire Line
 	10400 2250 9900 2250
 Connection ~ 9900 2250
+$Comp
+L amiga:NarrowPowerAdapter U5
+U 1 1 637D31F7
+P 12000 4450
+F 0 "U5" H 12000 4675 50  0000 C CNN
+F 1 "NarrowPowerAdapter" H 12000 4584 50  0000 C CNN
+F 2 "amiga:NarrowPowerAdapter_0.60_to_0.25" H 11950 4650 50  0001 C CNN
+F 3 "" H 12000 4450 50  0001 C CNN
+	1    12000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 637D429F
+P 11550 4450
+F 0 "#PWR0114" H 11550 4200 50  0001 C CNN
+F 1 "GND" V 11555 4322 50  0000 R CNN
+F 2 "" H 11550 4450 50  0001 C CNN
+F 3 "" H 11550 4450 50  0001 C CNN
+	1    11550 4450
+	0    1    1    0   
+$EndComp
+Text GLabel 12450 4450 2    50   BiDi ~ 0
+GND_U1_A
+$Comp
+L amiga:NarrowPowerAdapter U6
+U 1 1 637D6520
+P 12000 4800
+F 0 "U6" H 12000 5025 50  0000 C CNN
+F 1 "NarrowPowerAdapter" H 12000 4934 50  0000 C CNN
+F 2 "amiga:NarrowPowerAdapter_0.60_to_0.25" H 11950 5000 50  0001 C CNN
+F 3 "" H 12000 4800 50  0001 C CNN
+	1    12000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 637D6526
+P 11550 4800
+F 0 "#PWR0115" H 11550 4550 50  0001 C CNN
+F 1 "GND" V 11555 4672 50  0000 R CNN
+F 2 "" H 11550 4800 50  0001 C CNN
+F 3 "" H 11550 4800 50  0001 C CNN
+	1    11550 4800
+	0    1    1    0   
+$EndComp
+Text GLabel 12450 4800 2    50   BiDi ~ 0
+GND_U2_A
+Text GLabel 5050 5400 2    50   BiDi ~ 0
+GND_U1_A
+$Comp
+L power:GND #PWR0116
+U 1 1 6383CAF9
+P 7300 5750
+F 0 "#PWR0116" H 7300 5500 50  0001 C CNN
+F 1 "GND" V 7305 5622 50  0000 R CNN
+F 2 "" H 7300 5750 50  0001 C CNN
+F 3 "" H 7300 5750 50  0001 C CNN
+	1    7300 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7300 5750
+Wire Wire Line
+	7000 5750 7000 6050
+Wire Wire Line
+	7000 6050 7450 6050
+Wire Wire Line
+	7450 6050 7450 5400
+$Comp
+L power:GND #PWR0117
+U 1 1 6389F26E
+P 4900 5750
+F 0 "#PWR0117" H 4900 5500 50  0001 C CNN
+F 1 "GND" V 4905 5622 50  0000 R CNN
+F 2 "" H 4900 5750 50  0001 C CNN
+F 3 "" H 4900 5750 50  0001 C CNN
+	1    4900 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 5750
+Text GLabel 7450 5400 2    50   BiDi ~ 0
+GND_U2_A
+Wire Wire Line
+	4600 5750 4600 6050
+Wire Wire Line
+	4600 6050 5050 6050
+Wire Wire Line
+	5050 6050 5050 5400
+Wire Wire Line
+	4500 5750 4600 5750
+Connection ~ 4600 5750
 $EndSCHEMATC

@@ -31,6 +31,7 @@ Comment,Designator,Footprint,LCSC
 "TestPoint","TP1,TP2,TP3","TestPoint:TestPoint_Pad_D1.0mm","N/A"
 "74ALVC164245DGG","U1,U2","Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm",""
 "UCC5606PWPTR","U3,U4","Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm",""
+"NarrowPowerAdapter","U5,U6","amiga:NarrowPowerAdapter_0.60_to_0.25",""
 "Mac","X1,X3","SamacSys_Parts:mac_happy_small","N/A"
 "Pi","X7","SamacSys_Parts:pi_logo","N/A"
 "Pi","X8","SamacSys_Parts:scsi_logo","N/A"
