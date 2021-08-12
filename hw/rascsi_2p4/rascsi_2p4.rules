@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 248)
+    (start_pass_no 30874)
     (layer_rule Top
       (active on)
       (preferred_direction vertical)
@@ -99,6 +99,7 @@
     PULLDOWN7 PULLDOWN8 PULLDOWN9 PULLDOWN10 PULLDOWN11 PULLDOWN12 PULLDOWN13 PULLDOWN14
     PULLDOWN15 PULLDOWN16 PULLDOWN17 PULLDOWN18 PULLDOWN19 PULLDOWN20 PULLDOWN21 PULLDOWN22
     PULLDOWN23 PULLDOWN24 PULLDOWN25 PULLDOWN26 PULLDOWN27 PULLDOWN28 "Net-(D6-Pad2)" "~TERM_ENABLE"
+    "GND_U1_A" "GND_U2_A"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

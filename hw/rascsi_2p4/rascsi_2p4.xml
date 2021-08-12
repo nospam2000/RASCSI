@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/michael/Documents/Amiga/RASCSI/hw/rascsi_2p4/rascsi_2p4.sch</source>
-    <date>2021 August 11, Wednesday 07:48:28</date>
+    <date>2021 August 12, Thursday 03:48:18</date>
     <tool>Eeschema (5.1.6-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -241,20 +241,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFCC51E</tstamp>
     </comp>
-    <comp ref="X2">
-      <value>Dogcow</value>
-      <footprint>SamacSys_Parts:dogcow</footprint>
-      <datasheet>N/A - Silkscreen</datasheet>
-      <fields>
-        <field name="Description">N/A - Silkscreen</field>
-        <field name="LCSC">N/A</field>
-        <field name="Manufacturer_Name">N/A</field>
-        <field name="Manufacturer_Part_Number">N/A</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="Logo" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EFCD6CA</tstamp>
-    </comp>
     <comp ref="X3">
       <value>Mac</value>
       <footprint>SamacSys_Parts:mac_happy_small</footprint>
@@ -268,34 +254,6 @@
       <libsource lib="SamacSys_Parts" part="Logo" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFCD8D2</tstamp>
-    </comp>
-    <comp ref="X5">
-      <value>Dogcow</value>
-      <footprint>SamacSys_Parts:dogcow</footprint>
-      <datasheet>N/A - Silkscreen</datasheet>
-      <fields>
-        <field name="Description">N/A - Silkscreen</field>
-        <field name="LCSC">N/A</field>
-        <field name="Manufacturer_Name">N/A</field>
-        <field name="Manufacturer_Part_Number">N/A</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="Logo" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EFCDBC9</tstamp>
-    </comp>
-    <comp ref="X6">
-      <value>Dogcow</value>
-      <footprint>SamacSys_Parts:dogcow</footprint>
-      <datasheet>N/A - Silkscreen</datasheet>
-      <fields>
-        <field name="Description">N/A - Silkscreen</field>
-        <field name="LCSC">N/A</field>
-        <field name="Manufacturer_Name">N/A</field>
-        <field name="Manufacturer_Part_Number">N/A</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="Logo" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EFCDFAD</tstamp>
     </comp>
     <comp ref="J4">
       <value>I2C Pinout</value>
@@ -325,20 +283,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F2D2B3B</tstamp>
     </comp>
-    <comp ref="X4">
-      <value>Dogcow</value>
-      <footprint>SamacSys_Parts:dogcow</footprint>
-      <datasheet>N/A - Silkscreen</datasheet>
-      <fields>
-        <field name="Description">N/A - Silkscreen</field>
-        <field name="LCSC">N/A</field>
-        <field name="Manufacturer_Name">N/A</field>
-        <field name="Manufacturer_Part_Number">N/A</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="Logo" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EFCDD94</tstamp>
-    </comp>
     <comp ref="S1">
       <value>Switch x2</value>
       <footprint>rascsi_din:SOIC127P812X230-4N</footprint>
@@ -352,76 +296,6 @@
       <libsource lib="SamacSys_Parts" part="TDA02H0SB1R" description="DIP Switches / SIP Switches HALF PITCH 2 POS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F38ECD6</tstamp>
-    </comp>
-    <comp ref="R31">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F34697E</tstamp>
-    </comp>
-    <comp ref="IC1">
-      <value>SN74LS641-1DW</value>
-      <footprint>SamacSys_Parts:SOIC127P1030X265-20N</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ls641.pdf?ts=1596466276486&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74LS641-1DW</datasheet>
-      <fields>
-        <field name="Description">Octal bus transceivers</field>
-        <field name="LCSC">N/A</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">SN74LS641-1DW</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="SN74LS245DW" description="Octal bus transceivers"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F2BE68A</tstamp>
-    </comp>
-    <comp ref="IC2">
-      <value>SN74LS641-1DW</value>
-      <footprint>SamacSys_Parts:SOIC127P1030X265-20N</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ls641.pdf?ts=1596466276486&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74LS641-1DW</datasheet>
-      <fields>
-        <field name="Description">Octal bus transceivers</field>
-        <field name="LCSC">N/A</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">SN74LS641-1DW</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="SN74LS245DW" description="Octal bus transceivers"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F2C1889</tstamp>
-    </comp>
-    <comp ref="IC3">
-      <value>SN74LS641-1DW</value>
-      <footprint>SamacSys_Parts:SOIC127P1030X265-20N</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ls641.pdf?ts=1596466276486&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74LS641-1DW</datasheet>
-      <fields>
-        <field name="Description">Octal bus transceivers</field>
-        <field name="LCSC">N/A</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">SN74LS641-1DW</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="SN74LS245DW" description="Octal bus transceivers"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F2C26E6</tstamp>
-    </comp>
-    <comp ref="IC4">
-      <value>SN74LS641-1DW</value>
-      <footprint>SamacSys_Parts:SOIC127P1030X265-20N</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ls641.pdf?ts=1596466276486&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74LS641-1DW</datasheet>
-      <fields>
-        <field name="Description">Octal bus transceivers</field>
-        <field name="LCSC">N/A</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">SN74LS641-1DW</field>
-      </fields>
-      <libsource lib="SamacSys_Parts" part="SN74LS245DW" description="Octal bus transceivers"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F2C314F</tstamp>
     </comp>
     <comp ref="R13">
       <value>10k</value>
@@ -674,496 +548,6 @@
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F560AC2</tstamp>
-    </comp>
-    <comp ref="R30">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F737D06</tstamp>
-    </comp>
-    <comp ref="R29">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F737F19</tstamp>
-    </comp>
-    <comp ref="R28">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7380C0</tstamp>
-    </comp>
-    <comp ref="R27">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F738225</tstamp>
-    </comp>
-    <comp ref="R26">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7383C6</tstamp>
-    </comp>
-    <comp ref="R25">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7384B7</tstamp>
-    </comp>
-    <comp ref="R24">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7385AE</tstamp>
-    </comp>
-    <comp ref="R23">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F738717</tstamp>
-    </comp>
-    <comp ref="R40">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F738860</tstamp>
-    </comp>
-    <comp ref="R39">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F738A29</tstamp>
-    </comp>
-    <comp ref="R38">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F738B34</tstamp>
-    </comp>
-    <comp ref="R37">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F738C93</tstamp>
-    </comp>
-    <comp ref="R36">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F738DEC</tstamp>
-    </comp>
-    <comp ref="R35">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F738F7D</tstamp>
-    </comp>
-    <comp ref="R34">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F73904C</tstamp>
-    </comp>
-    <comp ref="R33">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F739229</tstamp>
-    </comp>
-    <comp ref="R32">
-      <value>220</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
-      <fields>
-        <field name="Description">220Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25091</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF2200TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F73941A</tstamp>
-    </comp>
-    <comp ref="R41">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B429D</tstamp>
-    </comp>
-    <comp ref="R42">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B4A2E</tstamp>
-    </comp>
-    <comp ref="R43">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B4B35</tstamp>
-    </comp>
-    <comp ref="R44">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B4C32</tstamp>
-    </comp>
-    <comp ref="R45">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B4DA1</tstamp>
-    </comp>
-    <comp ref="R46">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B4FCE</tstamp>
-    </comp>
-    <comp ref="R47">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B511D</tstamp>
-    </comp>
-    <comp ref="R48">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B523C</tstamp>
-    </comp>
-    <comp ref="R49">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B5465</tstamp>
-    </comp>
-    <comp ref="R50">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B55EE</tstamp>
-    </comp>
-    <comp ref="R51">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B583D</tstamp>
-    </comp>
-    <comp ref="R52">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B594E</tstamp>
-    </comp>
-    <comp ref="R53">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B5AF5</tstamp>
-    </comp>
-    <comp ref="R54">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B5C32</tstamp>
-    </comp>
-    <comp ref="R55">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B5DC7</tstamp>
-    </comp>
-    <comp ref="R56">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B5EDA</tstamp>
-    </comp>
-    <comp ref="R57">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B602D</tstamp>
-    </comp>
-    <comp ref="R58">
-      <value>330</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151642_UNI-ROYAL-Uniroyal-Elec-0402WGF3300TCE_C25104.pdf</datasheet>
-      <fields>
-        <field name="Description">330Ω ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
-        <field name="LCSC">C25104</field>
-        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Manufacturer_Part_Number">0402WGF3300TCE</field>
-      </fields>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F7B612E</tstamp>
     </comp>
     <comp ref="R3">
       <value>5.1k</value>
@@ -1775,6 +1159,117 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62625CE2</tstamp>
     </comp>
+    <comp ref="U4">
+      <value>UCC5606PWPTR</value>
+      <footprint>Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a</datasheet>
+      <libsource lib="amiga" part="UCC5606PWPTR" description="9-LINE 3 TO 5 VOLT SCSI ACTIVE TERMINATOR, REVERSE DISCONNECT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628EED4A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1779</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A475KAQNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>628F5101</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1779</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A475KAQNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62AF0127</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>UCC5606PWPTR</value>
+      <footprint>Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a</datasheet>
+      <libsource lib="amiga" part="UCC5606PWPTR" description="9-LINE 3 TO 5 VOLT SCSI ACTIVE TERMINATOR, REVERSE DISCONNECT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62E764ED</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1779</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A475KAQNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62E764F6</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1809301717_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="Description">10kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
+        <field name="LCSC">C25744</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0402WGF1002TCE</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63241307</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1809192311_UNI-ROYAL-Uniroyal-Elec-0402WGF2001TCE_C4109.pdf</datasheet>
+      <fields>
+        <field name="Description">2kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor</field>
+        <field name="LCSC">C4109</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0402WGF2001TCE</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6327B8D8</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1806151820_Hubei-KENTO-Elec-C2297_C2297.pdf</datasheet>
+      <fields>
+        <field name="Description">0805 Light Emitting Diodes (LED) RoHS</field>
+        <field name="LCSC">C2297</field>
+        <field name="Manufacturer_Name">Hubei KENTO Elec</field>
+        <field name="Manufacturer_Part_Number">C2297</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6327B8E2</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>NarrowPowerAdapter</value>
+      <footprint>amiga:NarrowPowerAdapter_0.60_to_0.25</footprint>
+      <libsource lib="amiga" part="NarrowPowerAdapter" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>637D31F7</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>NarrowPowerAdapter</value>
+      <footprint>amiga:NarrowPowerAdapter_0.60_to_0.25</footprint>
+      <libsource lib="amiga" part="NarrowPowerAdapter" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>637D6520</tstamp>
+    </comp>
     <comp ref="J8">
       <value>USB_B_Micro</value>
       <footprint>SamacSys_Parts:U254051N4BH806</footprint>
@@ -2276,44 +1771,6 @@
         <field name="Value">Logo</field>
       </fields>
     </libpart>
-    <libpart lib="SamacSys_Parts" part="SN74LS245DW">
-      <description>Octal bus transceivers</description>
-      <docs>http://www.ti.com/lit/gpn/sn74ls245</docs>
-      <fields>
-        <field name="Reference">IC</field>
-        <field name="Value">SN74LS245DW</field>
-        <field name="Footprint">SOIC127P1030X265-20N</field>
-        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74ls245</field>
-        <field name="Description">Octal bus transceivers</field>
-        <field name="Height">2.65</field>
-        <field name="Mouser Part Number">595-SN74LS245DW</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LS245DW?qs=ZA235jQDfbpxKQZqDHbgmw%3D%3D</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">SN74LS245DW</field>
-      </fields>
-      <pins>
-        <pin num="1" name="DIR" type="passive"/>
-        <pin num="2" name="A1" type="passive"/>
-        <pin num="3" name="A2" type="passive"/>
-        <pin num="4" name="A3" type="passive"/>
-        <pin num="5" name="A4" type="passive"/>
-        <pin num="6" name="A5" type="passive"/>
-        <pin num="7" name="A6" type="passive"/>
-        <pin num="8" name="A7" type="passive"/>
-        <pin num="9" name="A8" type="passive"/>
-        <pin num="10" name="GND" type="passive"/>
-        <pin num="11" name="B8" type="passive"/>
-        <pin num="12" name="B7" type="passive"/>
-        <pin num="13" name="B6" type="passive"/>
-        <pin num="14" name="B5" type="passive"/>
-        <pin num="15" name="B4" type="passive"/>
-        <pin num="16" name="B3" type="passive"/>
-        <pin num="17" name="B2" type="passive"/>
-        <pin num="18" name="B1" type="passive"/>
-        <pin num="19" name="~OE" type="passive"/>
-        <pin num="20" name="VCC" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="SamacSys_Parts" part="TDA02H0SB1R">
       <description>DIP Switches / SIP Switches HALF PITCH 2 POS</description>
       <docs>https://www.ckswitches.com/media/1328/tda.pdf</docs>
@@ -2423,6 +1880,58 @@
         <pin num="48" name="1/OE" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="amiga" part="NarrowPowerAdapter">
+      <footprints>
+        <fp>NarrowPowerAdapter*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NarrowPowerAdapter</field>
+        <field name="Footprint">amiga:NarrowPowerAdapter_0.60_to_0.25</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Normal" type="power_in"/>
+        <pin num="2" name="Narrow" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="amiga" part="UCC5606PWPTR">
+      <description>9-LINE 3 TO 5 VOLT SCSI ACTIVE TERMINATOR, REVERSE DISCONNECT</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a</docs>
+      <footprints>
+        <fp>TSSOP-48_6.1x12.5mm_P0.5mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">UCC5606PWPTR</field>
+        <field name="Footprint">Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Line7" type="3state"/>
+        <pin num="2" name="Line8" type="3state"/>
+        <pin num="3" name="Line9" type="3state"/>
+        <pin num="4" name="nc" type="NotConnected"/>
+        <pin num="5" name="SGND" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="~DISCNCT" type="input"/>
+        <pin num="12" name="Line1" type="3state"/>
+        <pin num="13" name="Line2" type="3state"/>
+        <pin num="14" name="Line3" type="3state"/>
+        <pin num="15" name="Line4" type="3state"/>
+        <pin num="16" name="TRMPWR" type="power_in"/>
+        <pin num="17" name="TRMPWR" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="REG" type="power_out"/>
+        <pin num="22" name="REG" type="power_out"/>
+        <pin num="23" name="Line5" type="3state"/>
+        <pin num="24" name="Line6" type="3state"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -2451,685 +1960,604 @@
     <net code="1" name="+5V">
       <node ref="J8" pin="1"/>
       <node ref="J20" pin="1"/>
+      <node ref="J9" pin="12"/>
+      <node ref="J9" pin="11"/>
+      <node ref="U2" pin="7"/>
       <node ref="C5" pin="1"/>
       <node ref="C4" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U2" pin="18"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J9" pin="49"/>
+      <node ref="J9" pin="50"/>
       <node ref="C6" pin="1"/>
       <node ref="J4" pin="1"/>
       <node ref="U1" pin="7"/>
-      <node ref="S1" pin="1"/>
-      <node ref="U1" pin="18"/>
-      <node ref="U2" pin="7"/>
-      <node ref="U2" pin="18"/>
-      <node ref="J9" pin="11"/>
-      <node ref="J9" pin="12"/>
-      <node ref="IC1" pin="20"/>
-      <node ref="J1" pin="4"/>
-      <node ref="IC2" pin="20"/>
-      <node ref="D5" pin="2"/>
-      <node ref="IC3" pin="20"/>
-      <node ref="J7" pin="1"/>
       <node ref="J1" pin="2"/>
-      <node ref="IC4" pin="20"/>
-      <node ref="J9" pin="49"/>
-      <node ref="J9" pin="50"/>
-      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="D5" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="R24" pin="2"/>
     </net>
-    <net code="2" name="Net-(D5-Pad1)">
-      <node ref="FUSE1" pin="1"/>
-      <node ref="D5" pin="1"/>
-    </net>
-    <net code="3" name="PI-ACT">
-      <node ref="J1" pin="7"/>
+    <net code="2" name="PI-ACT">
       <node ref="R1" pin="1"/>
+      <node ref="J1" pin="7"/>
     </net>
-    <net code="4" name="EXT-ACT-LED">
-      <node ref="JP1" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="D1" pin="2"/>
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="5" name="Net-(D2-Pad2)">
+    <net code="3" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2"/>
       <node ref="R2" pin="2"/>
     </net>
-    <net code="6" name="Net-(D3-Pad2)">
+    <net code="4" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2"/>
       <node ref="R3" pin="2"/>
     </net>
-    <net code="7" name="Net-(D4-Pad2)">
+    <net code="5" name="Net-(D4-Pad2)">
       <node ref="D4" pin="2"/>
       <node ref="R4" pin="2"/>
     </net>
-    <net code="8" name="DBG_LED">
-      <node ref="R2" pin="1"/>
+    <net code="6" name="DBG_LED">
       <node ref="J1" pin="29"/>
+      <node ref="R2" pin="1"/>
     </net>
-    <net code="9" name="PI_GPIO9">
+    <net code="7" name="PI_GPIO9">
       <node ref="J1" pin="21"/>
       <node ref="J5" pin="5"/>
     </net>
-    <net code="10" name="PI-DTD">
-      <node ref="IC2" pin="1"/>
+    <net code="8" name="PI-DTD">
+      <node ref="U1" pin="24"/>
       <node ref="U1" pin="1"/>
       <node ref="J1" pin="24"/>
-      <node ref="U1" pin="24"/>
-      <node ref="IC1" pin="1"/>
     </net>
-    <net code="11" name="PI_GPIO0">
+    <net code="9" name="PI-TAD">
+      <node ref="U2" pin="1"/>
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="10" name="PI_GPIO0">
       <node ref="J5" pin="1"/>
       <node ref="J1" pin="27"/>
     </net>
-    <net code="12" name="PI_GPIO1">
+    <net code="11" name="PI_GPIO1">
       <node ref="J5" pin="3"/>
       <node ref="J1" pin="28"/>
     </net>
-    <net code="13" name="PI_SDA">
-      <node ref="J4" pin="5"/>
+    <net code="12" name="PI_SDA">
       <node ref="J1" pin="3"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="13" name="PI-IND">
+      <node ref="U2" pin="24"/>
+      <node ref="J1" pin="31"/>
     </net>
     <net code="14" name="PI_SCL">
       <node ref="J4" pin="4"/>
       <node ref="J1" pin="5"/>
     </net>
-    <net code="15" name="/TERM_5v">
-      <node ref="R30" pin="1"/>
-      <node ref="R29" pin="1"/>
-      <node ref="R28" pin="1"/>
-      <node ref="R27" pin="1"/>
-      <node ref="R37" pin="1"/>
-      <node ref="R26" pin="1"/>
-      <node ref="R36" pin="1"/>
-      <node ref="R35" pin="1"/>
-      <node ref="R31" pin="1"/>
-      <node ref="R38" pin="1"/>
-      <node ref="R39" pin="1"/>
-      <node ref="S1" pin="4"/>
-      <node ref="R24" pin="1"/>
-      <node ref="R34" pin="1"/>
-      <node ref="R33" pin="1"/>
-      <node ref="R32" pin="1"/>
-      <node ref="R40" pin="1"/>
-      <node ref="R23" pin="1"/>
-      <node ref="R25" pin="1"/>
+    <net code="15" name="Net-(S1-Pad2)">
+      <node ref="S1" pin="2"/>
     </net>
-    <net code="16" name="/TERM_GND">
-      <node ref="R54" pin="1"/>
-      <node ref="R58" pin="1"/>
-      <node ref="R57" pin="1"/>
-      <node ref="R56" pin="1"/>
-      <node ref="R55" pin="1"/>
-      <node ref="R53" pin="1"/>
-      <node ref="R52" pin="1"/>
-      <node ref="R51" pin="1"/>
-      <node ref="R50" pin="1"/>
-      <node ref="R49" pin="1"/>
-      <node ref="R48" pin="1"/>
-      <node ref="R41" pin="1"/>
-      <node ref="R42" pin="1"/>
-      <node ref="R43" pin="1"/>
-      <node ref="R47" pin="1"/>
-      <node ref="R44" pin="1"/>
+    <net code="16" name="Net-(S1-Pad3)">
       <node ref="S1" pin="3"/>
-      <node ref="R45" pin="1"/>
-      <node ref="R46" pin="1"/>
     </net>
-    <net code="17" name="C-DP">
-      <node ref="IC1" pin="2"/>
-      <node ref="U1" pin="13"/>
-      <node ref="R58" pin="2"/>
-      <node ref="J9" pin="32"/>
-      <node ref="J6" pin="20"/>
-      <node ref="R40" pin="2"/>
-      <node ref="J3" pin="18"/>
-    </net>
-    <net code="18" name="C-D7">
-      <node ref="R50" pin="2"/>
-      <node ref="J3" pin="16"/>
-      <node ref="IC2" pin="2"/>
-      <node ref="J9" pin="30"/>
-      <node ref="J6" pin="13"/>
-      <node ref="R32" pin="2"/>
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="19" name="C-D6">
-      <node ref="R51" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="J6" pin="12"/>
-      <node ref="R33" pin="2"/>
-      <node ref="J9" pin="28"/>
-      <node ref="IC2" pin="3"/>
-      <node ref="J3" pin="14"/>
-    </net>
-    <net code="20" name="C-D5">
-      <node ref="J9" pin="26"/>
-      <node ref="J6" pin="11"/>
-      <node ref="R34" pin="2"/>
-      <node ref="R52" pin="2"/>
-      <node ref="J3" pin="12"/>
-      <node ref="IC2" pin="4"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="21" name="C-D4">
-      <node ref="IC2" pin="5"/>
-      <node ref="U1" pin="6"/>
-      <node ref="R53" pin="2"/>
-      <node ref="J9" pin="24"/>
-      <node ref="J3" pin="10"/>
-      <node ref="J6" pin="23"/>
-      <node ref="R35" pin="2"/>
-    </net>
-    <net code="22" name="C-D3">
-      <node ref="R36" pin="2"/>
-      <node ref="J6" pin="10"/>
-      <node ref="J9" pin="22"/>
-      <node ref="IC2" pin="6"/>
-      <node ref="R54" pin="2"/>
-      <node ref="J3" pin="8"/>
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="23" name="C-D2">
-      <node ref="IC2" pin="7"/>
-      <node ref="J9" pin="20"/>
-      <node ref="J6" pin="22"/>
-      <node ref="R37" pin="2"/>
-      <node ref="R55" pin="2"/>
-      <node ref="U1" pin="9"/>
-      <node ref="J3" pin="6"/>
-    </net>
-    <net code="24" name="C-D1">
-      <node ref="R38" pin="2"/>
-      <node ref="J6" pin="21"/>
-      <node ref="R56" pin="2"/>
-      <node ref="J9" pin="18"/>
-      <node ref="IC2" pin="8"/>
-      <node ref="U1" pin="11"/>
-      <node ref="J3" pin="4"/>
-    </net>
-    <net code="25" name="C-D0">
-      <node ref="J9" pin="16"/>
-      <node ref="R39" pin="2"/>
-      <node ref="IC2" pin="9"/>
-      <node ref="R57" pin="2"/>
-      <node ref="U1" pin="12"/>
-      <node ref="J3" pin="2"/>
-      <node ref="J6" pin="8"/>
-    </net>
-    <net code="26" name="PI-TAD">
-      <node ref="U2" pin="1"/>
-      <node ref="J1" pin="26"/>
-      <node ref="IC3" pin="1"/>
-    </net>
-    <net code="27" name="C-BSY">
-      <node ref="J6" pin="6"/>
-      <node ref="J9" pin="36"/>
-      <node ref="U2" pin="6"/>
-      <node ref="J3" pin="36"/>
-      <node ref="R27" pin="2"/>
-      <node ref="IC3" pin="14"/>
-      <node ref="R45" pin="2"/>
-    </net>
-    <net code="28" name="C-MSG">
-      <node ref="R46" pin="2"/>
-      <node ref="J3" pin="42"/>
-      <node ref="J9" pin="40"/>
-      <node ref="U2" pin="8"/>
-      <node ref="R28" pin="2"/>
-      <node ref="J6" pin="2"/>
-      <node ref="IC3" pin="15"/>
-    </net>
-    <net code="29" name="C-C_D">
-      <node ref="IC3" pin="16"/>
-      <node ref="J6" pin="15"/>
-      <node ref="R47" pin="2"/>
-      <node ref="R29" pin="2"/>
-      <node ref="U2" pin="9"/>
-      <node ref="J9" pin="44"/>
-      <node ref="J3" pin="46"/>
-    </net>
-    <net code="30" name="C-REQ">
-      <node ref="J3" pin="48"/>
-      <node ref="R48" pin="2"/>
-      <node ref="J9" pin="46"/>
-      <node ref="R30" pin="2"/>
-      <node ref="J6" pin="1"/>
-      <node ref="IC3" pin="17"/>
-      <node ref="U2" pin="11"/>
-    </net>
-    <net code="31" name="C-I_O">
-      <node ref="U2" pin="12"/>
-      <node ref="J6" pin="3"/>
-      <node ref="R31" pin="2"/>
-      <node ref="J9" pin="43"/>
-      <node ref="J3" pin="50"/>
-      <node ref="IC3" pin="18"/>
-      <node ref="R49" pin="2"/>
-    </net>
-    <net code="32" name="PI-I_O">
+    <net code="17" name="PI-I_O">
       <node ref="U2" pin="37"/>
-      <node ref="IC3" pin="2"/>
-      <node ref="J1" pin="22"/>
       <node ref="R13" pin="2"/>
+      <node ref="J1" pin="22"/>
     </net>
-    <net code="33" name="PI-REQ">
-      <node ref="IC3" pin="3"/>
+    <net code="18" name="PI-REQ">
       <node ref="R12" pin="2"/>
-      <node ref="J1" pin="15"/>
       <node ref="U2" pin="38"/>
+      <node ref="J1" pin="15"/>
     </net>
-    <net code="34" name="PI-C_D">
-      <node ref="IC3" pin="4"/>
+    <net code="19" name="PI-C_D">
       <node ref="R11" pin="2"/>
-      <node ref="J1" pin="18"/>
       <node ref="U2" pin="40"/>
+      <node ref="J1" pin="18"/>
     </net>
-    <net code="35" name="PI-MSG">
+    <net code="20" name="PI-MSG">
+      <node ref="R10" pin="2"/>
       <node ref="U2" pin="41"/>
       <node ref="J1" pin="16"/>
-      <node ref="R10" pin="2"/>
-      <node ref="IC3" pin="5"/>
     </net>
-    <net code="36" name="PI-BSY">
+    <net code="21" name="PI-BSY">
       <node ref="J1" pin="37"/>
-      <node ref="U2" pin="43"/>
       <node ref="R9" pin="2"/>
-      <node ref="IC3" pin="6"/>
+      <node ref="U2" pin="43"/>
     </net>
-    <net code="37" name="PI-IND">
-      <node ref="U2" pin="24"/>
-      <node ref="J1" pin="31"/>
-      <node ref="IC4" pin="1"/>
-    </net>
-    <net code="38" name="C-ATN">
-      <node ref="J6" pin="17"/>
-      <node ref="IC4" pin="15"/>
-      <node ref="J3" pin="32"/>
-      <node ref="J9" pin="35"/>
-      <node ref="U2" pin="13"/>
-      <node ref="R23" pin="2"/>
-      <node ref="R41" pin="2"/>
-    </net>
-    <net code="39" name="C-ACK">
-      <node ref="U2" pin="14"/>
-      <node ref="R24" pin="2"/>
-      <node ref="R42" pin="2"/>
-      <node ref="J6" pin="5"/>
-      <node ref="J3" pin="38"/>
-      <node ref="J9" pin="38"/>
-      <node ref="IC4" pin="16"/>
-    </net>
-    <net code="40" name="C-RST">
-      <node ref="J6" pin="4"/>
-      <node ref="R43" pin="2"/>
-      <node ref="IC4" pin="17"/>
-      <node ref="J9" pin="39"/>
-      <node ref="J3" pin="40"/>
-      <node ref="R25" pin="2"/>
-      <node ref="U2" pin="16"/>
-    </net>
-    <net code="41" name="C-SEL">
-      <node ref="U2" pin="17"/>
-      <node ref="J9" pin="42"/>
-      <node ref="R44" pin="2"/>
-      <node ref="J3" pin="44"/>
-      <node ref="J6" pin="19"/>
-      <node ref="IC4" pin="18"/>
-      <node ref="R26" pin="2"/>
-    </net>
-    <net code="42" name="PI-SEL">
+    <net code="22" name="PI-SEL">
       <node ref="R8" pin="2"/>
-      <node ref="U2" pin="32"/>
-      <node ref="IC4" pin="2"/>
       <node ref="J1" pin="13"/>
+      <node ref="U2" pin="32"/>
     </net>
-    <net code="43" name="PI-RST">
-      <node ref="IC4" pin="3"/>
-      <node ref="J1" pin="38"/>
+    <net code="23" name="PI-RST">
       <node ref="U2" pin="33"/>
       <node ref="R7" pin="2"/>
+      <node ref="J1" pin="38"/>
     </net>
-    <net code="44" name="PI-ACK">
+    <net code="24" name="PI-ACK">
+      <node ref="R6" pin="2"/>
       <node ref="J1" pin="40"/>
       <node ref="U2" pin="35"/>
-      <node ref="IC4" pin="4"/>
-      <node ref="R6" pin="2"/>
     </net>
-    <net code="45" name="PI-ATN">
-      <node ref="R5" pin="2"/>
-      <node ref="U2" pin="36"/>
+    <net code="25" name="PI-ATN">
       <node ref="J1" pin="35"/>
-      <node ref="IC4" pin="5"/>
+      <node ref="U2" pin="36"/>
+      <node ref="R5" pin="2"/>
     </net>
-    <net code="46" name="PI-DP">
+    <net code="26" name="PI-DP">
       <node ref="J1" pin="12"/>
-      <node ref="IC1" pin="18"/>
       <node ref="R22" pin="2"/>
       <node ref="U1" pin="36"/>
     </net>
-    <net code="47" name="PI-D7">
-      <node ref="J1" pin="11"/>
-      <node ref="IC2" pin="18"/>
+    <net code="27" name="PI-D7">
       <node ref="U1" pin="47"/>
+      <node ref="J1" pin="11"/>
       <node ref="R14" pin="2"/>
     </net>
-    <net code="48" name="PI-D6">
-      <node ref="U1" pin="46"/>
-      <node ref="IC2" pin="17"/>
-      <node ref="J1" pin="36"/>
+    <net code="28" name="PI-D6">
       <node ref="R15" pin="2"/>
+      <node ref="J1" pin="36"/>
+      <node ref="U1" pin="46"/>
     </net>
-    <net code="49" name="PI-D5">
-      <node ref="IC2" pin="16"/>
+    <net code="29" name="PI-D5">
       <node ref="U1" pin="44"/>
       <node ref="R16" pin="2"/>
       <node ref="J1" pin="10"/>
     </net>
-    <net code="50" name="PI-D4">
-      <node ref="U1" pin="43"/>
-      <node ref="IC2" pin="15"/>
-      <node ref="R17" pin="2"/>
+    <net code="30" name="PI-D4">
       <node ref="J1" pin="8"/>
+      <node ref="U1" pin="43"/>
+      <node ref="R17" pin="2"/>
     </net>
-    <net code="51" name="PI-D3">
-      <node ref="IC2" pin="14"/>
-      <node ref="U1" pin="41"/>
-      <node ref="R18" pin="2"/>
+    <net code="31" name="PI-D3">
       <node ref="J1" pin="33"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U1" pin="41"/>
     </net>
-    <net code="52" name="PI-D2">
-      <node ref="IC2" pin="13"/>
-      <node ref="J1" pin="32"/>
+    <net code="32" name="PI-D2">
       <node ref="U1" pin="40"/>
       <node ref="R19" pin="2"/>
+      <node ref="J1" pin="32"/>
     </net>
-    <net code="53" name="PI-D1">
-      <node ref="IC2" pin="12"/>
+    <net code="33" name="PI-D1">
+      <node ref="R20" pin="2"/>
       <node ref="U1" pin="38"/>
       <node ref="J1" pin="23"/>
-      <node ref="R20" pin="2"/>
     </net>
-    <net code="54" name="+3V3">
-      <node ref="R21" pin="1"/>
-      <node ref="R20" pin="1"/>
-      <node ref="R19" pin="1"/>
-      <node ref="R18" pin="1"/>
-      <node ref="R17" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="R15" pin="1"/>
-      <node ref="R14" pin="1"/>
-      <node ref="R22" pin="1"/>
-      <node ref="R5" pin="1"/>
+    <net code="34" name="+3V3">
       <node ref="R6" pin="1"/>
       <node ref="R7" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R22" pin="1"/>
       <node ref="R8" pin="1"/>
+      <node ref="R14" pin="1"/>
       <node ref="R9" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R16" pin="1"/>
       <node ref="R10" pin="1"/>
-      <node ref="U1" pin="31"/>
+      <node ref="R17" pin="1"/>
       <node ref="R11" pin="1"/>
-      <node ref="R4" pin="1"/>
+      <node ref="R18" pin="1"/>
       <node ref="R12" pin="1"/>
+      <node ref="R19" pin="1"/>
       <node ref="R13" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R21" pin="1"/>
       <node ref="J4" pin="3"/>
-      <node ref="J1" pin="1"/>
-      <node ref="J1" pin="17"/>
-      <node ref="U2" pin="42"/>
-      <node ref="U1" pin="42"/>
-      <node ref="U2" pin="31"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="31"/>
       <node ref="C1" pin="1"/>
+      <node ref="U1" pin="42"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J1" pin="17"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="31"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="42"/>
     </net>
-    <net code="55" name="PI-D0">
-      <node ref="IC2" pin="11"/>
-      <node ref="R21" pin="2"/>
-      <node ref="U1" pin="37"/>
+    <net code="35" name="PI-D0">
       <node ref="J1" pin="19"/>
+      <node ref="U1" pin="37"/>
+      <node ref="R21" pin="2"/>
     </net>
-    <net code="56" name="TERMPOW">
-      <node ref="FUSE1" pin="2"/>
-      <node ref="J9" pin="34"/>
-      <node ref="J3" pin="26"/>
+    <net code="36" name="EXT-ACT-LED">
+      <node ref="JP1" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="37" name="C-REQ">
+      <node ref="U4" pin="12"/>
+      <node ref="U2" pin="11"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J3" pin="48"/>
+      <node ref="J9" pin="46"/>
+    </net>
+    <net code="38" name="C-D3">
+      <node ref="U3" pin="13"/>
+      <node ref="J3" pin="8"/>
+      <node ref="J6" pin="10"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J9" pin="22"/>
+    </net>
+    <net code="39" name="C-D5">
+      <node ref="U3" pin="3"/>
+      <node ref="J6" pin="11"/>
+      <node ref="J9" pin="26"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J3" pin="12"/>
+    </net>
+    <net code="40" name="C-D6">
+      <node ref="J6" pin="12"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J9" pin="28"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="41" name="C-D7">
+      <node ref="J3" pin="16"/>
+      <node ref="J9" pin="30"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="J6" pin="13"/>
+    </net>
+    <net code="42" name="C-C_D">
+      <node ref="U2" pin="9"/>
+      <node ref="J9" pin="44"/>
+      <node ref="J3" pin="46"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J6" pin="15"/>
+    </net>
+    <net code="43" name="C-ATN">
+      <node ref="U4" pin="14"/>
+      <node ref="U2" pin="13"/>
+      <node ref="J9" pin="35"/>
+      <node ref="J6" pin="17"/>
+      <node ref="J3" pin="32"/>
+    </net>
+    <net code="44" name="C-SEL">
+      <node ref="U4" pin="24"/>
+      <node ref="J3" pin="44"/>
+      <node ref="J9" pin="42"/>
+      <node ref="J6" pin="19"/>
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="45" name="C-MSG">
+      <node ref="J3" pin="42"/>
+      <node ref="U4" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J9" pin="40"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="46" name="C-DP">
+      <node ref="J9" pin="32"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J6" pin="20"/>
+      <node ref="J3" pin="18"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="47" name="C-D1">
+      <node ref="J9" pin="18"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J3" pin="4"/>
+      <node ref="U3" pin="15"/>
+      <node ref="J6" pin="21"/>
+    </net>
+    <net code="48" name="C-D2">
+      <node ref="U3" pin="14"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J6" pin="22"/>
+      <node ref="J9" pin="20"/>
+    </net>
+    <net code="49" name="C-D4">
+      <node ref="U3" pin="12"/>
+      <node ref="U1" pin="6"/>
+      <node ref="J6" pin="23"/>
+      <node ref="J3" pin="10"/>
+      <node ref="J9" pin="24"/>
+    </net>
+    <net code="50" name="TERMPOW">
+      <node ref="U4" pin="17"/>
+      <node ref="U3" pin="17"/>
       <node ref="J6" pin="25"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U3" pin="16"/>
+      <node ref="J3" pin="26"/>
+      <node ref="J9" pin="34"/>
+      <node ref="FUSE1" pin="2"/>
+      <node ref="C7" pin="1"/>
     </net>
-    <net code="57" name="PULLDOWN18">
-      <node ref="R76" pin="2"/>
+    <net code="51" name="C-RST">
+      <node ref="J3" pin="40"/>
+      <node ref="J9" pin="39"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U4" pin="23"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="52" name="C-ACK">
+      <node ref="J3" pin="38"/>
+      <node ref="J9" pin="38"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U4" pin="15"/>
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="53" name="C-BSY">
+      <node ref="J6" pin="6"/>
+      <node ref="U2" pin="6"/>
+      <node ref="J9" pin="36"/>
+      <node ref="J3" pin="36"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="54" name="C-D0">
+      <node ref="U3" pin="23"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="J6" pin="8"/>
+      <node ref="J9" pin="16"/>
+    </net>
+    <net code="55" name="PULLDOWN18">
       <node ref="U2" pin="19"/>
+      <node ref="R76" pin="2"/>
     </net>
-    <net code="58" name="PULLDOWN19">
+    <net code="56" name="PULLDOWN19">
       <node ref="U2" pin="20"/>
       <node ref="R77" pin="2"/>
     </net>
-    <net code="59" name="PULLDOWN20">
+    <net code="57" name="PULLDOWN20">
       <node ref="U2" pin="22"/>
       <node ref="R78" pin="2"/>
     </net>
-    <net code="60" name="PULLDOWN21">
+    <net code="58" name="PULLDOWN21">
       <node ref="R79" pin="2"/>
       <node ref="U2" pin="23"/>
     </net>
-    <net code="61" name="PULLDOWN28">
+    <net code="59" name="PULLDOWN28">
       <node ref="U2" pin="26"/>
       <node ref="R86" pin="2"/>
     </net>
-    <net code="62" name="PULLDOWN27">
-      <node ref="R85" pin="2"/>
+    <net code="60" name="PULLDOWN27">
       <node ref="U2" pin="27"/>
+      <node ref="R85" pin="2"/>
     </net>
-    <net code="63" name="PULLDOWN26">
+    <net code="61" name="PULLDOWN26">
       <node ref="R84" pin="2"/>
       <node ref="U2" pin="29"/>
     </net>
-    <net code="64" name="PULLDOWN25">
+    <net code="62" name="PULLDOWN25">
       <node ref="R83" pin="2"/>
       <node ref="U2" pin="30"/>
     </net>
-    <net code="65" name="PULLDOWN17">
+    <net code="63" name="PULLDOWN17">
       <node ref="U2" pin="5"/>
       <node ref="R75" pin="2"/>
     </net>
-    <net code="66" name="PULLDOWN15">
+    <net code="64" name="PULLDOWN15">
       <node ref="U2" pin="2"/>
       <node ref="R73" pin="2"/>
     </net>
-    <net code="67" name="PULLDOWN16">
-      <node ref="R74" pin="2"/>
+    <net code="65" name="PULLDOWN16">
       <node ref="U2" pin="3"/>
+      <node ref="R74" pin="2"/>
     </net>
-    <net code="68" name="PULLDOWN24">
+    <net code="66" name="PULLDOWN24">
       <node ref="R82" pin="2"/>
       <node ref="U2" pin="44"/>
     </net>
-    <net code="69" name="PULLDOWN23">
+    <net code="67" name="PULLDOWN23">
       <node ref="U2" pin="46"/>
       <node ref="R81" pin="2"/>
     </net>
-    <net code="70" name="PULLDOWN22">
-      <node ref="R80" pin="2"/>
+    <net code="68" name="PULLDOWN22">
       <node ref="U2" pin="47"/>
+      <node ref="R80" pin="2"/>
     </net>
-    <net code="71" name="PULLDOWN1">
+    <net code="69" name="PULLDOWN1">
       <node ref="U1" pin="14"/>
       <node ref="R59" pin="2"/>
     </net>
-    <net code="72" name="PULLDOWN2">
-      <node ref="U1" pin="16"/>
+    <net code="70" name="PULLDOWN2">
       <node ref="R60" pin="2"/>
+      <node ref="U1" pin="16"/>
     </net>
-    <net code="73" name="PULLDOWN3">
+    <net code="71" name="PULLDOWN3">
       <node ref="U1" pin="17"/>
       <node ref="R61" pin="2"/>
     </net>
-    <net code="74" name="PULLDOWN4">
+    <net code="72" name="PULLDOWN4">
       <node ref="U1" pin="19"/>
       <node ref="R62" pin="2"/>
     </net>
-    <net code="75" name="PULLDOWN5">
-      <node ref="R63" pin="2"/>
+    <net code="73" name="PULLDOWN5">
       <node ref="U1" pin="20"/>
+      <node ref="R63" pin="2"/>
     </net>
-    <net code="76" name="PULLDOWN6">
+    <net code="74" name="PULLDOWN6">
       <node ref="U1" pin="22"/>
       <node ref="R64" pin="2"/>
     </net>
-    <net code="77" name="PULLDOWN7">
-      <node ref="R65" pin="2"/>
+    <net code="75" name="PULLDOWN7">
       <node ref="U1" pin="23"/>
+      <node ref="R65" pin="2"/>
     </net>
-    <net code="78" name="PULLDOWN14">
+    <net code="76" name="PULLDOWN14">
       <node ref="U1" pin="26"/>
       <node ref="R72" pin="2"/>
     </net>
-    <net code="79" name="PULLDOWN13">
+    <net code="77" name="PULLDOWN13">
       <node ref="U1" pin="27"/>
       <node ref="R71" pin="2"/>
     </net>
-    <net code="80" name="PULLDOWN12">
+    <net code="78" name="PULLDOWN12">
       <node ref="U1" pin="29"/>
       <node ref="R70" pin="2"/>
     </net>
-    <net code="81" name="PULLDOWN11">
+    <net code="79" name="PULLDOWN11">
       <node ref="U1" pin="30"/>
       <node ref="R69" pin="2"/>
     </net>
-    <net code="82" name="PULLDOWN10">
+    <net code="80" name="PULLDOWN10">
       <node ref="U1" pin="32"/>
       <node ref="R68" pin="2"/>
     </net>
-    <net code="83" name="PULLDOWN9">
+    <net code="81" name="PULLDOWN9">
       <node ref="U1" pin="33"/>
       <node ref="R67" pin="2"/>
     </net>
-    <net code="84" name="PULLDOWN8">
-      <node ref="R66" pin="2"/>
+    <net code="82" name="PULLDOWN8">
       <node ref="U1" pin="35"/>
+      <node ref="R66" pin="2"/>
     </net>
-    <net code="85" name="Net-(J20-Pad4)">
-      <node ref="J20" pin="4"/>
+    <net code="83" name="~TERM_ENABLE">
+      <node ref="R24" pin="1"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U3" pin="11"/>
+      <node ref="D6" pin="1"/>
+      <node ref="S1" pin="4"/>
     </net>
-    <net code="86" name="GND">
-      <node ref="U1" pin="10"/>
-      <node ref="U1" pin="15"/>
+    <net code="84" name="C-I_O">
+      <node ref="J6" pin="3"/>
+      <node ref="J9" pin="43"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U2" pin="12"/>
+      <node ref="J3" pin="50"/>
+    </net>
+    <net code="85" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="86" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="87" name="Net-(D6-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="88" name="TERMPOW_UNFUSED">
+      <node ref="FUSE1" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="89" name="POWER_REG_U3">
+      <node ref="U4" pin="21"/>
+      <node ref="U4" pin="22"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="90" name="POWER_REG_U4">
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="22"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="91" name="GND_U1_A">
+      <node ref="U5" pin="2"/>
       <node ref="U1" pin="21"/>
       <node ref="U1" pin="25"/>
       <node ref="U1" pin="28"/>
-      <node ref="U1" pin="39"/>
-      <node ref="U1" pin="4"/>
-      <node ref="S1" pin="2"/>
-      <node ref="U1" pin="48"/>
-      <node ref="J4" pin="2"/>
-      <node ref="U2" pin="45"/>
-      <node ref="U1" pin="34"/>
-      <node ref="U2" pin="34"/>
-      <node ref="U1" pin="45"/>
-      <node ref="R59" pin="1"/>
-      <node ref="U2" pin="48"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U2" pin="39"/>
-      <node ref="U2" pin="28"/>
+    </net>
+    <net code="92" name="GND_U2_A">
       <node ref="U2" pin="25"/>
-      <node ref="U2" pin="21"/>
-      <node ref="U2" pin="15"/>
-      <node ref="U2" pin="10"/>
-      <node ref="IC1" pin="10"/>
-      <node ref="IC1" pin="11"/>
-      <node ref="IC1" pin="12"/>
-      <node ref="R60" pin="1"/>
-      <node ref="IC1" pin="13"/>
-      <node ref="IC1" pin="14"/>
-      <node ref="R61" pin="1"/>
-      <node ref="IC1" pin="15"/>
-      <node ref="IC1" pin="16"/>
-      <node ref="R62" pin="1"/>
-      <node ref="IC1" pin="17"/>
-      <node ref="IC1" pin="19"/>
-      <node ref="R63" pin="1"/>
-      <node ref="IC1" pin="3"/>
-      <node ref="IC1" pin="4"/>
-      <node ref="R64" pin="1"/>
-      <node ref="IC1" pin="5"/>
-      <node ref="IC1" pin="6"/>
-      <node ref="R65" pin="1"/>
-      <node ref="IC1" pin="7"/>
-      <node ref="IC1" pin="8"/>
-      <node ref="R66" pin="1"/>
-      <node ref="IC1" pin="9"/>
-      <node ref="IC2" pin="10"/>
-      <node ref="R67" pin="1"/>
-      <node ref="IC2" pin="19"/>
-      <node ref="R68" pin="1"/>
-      <node ref="IC3" pin="10"/>
-      <node ref="IC3" pin="11"/>
-      <node ref="R69" pin="1"/>
-      <node ref="IC3" pin="12"/>
-      <node ref="R70" pin="1"/>
-      <node ref="R71" pin="1"/>
-      <node ref="IC3" pin="13"/>
-      <node ref="R72" pin="1"/>
-      <node ref="IC3" pin="19"/>
-      <node ref="R73" pin="1"/>
-      <node ref="IC3" pin="7"/>
-      <node ref="R74" pin="1"/>
-      <node ref="IC3" pin="8"/>
-      <node ref="J7" pin="2"/>
-      <node ref="R75" pin="1"/>
-      <node ref="IC3" pin="9"/>
-      <node ref="R76" pin="1"/>
-      <node ref="R77" pin="1"/>
-      <node ref="R78" pin="1"/>
-      <node ref="R79" pin="1"/>
-      <node ref="R80" pin="1"/>
-      <node ref="IC4" pin="10"/>
-      <node ref="IC4" pin="11"/>
-      <node ref="R81" pin="1"/>
-      <node ref="IC4" pin="13"/>
-      <node ref="J5" pin="6"/>
-      <node ref="R82" pin="1"/>
-      <node ref="IC4" pin="14"/>
-      <node ref="J5" pin="4"/>
-      <node ref="R83" pin="1"/>
-      <node ref="IC4" pin="19"/>
-      <node ref="J5" pin="2"/>
-      <node ref="IC4" pin="12"/>
-      <node ref="IC4" pin="6"/>
-      <node ref="IC4" pin="7"/>
-      <node ref="R85" pin="1"/>
-      <node ref="IC4" pin="8"/>
-      <node ref="IC4" pin="9"/>
-      <node ref="R86" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="93" name="Net-(J20-Pad4)">
+      <node ref="J20" pin="4"/>
+    </net>
+    <net code="94" name="GND">
       <node ref="C1" pin="2"/>
       <node ref="C2" pin="2"/>
       <node ref="C3" pin="2"/>
       <node ref="C6" pin="2"/>
-      <node ref="J6" pin="MH2"/>
-      <node ref="J6" pin="MH1"/>
-      <node ref="J6" pin="9"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="10"/>
       <node ref="C4" pin="2"/>
-      <node ref="H6" pin="1"/>
       <node ref="C5" pin="2"/>
-      <node ref="H5" pin="1"/>
-      <node ref="H2" pin="1"/>
-      <node ref="H4" pin="1"/>
-      <node ref="H3" pin="1"/>
-      <node ref="H1" pin="1"/>
-      <node ref="J6" pin="7"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U4" pin="18"/>
+      <node ref="U4" pin="19"/>
+      <node ref="U4" pin="20"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U2" pin="45"/>
+      <node ref="U2" pin="34"/>
+      <node ref="U2" pin="48"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="39"/>
+      <node ref="R86" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="21"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U1" pin="39"/>
+      <node ref="U3" pin="10"/>
+      <node ref="R85" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U3" pin="18"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U3" pin="20"/>
+      <node ref="U1" pin="48"/>
+      <node ref="R84" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U1" pin="34"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U1" pin="45"/>
+      <node ref="R83" pin="1"/>
+      <node ref="R59" pin="1"/>
+      <node ref="J7" pin="2"/>
+      <node ref="R82" pin="1"/>
+      <node ref="R81" pin="1"/>
+      <node ref="R80" pin="1"/>
+      <node ref="R79" pin="1"/>
+      <node ref="R78" pin="1"/>
+      <node ref="J5" pin="6"/>
+      <node ref="R77" pin="1"/>
+      <node ref="R76" pin="1"/>
+      <node ref="R75" pin="1"/>
+      <node ref="R74" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R73" pin="1"/>
+      <node ref="R72" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="R71" pin="1"/>
+      <node ref="R70" pin="1"/>
+      <node ref="R69" pin="1"/>
+      <node ref="R68" pin="1"/>
+      <node ref="R67" pin="1"/>
+      <node ref="R66" pin="1"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J5" pin="2"/>
       <node ref="J20" pin="3"/>
       <node ref="J20" pin="2"/>
-      <node ref="R84" pin="1"/>
+      <node ref="R65" pin="1"/>
       <node ref="J8" pin="5"/>
       <node ref="J8" pin="MH1"/>
       <node ref="J8" pin="MH2"/>
+      <node ref="J6" pin="MH2"/>
       <node ref="J8" pin="MH3"/>
       <node ref="J8" pin="MH4"/>
+      <node ref="J6" pin="MH1"/>
       <node ref="J3" pin="1"/>
+      <node ref="J6" pin="9"/>
       <node ref="J3" pin="11"/>
+      <node ref="J6" pin="7"/>
       <node ref="J3" pin="13"/>
       <node ref="J3" pin="15"/>
+      <node ref="J6" pin="24"/>
       <node ref="J3" pin="17"/>
+      <node ref="J6" pin="18"/>
       <node ref="J3" pin="19"/>
+      <node ref="J6" pin="16"/>
       <node ref="J3" pin="20"/>
       <node ref="J3" pin="21"/>
       <node ref="J3" pin="22"/>
       <node ref="J3" pin="23"/>
       <node ref="J3" pin="24"/>
+      <node ref="J6" pin="14"/>
       <node ref="J3" pin="27"/>
       <node ref="J3" pin="28"/>
       <node ref="J3" pin="29"/>
@@ -3139,102 +2567,111 @@
       <node ref="J3" pin="33"/>
       <node ref="J3" pin="35"/>
       <node ref="J3" pin="37"/>
+      <node ref="J2" pin="2"/>
       <node ref="J3" pin="39"/>
+      <node ref="R64" pin="1"/>
       <node ref="J3" pin="41"/>
+      <node ref="S1" pin="1"/>
       <node ref="J3" pin="43"/>
       <node ref="J3" pin="45"/>
       <node ref="J3" pin="47"/>
+      <node ref="J4" pin="2"/>
       <node ref="J3" pin="49"/>
       <node ref="J3" pin="5"/>
+      <node ref="R61" pin="1"/>
       <node ref="J3" pin="7"/>
       <node ref="J3" pin="9"/>
-      <node ref="J6" pin="24"/>
-      <node ref="J1" pin="9"/>
-      <node ref="J1" pin="6"/>
+      <node ref="H6" pin="1"/>
+      <node ref="H5" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="R63" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H1" pin="1"/>
       <node ref="J9" pin="13"/>
       <node ref="J9" pin="14"/>
       <node ref="J9" pin="15"/>
-      <node ref="J1" pin="39"/>
       <node ref="J9" pin="17"/>
-      <node ref="J1" pin="34"/>
       <node ref="J9" pin="19"/>
-      <node ref="J1" pin="30"/>
+      <node ref="R60" pin="1"/>
       <node ref="J9" pin="21"/>
-      <node ref="J1" pin="25"/>
       <node ref="J9" pin="23"/>
-      <node ref="J1" pin="20"/>
       <node ref="J9" pin="25"/>
-      <node ref="J6" pin="18"/>
+      <node ref="D1" pin="1"/>
       <node ref="J9" pin="29"/>
-      <node ref="J1" pin="14"/>
+      <node ref="D2" pin="1"/>
       <node ref="J9" pin="31"/>
-      <node ref="J6" pin="16"/>
       <node ref="J9" pin="33"/>
       <node ref="J9" pin="37"/>
-      <node ref="J6" pin="14"/>
+      <node ref="D3" pin="1"/>
       <node ref="J9" pin="41"/>
+      <node ref="R62" pin="1"/>
       <node ref="J9" pin="45"/>
-      <node ref="D4" pin="1"/>
       <node ref="J9" pin="47"/>
       <node ref="J9" pin="48"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="J2" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="39"/>
+      <node ref="J1" pin="34"/>
+      <node ref="J1" pin="30"/>
+      <node ref="J1" pin="25"/>
     </net>
-    <net code="87" name="PB_LED_Pin">
+    <net code="95" name="PB_LED_Pin">
       <node ref="J10" pin="4"/>
       <node ref="JP1" pin="1"/>
       <node ref="J9" pin="8"/>
     </net>
-    <net code="88" name="PB_SCSIID_1">
+    <net code="96" name="PB_SCSIID_1">
       <node ref="J9" pin="5"/>
       <node ref="J10" pin="3"/>
     </net>
-    <net code="89" name="PB_SCSIID_2">
+    <net code="97" name="PB_SCSIID_2">
       <node ref="J9" pin="6"/>
       <node ref="J10" pin="2"/>
     </net>
-    <net code="90" name="PB_SCSIID_4">
+    <net code="98" name="PB_SCSIID_4">
       <node ref="J9" pin="7"/>
       <node ref="J10" pin="1"/>
     </net>
-    <net code="91" name="Net-(J9-Pad4)">
+    <net code="99" name="Net-(J9-Pad4)">
       <node ref="J9" pin="4"/>
     </net>
-    <net code="92" name="Net-(J9-Pad3)">
+    <net code="100" name="Net-(J9-Pad3)">
       <node ref="J9" pin="3"/>
     </net>
-    <net code="93" name="Net-(J3-Pad25)">
+    <net code="101" name="Net-(J3-Pad25)">
       <node ref="J3" pin="25"/>
     </net>
-    <net code="94" name="Net-(J3-Pad34)">
+    <net code="102" name="Net-(J3-Pad34)">
       <node ref="J3" pin="34"/>
     </net>
-    <net code="95" name="Net-(J9-Pad1)">
+    <net code="103" name="Net-(J9-Pad1)">
       <node ref="J9" pin="1"/>
     </net>
-    <net code="96" name="Net-(J9-Pad10)">
+    <net code="104" name="Net-(J9-Pad10)">
       <node ref="J9" pin="10"/>
     </net>
-    <net code="97" name="Net-(J9-Pad2)">
+    <net code="105" name="Net-(J9-Pad2)">
       <node ref="J9" pin="2"/>
     </net>
-    <net code="98" name="Net-(J9-Pad27)">
+    <net code="106" name="Net-(J9-Pad27)">
       <node ref="J9" pin="27"/>
     </net>
-    <net code="99" name="Net-(J9-Pad9)">
+    <net code="107" name="Net-(J9-Pad9)">
       <node ref="J9" pin="9"/>
     </net>
-    <net code="100" name="USB_Pin_4">
+    <net code="108" name="USB_Pin_4">
       <node ref="TP1" pin="1"/>
       <node ref="J8" pin="4"/>
     </net>
-    <net code="101" name="USB_Pin_3">
+    <net code="109" name="USB_Pin_3">
       <node ref="TP2" pin="1"/>
       <node ref="J8" pin="3"/>
     </net>
-    <net code="102" name="USB_Pin_2">
+    <net code="110" name="USB_Pin_2">
       <node ref="TP3" pin="1"/>
       <node ref="J8" pin="2"/>
     </net>
