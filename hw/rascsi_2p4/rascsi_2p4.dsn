@@ -39,14 +39,6 @@
             177272 -42576.5  177634 -42519.2  178000 -42500  236000 -42500
             236366 -42519.2)
     )
-    (keepout "" (polygon Top 0  239481 -43069  174457 -43069  174457 -42561  239481 -42434
-            239481 -43069))
-    (keepout "" (polygon Top 0  239481 -98441  174457 -98441  174457 -97933  239481 -97806
-            239481 -98441))
-    (keepout "" (polygon Top 0  174467 -97933  174457 -43069  174965 -43069  175082 -97933
-            174467 -97933))
-    (keepout "" (polygon Top 0  238856 -97806  238846 -42942  239354 -42942  239471 -97806
-            238856 -97806))
     (via "Via[0-1]_800:400_um" "Via[0-1]_1000:600_um")
     (rule
       (width 250)
@@ -60,13 +52,13 @@
       (place C4 228559 -50562 front 0 (PN 330n))
       (place C3 208747 -50562 front 180 (PN 330n))
       (place C2 200365 -50562 front 0 (PN 330n))
-      (place C1 180934 -62246 front 90 (PN 330n))
+      (place C1 182204 -69612 front 270 (PN 330n))
     )
     (component "SamacSys_Parts:SOIC127P1030X265-20N"
-      (place U4 225384 -59198 front 0 (PN "SN74LS641-1DW"))
-      (place U3 212938 -59198 front 180 (PN "SN74LS641-1DW"))
-      (place U2 200492 -59198 front 180 (PN "SN74LS641-1DW"))
-      (place U1 188046 -59198 front 180 (PN "SN74LS641-1DW"))
+      (place U4 225384 -59071 front 90 (PN "SN74LS641-1DW"))
+      (place U3 211871 -59071 front 90 (PN "SN74LS641-1DW"))
+      (place U2 198358 -59071 front 90 (PN "SN74LS641-1DW"))
+      (place U1 184846 -59071 front 90 (PN "SN74LS641-1DW"))
     )
     (component SamacSys_Parts:mac_happy_small
       (place X3 149565 -21072.6 front 0 (PN Mac))
@@ -90,10 +82,10 @@
       (place D1 236904 -50419 front 180 (PN Green))
     )
     (component Capacitor_SMD:C_0805_2012Metric::1
-      (place C9 192364 -76724 front 180 (PN 4u7))
-      (place C8 220177 -69840.6 front 270 (PN 4u7))
-      (place C7 210906 -76622.4 front 0 (PN 4u7))
-      (place C5 222018 -75644.5 front 270 (PN 10u))
+      (place C6 192364 -76724 front 180 (PN 4u7))
+      (place C5 220177 -69840.6 front 270 (PN 4u7))
+      (place C9 210906 -76622.4 front 0 (PN 4u7))
+      (place C8 222018 -75644.5 front 270 (PN 10u))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical
       (place J1 182870 -47270 back 90 (PN Raspberry_Pi_2_3))
@@ -121,15 +113,15 @@
       (place R3 233791 -75225.4 front 90 (PN 5.1k))
       (place R2 232958 -49339.5 front 0 (PN 2k))
       (place R1 232958 -50355.5 front 0 (PN 2k))
-      (place R22 195961 -50569 front 270 (PN 10k))
-      (place R21 194691 -50569 front 270 (PN 10k))
-      (place R20 193421 -50569 front 270 (PN 10k))
-      (place R19 190627 -50569 front 270 (PN 10k))
-      (place R18 189357 -50569 front 270 (PN 10k))
-      (place R17 188087 -50569 front 270 (PN 10k))
-      (place R16 185420 -50569 front 270 (PN 10k))
-      (place R15 184150 -50569 front 270 (PN 10k))
-      (place R14 182880 -50569 front 270 (PN 10k))
+      (place R22 194615 -50569 front 270 (PN 10k))
+      (place R21 193345 -50569 front 270 (PN 10k))
+      (place R20 192075 -50569 front 270 (PN 10k))
+      (place R19 189281 -50569 front 270 (PN 10k))
+      (place R18 188011 -50569 front 270 (PN 10k))
+      (place R17 186741 -50569 front 270 (PN 10k))
+      (place R16 184074 -50569 front 270 (PN 10k))
+      (place R15 182804 -50569 front 270 (PN 10k))
+      (place R14 181534 -50569 front 270 (PN 10k))
       (place R13 218450 -50569 front 270 (PN 10k))
       (place R12 216535 -50569 front 270 (PN 10k))
       (place R11 215265 -50569 front 270 (PN 10k))
@@ -172,7 +164,7 @@
       (place H3 178000 -69000 front 0 (PN Hole3))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical
-      (place J4 178010 -63780 front 180 (PN "I2C Pinout"))
+      (place J4 176286 -63770 front 180 (PN "I2C Pinout"))
     )
     (component "rascsi_din:SOIC127P812X230-4N"
       (place S1 228028 -75200 front 0 (PN "Switch x2"))
@@ -1159,7 +1151,7 @@
         U4-6 U3-19 U3-18 U3-17 U3-16 U3-10 U3-4 U3-3 U3-2 U2-19 U2-17 U2-16 U2-15
         U2-14 U2-13 U2-12 U2-11 U2-10 U2-9 U2-8 U2-7 U2-6 U2-5 U2-4 U2-3 U1-19 U1-10
         U6-20 U6-19 U6-18 U6-10 U6-9 U6-8 U6-7 U6-6 U6-5 U5-20 U5-19 U5-18 U5-10 U5-9
-        U5-8 U5-7 U5-6 U5-5 C9-2 C8-2 C7-2 C5-2 J1-39 J1-34 J1-30 J1-25 J1-20 J1-14
+        U5-8 U5-7 U5-6 U5-5 C6-2 C5-2 C9-2 C8-2 J1-39 J1-34 J1-30 J1-25 J1-20 J1-14
         J1-9 J1-6 J20-3 J20-2 J5-6 J5-4 J5-2 J6-MH2 J6-MH1 J6-24 J6-18 J6-16 J6-14
         J6-9 J6-7 J9-48 J9-47 J9-45 J9-41 J9-37 J9-33 J9-31 J9-29 J9-25 J9-23 J9-21
         J9-19 J9-17 J9-15 J9-14 J9-13 J3-49 J3-47 J3-45 J3-43 J3-41 J3-39 J3-37 J3-35
@@ -1177,7 +1169,7 @@
         R13-1 R12-1 R11-1 R10-1 R9-1 R8-1 R7-1 R6-1 R5-1 J4-3)
     )
     (net +5V
-      (pins C4-1 C3-1 C2-1 C1-1 U4-20 U3-20 U2-20 U1-20 R24-2 R23-1 C5-1 J1-4 J1-2
+      (pins C4-1 C3-1 C2-1 C1-1 U4-20 U3-20 U2-20 U1-20 R24-2 R23-1 C8-1 J1-4 J1-2
         J20-1 J9-50 J9-49 J9-12 J9-11 R3-1 J8-1 D5-2 J7-1 J4-1)
     )
     (net "C-REQ"
@@ -1220,13 +1212,13 @@
       (pins U1-5 U6-12 J6-23 J9-24 J3-10)
     )
     (net "C-D5"
-      (pins U1-4 U6-3 J6-11 J9-26 J3-12)
+      (pins U1-4 U6-1 J6-11 J9-26 J3-12)
     )
     (net "C-D6"
       (pins U1-3 U6-2 J6-12 J9-28 J3-14)
     )
     (net "C-D7"
-      (pins U1-2 U6-1 J6-13 J9-30 J3-16)
+      (pins U1-2 U6-3 J6-13 J9-30 J3-16)
     )
     (net "C-I_O"
       (pins U3-9 U5-13 J6-3 J9-43 J3-50)
@@ -1235,7 +1227,7 @@
       (pins U3-7 U5-3 J6-15 J9-44 J3-46)
     )
     (net TERMPOW
-      (pins U6-17 U6-16 U5-17 U5-16 C7-1 J6-25 J9-34 J3-26 FUSE1-2)
+      (pins U6-17 U6-16 U5-17 U5-16 C9-1 J6-25 J9-34 J3-26 FUSE1-2)
     )
     (net "PI-D7"
       (pins U1-18 J1-11 R14-2)
@@ -1364,22 +1356,20 @@
       (pins D5-1 FUSE1-1)
     )
     (net POWER_REG_U3
-      (pins U5-22 U5-21 C8-1)
+      (pins U5-22 U5-21 C5-1)
     )
     (net POWER_REG_U4
-      (pins U6-22 U6-21 C9-1)
+      (pins U6-22 U6-21 C6-1)
     )
     (class kicad_default "" "C-ACK" "C-ATN" "C-BSY" "C-C_D" "C-D0" "C-D1"
       "C-D2" "C-D3" "C-D4" "C-D5" "C-D6" "C-D7" "C-DP" "C-I_O" "C-MSG" "C-REQ"
       "C-RST" "C-SEL" DBG_LED "EXT-ACT-LED" "Net-(D2-Pad2)" "Net-(D3-Pad2)"
-      "Net-(D4-Pad2)" "Net-(D6-Pad2)" "Net-(J20-Pad4)" "Net-(J3-Pad25)" "Net-(J3-Pad34)"
-      "Net-(J9-Pad1)" "Net-(J9-Pad10)" "Net-(J9-Pad2)" "Net-(J9-Pad27)" "Net-(J9-Pad3)"
-      "Net-(J9-Pad4)" "Net-(J9-Pad9)" "Net-(S1-Pad2)" "Net-(S1-Pad3)" "Net-(U5-Pad4)"
-      "Net-(U6-Pad4)" PB_LED_Pin PB_SCSIID_1 PB_SCSIID_2 PB_SCSIID_4 "PI-ACK"
-      "PI-ACT" "PI-ATN" "PI-BSY" "PI-C_D" "PI-D0" "PI-D1" "PI-D2" "PI-D3"
-      "PI-D4" "PI-D5" "PI-D6" "PI-D7" "PI-DP" "PI-DTD" "PI-IND" "PI-I_O" "PI-MSG"
-      "PI-REQ" "PI-RST" "PI-SEL" "PI-TAD" PI_GPIO0 PI_GPIO1 PI_GPIO9 PI_SCL
-      PI_SDA POWER_REG_U3 POWER_REG_U4 USB_Pin_2 USB_Pin_3 USB_Pin_4 ~TERM_ENABLE
+      "Net-(D4-Pad2)" "Net-(D6-Pad2)" PB_LED_Pin PB_SCSIID_1 PB_SCSIID_2 PB_SCSIID_4
+      "PI-ACK" "PI-ACT" "PI-ATN" "PI-BSY" "PI-C_D" "PI-D0" "PI-D1" "PI-D2"
+      "PI-D3" "PI-D4" "PI-D5" "PI-D6" "PI-D7" "PI-DP" "PI-DTD" "PI-IND" "PI-I_O"
+      "PI-MSG" "PI-REQ" "PI-RST" "PI-SEL" "PI-TAD" PI_GPIO0 PI_GPIO1 PI_GPIO9
+      PI_SCL PI_SDA POWER_REG_U3 POWER_REG_U4 USB_Pin_2 USB_Pin_3 USB_Pin_4
+      ~TERM_ENABLE
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
