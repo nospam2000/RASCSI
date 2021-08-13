@@ -373,7 +373,7 @@ Wire Notes Line
 Text Notes 600  6350 0    50   ~ 0
 Raspberry Pi Connector
 Wire Notes Line
-	3500 2900 3500 6550
+	3000 4700 3000 8350
 Wire Notes Line
 	3500 6550 8100 6550
 Wire Notes Line
@@ -819,36 +819,18 @@ Wire Notes Line
 $Comp
 L power:GND #PWR014
 U 1 1 6072B62D
-P 3150 850
-F 0 "#PWR014" H 3150 600 50  0001 C CNN
-F 1 "GND" H 3000 800 50  0000 C CNN
-F 2 "" H 3150 850 50  0001 C CNN
-F 3 "" H 3150 850 50  0001 C CNN
-	1    3150 850 
+P 3050 1000
+F 0 "#PWR014" H 3050 750 50  0001 C CNN
+F 1 "GND" H 2900 950 50  0000 C CNN
+F 2 "" H 3050 1000 50  0001 C CNN
+F 3 "" H 3050 1000 50  0001 C CNN
+	1    3050 1000
 	-1   0    0    1   
 $EndComp
-$Comp
-L SamacSys_Parts:TDA02H0SB1R S1
-U 1 1 5F38ECD6
-P 3400 850
-F 0 "S1" H 3650 1000 50  0000 C CNN
-F 1 "Switch x2" H 4250 1000 50  0000 C CNN
-F 2 "rascsi_din:SOIC127P812X230-4N" H 4450 950 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810191714_Dongguan-Guangzhu-Industrial-DSHP02TSGET_C40735.pdf" H 4450 850 50  0001 L CNN
-F 4 "SPST 2 1.27mm, Half Slide (Standard) Black SMD DIP Switches" H 4450 750 50  0001 L CNN "Description"
-F 5 "" H 4450 650 50  0001 L CNN "Height"
-F 6 "" H 4450 550 50  0001 L CNN "Mouser Part Number"
-F 7 "" H 4450 450 50  0001 L CNN "Mouser Price/Stock"
-F 8 "C & K COMPONENTS" H 4450 350 50  0001 L CNN "Manufacturer_Name"
-F 9 "DSHP02TSGET" H 4450 250 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C40735" H 3400 850 50  0001 C CNN "LCSC"
-	1    3400 850 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3400 850  3150 850 
+	3300 1000 3050 1000
 Text Notes 3000 650  0    50   ~ 0
-Termination Enable Switches
+Termination Enable Jumper
 Wire Notes Line
 	2900 550  5300 550 
 Text GLabel 2750 4650 2    50   BiDi ~ 0
@@ -1247,11 +1229,11 @@ Text GLabel 8050 1700 2    50   BiDi ~ 0
 C-BSY
 Text GLabel 10000 1600 2    50   BiDi ~ 0
 C-DP
-Text GLabel 10000 1700 2    50   BiDi ~ 0
+Text GLabel 10000 1900 2    50   BiDi ~ 0
 C-D7
 Text GLabel 10000 1800 2    50   BiDi ~ 0
 C-D6
-Text GLabel 10000 1900 2    50   BiDi ~ 0
+Text GLabel 10000 1700 2    50   BiDi ~ 0
 C-D5
 Text GLabel 10000 1100 2    50   BiDi ~ 0
 C-D4
@@ -1438,7 +1420,7 @@ Wire Notes Line
 Wire Notes Line
 	2700 550  2700 2450
 Text Notes 6750 7760 0    87   ~ 17
-RaSCSI - 68kmla Edition
+RaSCSI - 68kmla Edition - with active termination
 Text Notes 9900 7890 0    79   ~ 16
 2.4
 Text Notes 7450 7870 0    59   ~ 12
@@ -1597,73 +1579,62 @@ U 5FEBA38A
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
-$Comp
-L power:GND #PWR064
-U 1 1 6199AA9A
-P 11450 550
-F 0 "#PWR064" H 11450 300 50  0001 C CNN
-F 1 "GND" V 11455 422 50  0000 R CNN
-F 2 "" H 11450 550 50  0001 C CNN
-F 3 "" H 11450 550 50  0001 C CNN
-	1    11450 550 
-	0    1    1    0   
-$EndComp
-Text GLabel 11450 550  2    50   BiDi ~ 0
-PULLDOWN1
-Text GLabel 11450 650  2    50   BiDi ~ 0
-PULLDOWN2
-Text GLabel 11450 750  2    50   BiDi ~ 0
-PULLDOWN3
-Text GLabel 11450 850  2    50   BiDi ~ 0
-PULLDOWN4
-Text GLabel 11450 950  2    50   BiDi ~ 0
-PULLDOWN5
-Text GLabel 11450 1050 2    50   BiDi ~ 0
-PULLDOWN6
-Text GLabel 11450 1150 2    50   BiDi ~ 0
-PULLDOWN7
-Text GLabel 11450 1250 2    50   BiDi ~ 0
-PULLDOWN8
-Text GLabel 11450 1350 2    50   BiDi ~ 0
-PULLDOWN9
-Text GLabel 11450 1450 2    50   BiDi ~ 0
-PULLDOWN10
-Text GLabel 11450 1650 2    50   BiDi ~ 0
-PULLDOWN12
-Text GLabel 11450 1550 2    50   BiDi ~ 0
-PULLDOWN11
-Text GLabel 11450 1850 2    50   BiDi ~ 0
-PULLDOWN14
-Text GLabel 11450 1750 2    50   BiDi ~ 0
-PULLDOWN13
-Text GLabel 11450 1950 2    50   BiDi ~ 0
-PULLDOWN15
-Text GLabel 11450 2050 2    50   BiDi ~ 0
-PULLDOWN16
-Text GLabel 11450 2150 2    50   BiDi ~ 0
-PULLDOWN17
-Text GLabel 11450 2250 2    50   BiDi ~ 0
-PULLDOWN18
-Text GLabel 11450 2350 2    50   BiDi ~ 0
-PULLDOWN19
-Text GLabel 11450 2450 2    50   BiDi ~ 0
-PULLDOWN20
-Text GLabel 11450 2550 2    50   BiDi ~ 0
-PULLDOWN21
-Text GLabel 11450 2650 2    50   BiDi ~ 0
-PULLDOWN22
-Text GLabel 11450 2750 2    50   BiDi ~ 0
-PULLDOWN23
-Text GLabel 11450 2850 2    50   BiDi ~ 0
-PULLDOWN24
-Text GLabel 11450 3250 2    50   BiDi ~ 0
-PULLDOWN28
-Text GLabel 11450 3150 2    50   BiDi ~ 0
-PULLDOWN27
-Text GLabel 11450 3050 2    50   BiDi ~ 0
-PULLDOWN26
-Text GLabel 11450 2950 2    50   BiDi ~ 0
-PULLDOWN25
+Text GLabel 900  7700 1    50   BiDi ~ 0
+PULLUP1
+Text GLabel 1000 7700 1    50   BiDi ~ 0
+PULLUP2
+Text GLabel 1100 7700 1    50   BiDi ~ 0
+PULLUP3
+Text GLabel 1200 7700 1    50   BiDi ~ 0
+PULLUP4
+Text GLabel 1300 7700 1    50   BiDi ~ 0
+PULLUP5
+Text GLabel 1400 7700 1    50   BiDi ~ 0
+PULLUP6
+Text GLabel 1500 7700 1    50   BiDi ~ 0
+PULLUP7
+Text GLabel 1600 7700 1    50   BiDi ~ 0
+PULLUP8
+Text GLabel 1700 7700 1    50   BiDi ~ 0
+PULLUP9
+Text GLabel 1800 7700 1    50   BiDi ~ 0
+PULLUP10
+Text GLabel 2000 7700 1    50   BiDi ~ 0
+PULLUP12
+Text GLabel 1900 7700 1    50   BiDi ~ 0
+PULLUP11
+Text GLabel 2200 7700 1    50   BiDi ~ 0
+PULLUP14
+Text GLabel 2100 7700 1    50   BiDi ~ 0
+PULLUP13
+Text GLabel 2300 7700 1    50   BiDi ~ 0
+PULLUP15
+Text GLabel 2400 7700 1    50   BiDi ~ 0
+PULLUP16
+Text GLabel 2500 7700 1    50   BiDi ~ 0
+PULLUP17
+Text GLabel 2600 7700 1    50   BiDi ~ 0
+PULLUP18
+Text GLabel 2700 7700 1    50   BiDi ~ 0
+PULLUP19
+Text GLabel 2800 7700 1    50   BiDi ~ 0
+PULLUP20
+Text GLabel 2900 7700 1    50   BiDi ~ 0
+PULLUP21
+Text GLabel 3000 7700 1    50   BiDi ~ 0
+PULLUP22
+Text GLabel 3100 7700 1    50   BiDi ~ 0
+PULLUP23
+Text GLabel 3200 7700 1    50   BiDi ~ 0
+PULLUP24
+Text GLabel 3600 7700 1    50   BiDi ~ 0
+PULLUP28
+Text GLabel 3500 7700 1    50   BiDi ~ 0
+PULLUP27
+Text GLabel 3400 7700 1    50   BiDi ~ 0
+PULLUP26
+Text GLabel 3300 7700 1    50   BiDi ~ 0
+PULLUP25
 $Comp
 L Device:C C8
 U 1 1 6219855C
@@ -1924,34 +1895,32 @@ Wire Wire Line
 	1200 1400 1400 1400
 Wire Wire Line
 	1400 1400 1400 1100
-Text GLabel 4700 900  2    50   BiDi ~ 0
+Text GLabel 3950 1000 2    50   BiDi ~ 0
 ~TERM_ENABLE
 $Comp
 L Device:R_Small R24
 U 1 1 63241307
-P 4850 650
-F 0 "R24" V 4950 600 50  0000 L CNN
-F 1 "10k" V 4950 450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1809301717_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 4850 650 50  0001 C CNN
-F 4 "C25744" H 4850 650 50  0001 C CNN "LCSC"
-F 5 "10kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor" H 4850 650 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 4850 650 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 4850 650 50  0001 C CNN "Manufacturer_Part_Number"
-	1    4850 650 
+P 4100 750
+F 0 "R24" V 4200 700 50  0000 L CNN
+F 1 "10k" V 4200 550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4100 750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1809301717_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 4100 750 50  0001 C CNN
+F 4 "C25744" H 4100 750 50  0001 C CNN "LCSC"
+F 5 "10kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor" H 4100 750 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 4100 750 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1002TCE" H 4100 750 50  0001 C CNN "Manufacturer_Part_Number"
+	1    4100 750 
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	4600 850  4600 650 
 $Comp
 L power:+5V #PWR0112
 U 1 1 63255B5E
-P 5000 650
-F 0 "#PWR0112" H 5000 500 50  0001 C CNN
-F 1 "+5V" H 5000 800 50  0000 C CNN
-F 2 "" H 5000 650 50  0001 C CNN
-F 3 "" H 5000 650 50  0001 C CNN
-	1    5000 650 
+P 4250 750
+F 0 "#PWR0112" H 4250 600 50  0001 C CNN
+F 1 "+5V" H 4250 900 50  0000 C CNN
+F 2 "" H 4250 750 50  0001 C CNN
+F 3 "" H 4250 750 50  0001 C CNN
+	1    4250 750 
 	0    1    1    0   
 $EndComp
 Text GLabel 650  1200 1    50   BiDi ~ 0
@@ -2020,14 +1989,11 @@ Wire Wire Line
 Wire Wire Line
 	1950 1700 2300 1700
 Wire Wire Line
-	4600 850  4600 900 
+	3850 1000 3950 1000
 Wire Wire Line
-	4600 900  4700 900 
-Connection ~ 4600 850 
+	4200 750  4250 750 
 Wire Wire Line
-	4950 650  5000 650 
-Wire Wire Line
-	4600 650  4750 650 
+	3850 750  4000 750 
 Text GLabel 3750 1600 0    50   BiDi ~ 0
 TERMPOW_UNFUSED
 Wire Wire Line
@@ -2251,12 +2217,6 @@ Text GLabel 6300 3350 0    50   BiDi ~ 0
 PI-TAD
 Text GLabel 6300 4700 0    50   BiDi ~ 0
 PI-IND
-Text GLabel 4100 4150 0    50   BiDi ~ 0
-C-D0
-Text GLabel 4100 4050 0    50   BiDi ~ 0
-C-D1
-Text GLabel 4100 3950 0    50   BiDi ~ 0
-C-D2
 Text GLabel 4100 3850 0    50   BiDi ~ 0
 C-D3
 Text GLabel 4100 3550 0    50   BiDi ~ 0
@@ -2265,15 +2225,15 @@ Text GLabel 4100 3450 0    50   BiDi ~ 0
 C-D7
 Text GLabel 4100 3750 0    50   BiDi ~ 0
 C-D4
-Text GLabel 4100 4800 0    50   BiDi ~ 0
+Text GLabel 4100 5100 0    50   BiDi ~ 0
 C-DP
 Text GLabel 4100 3650 0    50   BiDi ~ 0
 C-D5
-Text GLabel 5100 4250 2    50   BiDi ~ 0
+Text GLabel 5100 5100 2    50   BiDi ~ 0
 PI-D0
-Text GLabel 5100 4150 2    50   BiDi ~ 0
+Text GLabel 5100 5000 2    50   BiDi ~ 0
 PI-D1
-Text GLabel 5100 4050 2    50   BiDi ~ 0
+Text GLabel 5100 4900 2    50   BiDi ~ 0
 PI-D2
 Text GLabel 5100 3950 2    50   BiDi ~ 0
 PI-D3
@@ -2285,36 +2245,30 @@ Text GLabel 5100 3550 2    50   BiDi ~ 0
 PI-D7
 Text GLabel 5100 3850 2    50   BiDi ~ 0
 PI-D4
-Text GLabel 5100 4900 2    50   BiDi ~ 0
-PI-DP
-Text GLabel 4100 4900 0    50   BiDi ~ 0
-PULLDOWN1
-Text GLabel 4100 5000 0    50   BiDi ~ 0
-PULLDOWN2
-Text GLabel 4100 5100 0    50   BiDi ~ 0
-PULLDOWN3
-Text GLabel 4100 5200 0    50   BiDi ~ 0
-PULLDOWN4
-Text GLabel 4100 5300 0    50   BiDi ~ 0
-PULLDOWN5
-Text GLabel 4100 5400 0    50   BiDi ~ 0
-PULLDOWN6
-Text GLabel 4100 5500 0    50   BiDi ~ 0
-PULLDOWN7
-Text GLabel 5100 5000 2    50   BiDi ~ 0
-PULLDOWN8
-Text GLabel 5100 5100 2    50   BiDi ~ 0
-PULLDOWN9
 Text GLabel 5100 5200 2    50   BiDi ~ 0
-PULLDOWN10
+PI-DP
+Text GLabel 4100 3950 0    50   BiDi ~ 0
+PULLUP1
+Text GLabel 4100 4050 0    50   BiDi ~ 0
+PULLUP2
+Text GLabel 4100 4150 0    50   BiDi ~ 0
+PULLUP3
+Text GLabel 4100 5200 0    50   BiDi ~ 0
+PULLUP7
+Text GLabel 4100 5300 0    50   BiDi ~ 0
+PULLUP8
+Text GLabel 4100 5400 0    50   BiDi ~ 0
+PULLUP9
+Text GLabel 4100 5500 0    50   BiDi ~ 0
+PULLUP10
 Text GLabel 5100 5400 2    50   BiDi ~ 0
-PULLDOWN12
+PULLUP12
 Text GLabel 5100 5300 2    50   BiDi ~ 0
-PULLDOWN11
+PULLUP11
 Text GLabel 5100 5600 2    50   BiDi ~ 0
-PULLDOWN14
+PULLUP14
 Text GLabel 5100 5500 2    50   BiDi ~ 0
-PULLDOWN13
+PULLUP13
 Text GLabel 6300 3750 0    50   BiDi ~ 0
 C-BSY
 Text GLabel 6300 3850 0    50   BiDi ~ 0
@@ -2334,19 +2288,19 @@ C-RST
 Text GLabel 6300 5100 0    50   BiDi ~ 0
 C-SEL
 Text GLabel 6300 3450 0    50   BiDi ~ 0
-PULLDOWN15
+PULLUP15
 Text GLabel 6300 3550 0    50   BiDi ~ 0
-PULLDOWN16
+PULLUP16
 Text GLabel 6300 3650 0    50   BiDi ~ 0
-PULLDOWN17
+PULLUP17
 Text GLabel 6300 5200 0    50   BiDi ~ 0
-PULLDOWN18
+PULLUP18
 Text GLabel 6300 5300 0    50   BiDi ~ 0
-PULLDOWN19
+PULLUP19
 Text GLabel 6300 5400 0    50   BiDi ~ 0
-PULLDOWN20
+PULLUP20
 Text GLabel 6300 5500 0    50   BiDi ~ 0
-PULLDOWN21
+PULLUP21
 Text GLabel 7300 4900 2    50   BiDi ~ 0
 PI-ATN
 Text GLabel 7300 5100 2    50   BiDi ~ 0
@@ -2366,19 +2320,19 @@ PI-BSY
 Text GLabel 7300 4250 2    50   BiDi ~ 0
 PI-I_O
 Text GLabel 7300 3550 2    50   BiDi ~ 0
-PULLDOWN22
+PULLUP22
 Text GLabel 7300 3650 2    50   BiDi ~ 0
-PULLDOWN23
+PULLUP23
 Text GLabel 7300 3750 2    50   BiDi ~ 0
-PULLDOWN24
+PULLUP24
 Text GLabel 7300 5300 2    50   BiDi ~ 0
-PULLDOWN25
+PULLUP25
 Text GLabel 7300 5400 2    50   BiDi ~ 0
-PULLDOWN26
+PULLUP26
 Text GLabel 7300 5500 2    50   BiDi ~ 0
-PULLDOWN27
+PULLUP27
 Text GLabel 7300 5600 2    50   BiDi ~ 0
-PULLDOWN28
+PULLUP28
 Wire Wire Line
 	750  6750 1150 6750
 Wire Wire Line
@@ -2432,5 +2386,44 @@ Wire Wire Line
 	1950 7050 2350 7050
 Connection ~ 1950 7050
 Wire Wire Line
-	11450 550  11450 3250
+	900  7700 3600 7700
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 614F73E7
+P 3500 1000
+F 0 "JP2" H 3500 1235 50  0000 C CNN
+F 1 "Jumper_2_Open" H 3500 1144 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 3500 1000 50  0001 C CNN
+F 3 "~" H 3500 1000 50  0001 C CNN
+	1    3500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 750  3850 1000
+Wire Wire Line
+	3700 1000 3850 1000
+Connection ~ 3850 1000
+Text GLabel 5100 4250 2    50   BiDi ~ 0
+PULLUP6
+Text GLabel 5100 4150 2    50   BiDi ~ 0
+PULLUP5
+Text GLabel 5100 4050 2    50   BiDi ~ 0
+PULLUP4
+Text GLabel 4100 4800 0    50   BiDi ~ 0
+C-D2
+Text GLabel 4100 4900 0    50   BiDi ~ 0
+C-D1
+Text GLabel 4100 5000 0    50   BiDi ~ 0
+C-D0
+$Comp
+L power:+5V #PWR?
+U 1 1 6158D6AD
+P 900 7700
+F 0 "#PWR?" H 900 7550 50  0001 C CNN
+F 1 "+5V" V 915 7828 50  0000 L CNN
+F 2 "" H 900 7700 50  0001 C CNN
+F 3 "" H 900 7700 50  0001 C CNN
+	1    900  7700
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

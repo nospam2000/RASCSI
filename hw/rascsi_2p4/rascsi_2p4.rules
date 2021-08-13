@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 30874)
+    (start_pass_no 1)
     (layer_rule Top
       (active on)
       (preferred_direction vertical)
@@ -40,6 +40,15 @@
     )
     (attach off)
   )
+  (padstack "Via[0-1]_900:600_um"
+    (shape
+      (circle Top 900.0 0.0 0.0)
+    )
+    (shape
+      (circle Bottom 900.0 0.0 0.0)
+    )
+    (attach off)
+  )
   (padstack "Via[0-1]_1000:600_um"
     (shape
       (circle Top 1000.0 0.0 0.0)
@@ -48,6 +57,21 @@
       (circle Bottom 1000.0 0.0 0.0)
     )
     (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um-PowerLight" "Via[0-1]_800:400_um" PowerLight
+  )
+  (via 
+    "Via[0-1]_900:600_um-PowerLight" "Via[0-1]_900:600_um" PowerLight
+  )
+  (via 
+    "Via[0-1]_900:600_um" "Via[0-1]_900:600_um" default
+  )
+  (via 
+    "Via[0-1]_900:600_um-kicad_default" "Via[0-1]_900:600_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_900:600_um-Power" "Via[0-1]_900:600_um" Power
   )
   (via 
     "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
@@ -68,6 +92,9 @@
     "Via[0-1]_1000:600_um-Power" "Via[0-1]_1000:600_um" Power
   )
   (via_rule
+    PowerLight "Via[0-1]_900:600_um-PowerLight"
+  )
+  (via_rule
     default "Via[0-1]_800:400_um"
   )
   (via_rule
@@ -77,7 +104,6 @@
     Power "Via[0-1]_1000:600_um-Power"
   )
   (class default
-    "POWER_REG_U3" "POWER_REG_U4"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -95,11 +121,7 @@
     "PI-I_O" "PI-ATN" "PI-ACK" "PI-RST" "PI-SEL" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)"
     "DBG_LED" "PI_SCL" "PI_SDA" "PI-ACT" "PI-IND" "PI-TAD" "PI-DTD" "PI_GPIO1"
     "PI_GPIO0" "PI_GPIO9" "EXT-ACT-LED" "USB_Pin_4" "USB_Pin_3" "USB_Pin_2" "PB_LED_Pin" "PB_SCSIID_4"
-    "PB_SCSIID_2" "PB_SCSIID_1" PULLDOWN1 PULLDOWN2 PULLDOWN3 PULLDOWN4 PULLDOWN5 PULLDOWN6
-    PULLDOWN7 PULLDOWN8 PULLDOWN9 PULLDOWN10 PULLDOWN11 PULLDOWN12 PULLDOWN13 PULLDOWN14
-    PULLDOWN15 PULLDOWN16 PULLDOWN17 PULLDOWN18 PULLDOWN19 PULLDOWN20 PULLDOWN21 PULLDOWN22
-    PULLDOWN23 PULLDOWN24 PULLDOWN25 PULLDOWN26 PULLDOWN27 PULLDOWN28 "Net-(D6-Pad2)" "~TERM_ENABLE"
-    "GND_U1_A" "GND_U2_A"
+    "PB_SCSIID_2" "PB_SCSIID_1" "Net-(D6-Pad2)" "~TERM_ENABLE" PULLUP1
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -110,11 +132,22 @@
     )
   )
   (class Power
-    GND +3V3 +5V "TERMPOW_UNFUSED"
+    GND +3V3 "TERMPOW_UNFUSED"
     (clearance_class Power)
     (via_rule Power)
     (rule
-      (width 600.0)
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer Top Bottom)
+    )
+  )
+  (class PowerLight
+    "POWER_REG_U3" "POWER_REG_U4"
+    (clearance_class PowerLight)
+    (via_rule PowerLight)
+    (rule
+      (width 400.0)
     )
     (circuit 
       (use_layer Top Bottom)
