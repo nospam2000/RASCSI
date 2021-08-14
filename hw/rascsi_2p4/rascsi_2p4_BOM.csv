@@ -24,7 +24,7 @@ Comment,Designator,Footprint,LCSC
 "Conn_02x25_Odd_Even","J9","Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Horizontal","C3407"
 "SolderJumper_2_Bridged","JP1","Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm",""
 "Jumper_2_Open","JP2","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal",""
-"PULLUP Power","JP3","Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm",""
+"PULLUP Power","JP3","Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm","DNP"
 "2k","R1,R2,R4","Resistor_SMD:R_0402_1005Metric","C4109"
 "10k","R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R24","Resistor_SMD:R_0402_1005Metric","C25744"
 "5.1k","R3,R23","Resistor_SMD:R_0402_1005Metric","C25905"

@@ -2404,7 +2404,11 @@ P 950 7450
 F 0 "JP3" H 1300 7550 50  0000 C CNN
 F 1 "PULLUP Power" H 950 7563 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 950 7450 50  0001 C CNN
-F 3 "~" H 950 7450 50  0001 C CNN
+F 3 "DNP" H 950 7450 50  0001 C CNN
+F 4 "DNP" H 950 7450 50  0001 C CNN "Description"
+F 5 "DNP" H 950 7450 50  0001 C CNN "LCSC"
+F 6 "DNP" H 950 7450 50  0001 C CNN "Manufacturer_Name"
+F 7 "DNP" H 950 7450 50  0001 C CNN "Manufacturer_Part_Number"
 	1    950  7450
 	1    0    0    -1  
 $EndComp

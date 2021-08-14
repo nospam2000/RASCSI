@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/michael/Documents/Amiga/RASCSI/hw/rascsi_2p4/rascsi_2p4.sch</source>
-    <date>2021 August 14, Saturday 06:15:09</date>
+    <date>2021 August 14, Saturday 06:45:18</date>
     <tool>Eeschema (5.1.6-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -910,7 +910,13 @@
     <comp ref="JP3">
       <value>PULLUP Power</value>
       <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>DNP</datasheet>
+      <fields>
+        <field name="Description">DNP</field>
+        <field name="LCSC">DNP</field>
+        <field name="Manufacturer_Name">DNP</field>
+        <field name="Manufacturer_Part_Number">DNP</field>
+      </fields>
       <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61612329</tstamp>
