@@ -1649,6 +1649,8 @@ F 0 "U5" H 8050 2700 50  0000 R CNN
 F 1 "UCC5606PWPTR" H 8250 2600 50  0000 R CNN
 F 2 "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm" H 7500 400 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a" H 7800 950 50  0001 C CNN
+F 4 "C2649373" H 7500 1750 50  0001 C CNN "LCSC"
+F 5 "Texas Instruments" H 7500 1750 50  0001 C CNN "Manufacturer_Name"
 	1    7500 1750
 	1    0    0    -1  
 $EndComp
@@ -1753,6 +1755,8 @@ F 0 "U6" H 9850 2700 50  0000 R CNN
 F 1 "UCC5606PWPTR" H 10050 2600 50  0000 R CNN
 F 2 "Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm" H 9300 400 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a" H 9600 950 50  0001 C CNN
+F 4 "C2649373" H 9300 1750 50  0001 C CNN "LCSC"
+F 5 "Texas Instruments" H 9300 1750 50  0001 C CNN "Manufacturer_Name"
 	1    9300 1750
 	1    0    0    -1  
 $EndComp

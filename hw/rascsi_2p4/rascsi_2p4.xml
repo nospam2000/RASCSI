@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/michael/Documents/Amiga/RASCSI/hw/rascsi_2p4/rascsi_2p4.sch</source>
-    <date>2021 August 14, Saturday 06:03:28</date>
+    <date>2021 August 14, Saturday 06:15:09</date>
     <tool>Eeschema (5.1.6-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -704,6 +704,10 @@
       <value>UCC5606PWPTR</value>
       <footprint>Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm</footprint>
       <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a</datasheet>
+      <fields>
+        <field name="LCSC">C2649373</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+      </fields>
       <libsource lib="amiga" part="UCC5606PWPTR" description="9-LINE 3 TO 5 VOLT SCSI ACTIVE TERMINATOR, REVERSE DISCONNECT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>628EED4A</tstamp>
@@ -738,6 +742,10 @@
       <value>UCC5606PWPTR</value>
       <footprint>Package_SO:TSSOP-24_6.1x7.8mm_P0.65mm</footprint>
       <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flitv%2Fslus347a</datasheet>
+      <fields>
+        <field name="LCSC">C2649373</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+      </fields>
       <libsource lib="amiga" part="UCC5606PWPTR" description="9-LINE 3 TO 5 VOLT SCSI ACTIVE TERMINATOR, REVERSE DISCONNECT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62E764ED</tstamp>
