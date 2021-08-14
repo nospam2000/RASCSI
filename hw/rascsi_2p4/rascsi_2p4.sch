@@ -49,7 +49,7 @@ Text GLabel 6300 2250 2    50   BiDi ~ 0
 PI-D0
 Text GLabel 6300 2150 2    50   BiDi ~ 0
 PI-D1
-Text GLabel 6300 2050 2    50   BiDi ~ 0
+Text GLabel 6300 2350 2    50   BiDi ~ 0
 PI-D2
 Text GLabel 6300 1950 2    50   BiDi ~ 0
 PI-D3
@@ -86,7 +86,7 @@ Text GLabel 6300 850  2    50   BiDi ~ 0
 PI-RST
 Text GLabel 6300 950  2    50   BiDi ~ 0
 PI-SEL
-Text GLabel 6300 2350 2    50   BiDi ~ 0
+Text GLabel 6300 2050 2    50   BiDi ~ 0
 PI-DP
 Text GLabel 1200 1000 1    50   BiDi ~ 0
 PI-ACT

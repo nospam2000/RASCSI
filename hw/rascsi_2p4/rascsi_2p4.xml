@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/michael/Documents/Amiga/RASCSI/hw/rascsi_2p4/rascsi_2p4.sch</source>
-    <date>2021 August 14, Saturday 06:45:18</date>
+    <date>2021 August 14, Saturday 07:03:41</date>
     <tool>Eeschema (5.1.6-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1704,14 +1704,14 @@
       <node ref="J1" pin="40"/>
     </net>
     <net code="23" name="PI-ATN">
+      <node ref="J1" pin="35"/>
       <node ref="R5" pin="2"/>
       <node ref="U4" pin="18"/>
-      <node ref="J1" pin="35"/>
     </net>
-    <net code="24" name="PI-DP">
-      <node ref="J1" pin="12"/>
+    <net code="24" name="PI-D2">
+      <node ref="J1" pin="32"/>
+      <node ref="U2" pin="11"/>
       <node ref="R22" pin="2"/>
-      <node ref="U2" pin="18"/>
     </net>
     <net code="25" name="PI-D7">
       <node ref="J1" pin="11"/>
@@ -1725,23 +1725,23 @@
     </net>
     <net code="27" name="PI-D5">
       <node ref="R16" pin="2"/>
-      <node ref="J1" pin="10"/>
       <node ref="U1" pin="16"/>
+      <node ref="J1" pin="10"/>
     </net>
     <net code="28" name="PI-D4">
       <node ref="U1" pin="15"/>
-      <node ref="J1" pin="8"/>
       <node ref="R17" pin="2"/>
+      <node ref="J1" pin="8"/>
     </net>
     <net code="29" name="PI-D3">
       <node ref="R18" pin="2"/>
       <node ref="J1" pin="33"/>
       <node ref="U1" pin="14"/>
     </net>
-    <net code="30" name="PI-D2">
+    <net code="30" name="PI-DP">
+      <node ref="J1" pin="12"/>
       <node ref="R19" pin="2"/>
-      <node ref="J1" pin="32"/>
-      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="18"/>
     </net>
     <net code="31" name="PI-D1">
       <node ref="R20" pin="2"/>
