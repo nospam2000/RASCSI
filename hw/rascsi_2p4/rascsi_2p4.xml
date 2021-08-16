@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/michael/Documents/Amiga/RASCSI/hw/rascsi_2p4/rascsi_2p4.sch</source>
-    <date>2021 August 14, Saturday 23:57:39</date>
+    <date>2021 August 16, Monday 23:04:43</date>
     <tool>Eeschema (5.1.6-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -593,7 +593,7 @@
     </comp>
     <comp ref="J6">
       <value>CONNFLY DB-25</value>
-      <footprint>SamacSys_Parts:L717SDB25PA4CH4F</footprint>
+      <footprint>SamacSys_Parts:L717SDB25PA4CH4F_JLCPCB_hand_mount</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1811081022_CONNFLY-Elec-DS1037-25FNAKT74-0CC_C77838.pdf</datasheet>
       <fields>
         <field name="Description">D-Sub Receptacle,Female Socket 25 2 1.5A(Contact) Through Hole D-Sub Connectors RoHS</field>
@@ -923,7 +923,7 @@
     </comp>
     <comp ref="J8">
       <value>USB_B_Micro</value>
-      <footprint>SamacSys_Parts:U254051N4BH806</footprint>
+      <footprint>SamacSys_Parts:U254051N4BH806_JLCPCB_hand_mount</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/2002271812_XKB-Connectivity-U254-051N-4BH806_C319170.pdf</datasheet>
       <fields>
         <field name="Description">USB - Micro B Female USB 2 5 SMD USB Connectors</field>
@@ -979,7 +979,7 @@
     </comp>
     <comp ref="J3">
       <value>Conn_02x25_Odd_Even</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical</footprint>
+      <footprint>amiga:PinHeader_2x25_P2.54mm_Vertical_JLCPCB_hand_mount</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810221914_BOOMELE-Boom-Precision-Elec-C30006_C30006.pdf</datasheet>
       <fields>
         <field name="Description">Header 50 0.100"(2.54mm) 2 2.54MM IDC Connectors RoHS</field>

@@ -19,7 +19,7 @@ U 1 1 5FED2F59
 P 2950 1700
 F 0 "J3" H 3000 275 50  0000 C CNN
 F 1 "Conn_02x25_Odd_Even" H 3000 366 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical" H 2950 1700 50  0001 C CNN
+F 2 "amiga:PinHeader_2x25_P2.54mm_Vertical_JLCPCB_hand_mount" H 2950 1700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1810221914_BOOMELE-Boom-Precision-Elec-C30006_C30006.pdf" H 2950 1700 50  0001 C CNN
 F 4 "C30006" H 2950 1700 50  0001 C CNN "LCSC"
 F 5 "Header 50 0.100\"(2.54mm) 2 2.54MM IDC Connectors RoHS" H 2950 1700 50  0001 C CNN "Description"
