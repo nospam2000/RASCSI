@@ -26,6 +26,7 @@ transformations = [
 
 	{'conditions': [{'field': 'Ref', 'pattern': re.compile("^U\d+$")}], 'rotOffset': -90},
 	{'conditions': [{'field': 'Ref', 'pattern': re.compile("^S\d+$")}], 'rotOffset': -90},
+	{'conditions': [{'field': 'Ref', 'pattern': re.compile("^(J3|J9)$")}], 'rotOffset': -90},
 	#{'conditions': [{'field': 'Ref', 'pattern': re.compile("^(U1|U3|Q1)$")}], 'rotOffset': 180},
 	#{'conditions': [{'field': 'Ref', 'pattern': re.compile("^(U5|U6)$")}], 'rotOffset': -90},
 	# {'conditions': [{'field': 'LCSC', 'pattern': re.compile("^(C477988|C7809|C184582|C6060)$")}], 'rotOffset': -90} # TODO: field LCSC no available in normal export
