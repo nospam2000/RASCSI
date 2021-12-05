@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.6-0-10_14)"
+      "Version":     "(5.1.12-1-10_14)"
     },
-    "CreationDate":  "2021-08-17T00:11:06+02:00"
+    "CreationDate":  "2021-12-05T01:00:45+01:00"
   },
   "GeneralSpecs":
   {
@@ -50,6 +50,16 @@
       "FilePolarity":  "Positive"
     },
     {
+      "Path":  "rascsi_2p4-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "rascsi_2p4-B_Paste.gbr",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
       "Path":  "rascsi_2p4-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
@@ -82,6 +92,10 @@
       "Notes":  "Layer F.SilkS"
     },
     {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    },
+    {
       "Type":  "SolderMask",
       "Notes":  "Layer F.Mask"
     },
@@ -101,6 +115,10 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
     },
     {
       "Type":  "Legend",

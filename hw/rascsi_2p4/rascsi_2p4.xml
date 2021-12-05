@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/Users/michael/Documents/Amiga/RASCSI/hw/rascsi_2p4/rascsi_2p4.sch</source>
-    <date>2021 August 16, Monday 23:04:43</date>
-    <tool>Eeschema (5.1.6-0-10_14)</tool>
+    <date>2021 December 05, Sunday 01:00:21</date>
+    <tool>Eeschema (5.1.12-1-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -979,7 +979,7 @@
     </comp>
     <comp ref="J3">
       <value>Conn_02x25_Odd_Even</value>
-      <footprint>amiga:PinHeader_2x25_P2.54mm_Vertical_JLCPCB_hand_mount</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/1810221914_BOOMELE-Boom-Precision-Elec-C30006_C30006.pdf</datasheet>
       <fields>
         <field name="Description">Header 50 0.100"(2.54mm) 2 2.54MM IDC Connectors RoHS</field>
