@@ -815,18 +815,14 @@ $EndComp
 $Comp
 L power:GND #PWR014
 U 1 1 6072B62D
-P 3000 1000
-F 0 "#PWR014" H 3000 750 50  0001 C CNN
-F 1 "GND" H 2850 950 50  0000 C CNN
-F 2 "" H 3000 1000 50  0001 C CNN
-F 3 "" H 3000 1000 50  0001 C CNN
-	1    3000 1000
+P 3050 900
+F 0 "#PWR014" H 3050 650 50  0001 C CNN
+F 1 "GND" H 3050 750 50  0000 C CNN
+F 2 "" H 3050 900 50  0001 C CNN
+F 3 "" H 3050 900 50  0001 C CNN
+	1    3050 900 
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3250 1000 3000 1000
-Text Notes 2950 650  0    50   ~ 0
-Termination Enable Jumper
 Wire Notes Line
 	2900 550  5300 550 
 Text GLabel 2750 4650 2    50   BiDi ~ 0
@@ -1746,7 +1742,7 @@ Connection ~ 1200 1400
 Wire Wire Line
 	1200 1400 1200 1450
 Text GLabel 6950 1450 3    50   BiDi ~ 0
-~TERM_ENABLE
+TERM_ENABLE
 $Comp
 L amiga:UCC5606PWPTR U6
 U 1 1 62E764ED
@@ -1821,7 +1817,7 @@ Connection ~ 9700 2650
 Wire Wire Line
 	9250 900  9350 900 
 Text GLabel 8750 1450 3    50   BiDi ~ 0
-~TERM_ENABLE
+TERM_ENABLE
 Text Notes 8900 650  2    50   ~ 0
 Active SCSI Termination
 Connection ~ 8100 2650
@@ -1841,36 +1837,23 @@ Wire Wire Line
 	1200 1400 1400 1400
 Wire Wire Line
 	1400 1400 1400 1100
-Text GLabel 3900 1000 2    50   BiDi ~ 0
-~TERM_ENABLE
 $Comp
 L Device:R_Small R24
 U 1 1 63241307
-P 4050 750
-F 0 "R24" V 4150 700 50  0000 L CNN
-F 1 "10k" V 4150 550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4050 750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1809301717_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 4050 750 50  0001 C CNN
-F 4 "C25744" H 4050 750 50  0001 C CNN "LCSC"
-F 5 "10kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor" H 4050 750 50  0001 C CNN "Description"
-F 6 "UNI-ROYAL(Uniroyal Elec)" H 4050 750 50  0001 C CNN "Manufacturer_Name"
-F 7 "0402WGF1002TCE" H 4050 750 50  0001 C CNN "Manufacturer_Part_Number"
-	1    4050 750 
+P 3250 900
+F 0 "R24" V 3150 800 50  0000 L CNN
+F 1 "10k" V 3050 800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3250 900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1809301717_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 3250 900 50  0001 C CNN
+F 4 "C25744" H 3250 900 50  0001 C CNN "LCSC"
+F 5 "10kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor" H 3250 900 50  0001 C CNN "Description"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 3250 900 50  0001 C CNN "Manufacturer_Name"
+F 7 "0402WGF1002TCE" H 3250 900 50  0001 C CNN "Manufacturer_Part_Number"
+	1    3250 900 
 	0    -1   1    0   
 $EndComp
-$Comp
-L power:+5V #PWR0112
-U 1 1 63255B5E
-P 4200 750
-F 0 "#PWR0112" H 4200 600 50  0001 C CNN
-F 1 "+5V" H 4200 900 50  0000 C CNN
-F 2 "" H 4200 750 50  0001 C CNN
-F 3 "" H 4200 750 50  0001 C CNN
-	1    4200 750 
-	0    1    1    0   
-$EndComp
-Text GLabel 650  1200 1    50   BiDi ~ 0
-~TERM_ENABLE
+Text GLabel 800  1000 1    50   BiDi ~ 0
+TERM_ENABLE
 $Comp
 L Device:R_Small R23
 U 1 1 6327B8D8
@@ -1913,33 +1896,12 @@ Wire Wire Line
 Wire Wire Line
 	1600 1700 1950 1700
 Connection ~ 1950 1700
-$Comp
-L power:+5V #PWR0113
-U 1 1 633F91EE
-P 800 1000
-F 0 "#PWR0113" H 800 850 50  0001 C CNN
-F 1 "+5V" V 815 1128 50  0000 L CNN
-F 2 "" H 800 1000 50  0001 C CNN
-F 3 "" H 800 1000 50  0001 C CNN
-	1    800  1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	800  1300 800  1450
 Wire Wire Line
 	1200 1700 1600 1700
 Wire Wire Line
-	650  1200 650  1700
-Wire Wire Line
-	650  1700 800  1700
-Wire Wire Line
 	1950 1700 2300 1700
-Wire Wire Line
-	3800 1000 3900 1000
-Wire Wire Line
-	4150 750  4200 750 
-Wire Wire Line
-	3800 750  3950 750 
 Text GLabel 3750 1600 0    50   BiDi ~ 0
 TERMPOW_UNFUSED
 Wire Wire Line
@@ -2338,19 +2300,14 @@ Connection ~ 1950 7050
 $Comp
 L Jumper:Jumper_2_Open JP2
 U 1 1 614F73E7
-P 3450 1000
-F 0 "JP2" H 3450 1235 50  0000 C CNN
-F 1 "Jumper_2_Open" H 3450 1144 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 3450 1000 50  0001 C CNN
-F 3 "~" H 3450 1000 50  0001 C CNN
-	1    3450 1000
+P 3650 900
+F 0 "JP2" H 3650 1050 50  0000 C CNN
+F 1 "Jumper_2_Open" H 4050 1050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 3650 900 50  0001 C CNN
+F 3 "~" H 3650 900 50  0001 C CNN
+	1    3650 900 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3800 750  3800 1000
-Wire Wire Line
-	3650 1000 3800 1000
-Connection ~ 3800 1000
 Text GLabel 5100 4250 2    50   BiDi ~ 0
 PULLUP_OC
 Text GLabel 5100 4150 2    50   BiDi ~ 0
@@ -2414,4 +2371,33 @@ F 7 "DNP" H 950 7450 50  0001 C CNN "Manufacturer_Part_Number"
 $EndComp
 Wire Notes Line
 	2900 1100 5300 1100
+Wire Wire Line
+	3050 900  3150 900 
+$Comp
+L power:+5V #PWR0112
+U 1 1 63255B5E
+P 3850 900
+F 0 "#PWR0112" H 3850 750 50  0001 C CNN
+F 1 "+5V" H 3850 1050 50  0000 C CNN
+F 2 "" H 3850 900 50  0001 C CNN
+F 3 "" H 3850 900 50  0001 C CNN
+	1    3850 900 
+	0    1    1    0   
+$EndComp
+Text GLabel 4200 1000 2    50   BiDi ~ 0
+TERM_ENABLE
+Text Notes 3450 650  0    50   ~ 0
+Termination Enable Jumper
+Wire Wire Line
+	3350 900  3400 900 
+Wire Wire Line
+	3400 1000 4200 1000
+Wire Wire Line
+	3400 1000 3400 900 
+Connection ~ 3400 900 
+Wire Wire Line
+	3400 900  3450 900 
+Wire Wire Line
+	800  1700 1200 1700
+Connection ~ 1200 1700
 $EndSCHEMATC
