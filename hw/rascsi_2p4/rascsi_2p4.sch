@@ -1412,7 +1412,7 @@ Wire Notes Line
 Wire Notes Line
 	2700 550  2700 2450
 Text Notes 6750 7760 0    87   ~ 17
-RaSCSI - 68kmla Edition - with active termination
+RaSCSI - 68kmlat Edition - with active termination
 Text Notes 9900 7890 0    79   ~ 16
 2.4
 Text Notes 7450 7870 0    59   ~ 12
@@ -2053,17 +2053,6 @@ F 3 "" H 7300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0123
-U 1 1 611ED586
-P 7300 3450
-F 0 "#PWR0123" H 7300 3200 50  0001 C CNN
-F 1 "GND" V 7305 3322 50  0000 R CNN
-F 2 "" H 7300 3450 50  0001 C CNN
-F 3 "" H 7300 3450 50  0001 C CNN
-	1    7300 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0124
 U 1 1 611ED58C
 P 6300 4250
@@ -2102,17 +2091,6 @@ F 2 "" H 7300 4700 50  0001 C CNN
 F 3 "" H 7300 4700 50  0001 C CNN
 	1    7300 4700
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0126
-U 1 1 611ED5A5
-P 7300 4800
-F 0 "#PWR0126" H 7300 4550 50  0001 C CNN
-F 1 "GND" V 7305 4672 50  0000 R CNN
-F 2 "" H 7300 4800 50  0001 C CNN
-F 3 "" H 7300 4800 50  0001 C CNN
-	1    7300 4800
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0127
@@ -2181,69 +2159,55 @@ Text GLabel 5100 5500 2    50   BiDi ~ 0
 PULLUP_OC
 Text GLabel 5100 5400 2    50   BiDi ~ 0
 PULLUP_OC
-Text GLabel 6300 4150 0    50   BiDi ~ 0
-C-BSY
-Text GLabel 6300 3650 0    50   BiDi ~ 0
-C-MSG
-Text GLabel 6300 3450 0    50   BiDi ~ 0
-C-C_D
-Text GLabel 6300 4050 0    50   BiDi ~ 0
-C-I_O
-Text GLabel 6300 3550 0    50   BiDi ~ 0
-C-REQ
-Text GLabel 6300 4800 0    50   BiDi ~ 0
-C-ATN
-Text GLabel 6300 4900 0    50   BiDi ~ 0
-C-ACK
-Text GLabel 6300 5000 0    50   BiDi ~ 0
-C-RST
-Text GLabel 6300 5100 0    50   BiDi ~ 0
-C-SEL
-Text GLabel 6300 3850 0    50   BiDi ~ 0
-PULLUP_OC
-Text GLabel 6300 3950 0    50   BiDi ~ 0
-PULLUP_OC
-Text GLabel 6300 3750 0    50   BiDi ~ 0
-PULLUP_OC
-Text GLabel 6300 5200 0    50   BiDi ~ 0
-PULLUP_OC
-Text GLabel 6300 5300 0    50   BiDi ~ 0
-PULLUP_OC
-Text GLabel 6300 5400 0    50   BiDi ~ 0
-PULLUP_OC
-Text GLabel 6300 5500 0    50   BiDi ~ 0
-PULLUP_OC
-Text GLabel 7300 4900 2    50   BiDi ~ 0
-PI-ATN
-Text GLabel 7300 5100 2    50   BiDi ~ 0
-PI-RST
-Text GLabel 7300 5200 2    50   BiDi ~ 0
-PI-SEL
-Text GLabel 7300 5000 2    50   BiDi ~ 0
-PI-ACK
-Text GLabel 7300 3650 2    50   BiDi ~ 0
-PI-REQ
 Text GLabel 7300 3550 2    50   BiDi ~ 0
-PI-C_D
-Text GLabel 7300 3750 2    50   BiDi ~ 0
-PI-MSG
-Text GLabel 7300 4250 2    50   BiDi ~ 0
-PI-BSY
-Text GLabel 7300 4150 2    50   BiDi ~ 0
-PI-I_O
-Text GLabel 7300 3950 2    50   BiDi ~ 0
-PULLUP_OC
+C-BSY
 Text GLabel 7300 4050 2    50   BiDi ~ 0
-PULLUP_OC
+C-MSG
+Text GLabel 7300 4250 2    50   BiDi ~ 0
+C-C_D
+Text GLabel 7300 3650 2    50   BiDi ~ 0
+C-I_O
+Text GLabel 7300 4150 2    50   BiDi ~ 0
+C-REQ
 Text GLabel 7300 3850 2    50   BiDi ~ 0
 PULLUP_OC
-Text GLabel 7300 5300 2    50   BiDi ~ 0
+Text GLabel 7300 3750 2    50   BiDi ~ 0
 PULLUP_OC
-Text GLabel 7300 5400 2    50   BiDi ~ 0
+Text GLabel 7300 3950 2    50   BiDi ~ 0
 PULLUP_OC
-Text GLabel 7300 5500 2    50   BiDi ~ 0
+Text GLabel 7300 4900 2    50   BiDi ~ 0
 PULLUP_OC
-Text GLabel 7300 5600 2    50   BiDi ~ 0
+Text GLabel 6300 5500 0    50   BiDi ~ 0
+PI-ATN
+Text GLabel 6300 5300 0    50   BiDi ~ 0
+PI-RST
+Text GLabel 6300 5200 0    50   BiDi ~ 0
+PI-SEL
+Text GLabel 6300 5400 0    50   BiDi ~ 0
+PI-ACK
+Text GLabel 6300 4050 0    50   BiDi ~ 0
+PI-REQ
+Text GLabel 6300 4150 0    50   BiDi ~ 0
+PI-C_D
+Text GLabel 6300 3950 0    50   BiDi ~ 0
+PI-MSG
+Text GLabel 6300 3450 0    50   BiDi ~ 0
+PI-BSY
+Text GLabel 6300 3550 0    50   BiDi ~ 0
+PI-I_O
+Text GLabel 6300 3750 0    50   BiDi ~ 0
+PULLUP_OC
+Text GLabel 6300 3650 0    50   BiDi ~ 0
+PULLUP_OC
+Text GLabel 6300 3850 0    50   BiDi ~ 0
+PULLUP_OC
+Text GLabel 6300 5100 0    50   BiDi ~ 0
+PULLUP_OC
+Text GLabel 6300 5000 0    50   BiDi ~ 0
+PULLUP_OC
+Text GLabel 6300 4900 0    50   BiDi ~ 0
+PULLUP_OC
+Text GLabel 6300 4800 0    50   BiDi ~ 0
 PULLUP_OC
 Wire Wire Line
 	750  6750 1150 6750
@@ -2400,4 +2364,44 @@ Wire Wire Line
 Wire Wire Line
 	800  1700 1200 1700
 Connection ~ 1200 1700
+Text GLabel 7300 5000 2    50   BiDi ~ 0
+PULLUP_OC
+Text GLabel 7300 5100 2    50   BiDi ~ 0
+PULLUP_OC
+Text GLabel 7300 5200 2    50   BiDi ~ 0
+PULLUP_OC
+Text GLabel 7300 5300 2    50   BiDi ~ 0
+C-SEL
+Text GLabel 7300 5400 2    50   BiDi ~ 0
+C-RST
+Text GLabel 7300 5500 2    50   BiDi ~ 0
+C-ACK
+Text GLabel 7300 5600 2    50   BiDi ~ 0
+C-ATN
+$Comp
+L power:GND #PWR0126
+U 1 1 611ED5A5
+P 7300 4800
+F 0 "#PWR0126" H 7300 4550 50  0001 C CNN
+F 1 "GND" V 7305 4672 50  0000 R CNN
+F 2 "" H 7300 4800 50  0001 C CNN
+F 3 "" H 7300 4800 50  0001 C CNN
+	1    7300 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 611ED586
+P 7300 3450
+F 0 "#PWR0123" H 7300 3200 50  0001 C CNN
+F 1 "GND" V 7305 3322 50  0000 R CNN
+F 2 "" H 7300 3450 50  0001 C CNN
+F 3 "" H 7300 3450 50  0001 C CNN
+	1    7300 3450
+	0    -1   -1   0   
+$EndComp
+Text Notes 6050 3050 0    59   Italic 0
+Here the Pi is connected to Port A
+Text Notes 3800 3050 0    59   Italic 0
+Here the Pi is connected to Port B
 $EndSCHEMATC

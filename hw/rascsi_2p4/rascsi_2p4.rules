@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 54063)
+    (start_pass_no 3390)
     (layer_rule Top
       (active on)
       (preferred_direction vertical)
@@ -121,7 +121,7 @@
     "PI-I_O" "PI-ATN" "PI-ACK" "PI-RST" "PI-SEL" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)"
     "DBG_LED" "PI_SCL" "PI_SDA" "PI-ACT" "PI-IND" "PI-TAD" "PI-DTD" "PI_GPIO1"
     "PI_GPIO0" "PI_GPIO9" "EXT-ACT-LED" "USB_Pin_4" "USB_Pin_3" "USB_Pin_2" "PB_LED_Pin" "PB_SCSIID_4"
-    "PB_SCSIID_2" "PB_SCSIID_1" "Net-(D6-Pad2)" "~TERM_ENABLE" "PULLUP_OC"
+    "PB_SCSIID_2" "PB_SCSIID_1" "Net-(D6-Pad2)" "PULLUP_OC" "TERM_ENABLE"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
